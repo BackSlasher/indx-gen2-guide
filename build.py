@@ -146,6 +146,11 @@ def fetch_bundle(slug: str) -> dict:
         media = st.get("media") or {}
         if isinstance(media, dict):
             for im in media.get("gallery") or []:
+                # Prusa annotates photos (markers, crossed-out items) as a
+                # separate "_painted" file stored under `child`; the site shows
+                # that one when present. Prefer it.
+                if isinstance(im.get("child"), dict) and im["child"].get("original"):
+                    im = im["child"]
                 gallery.append(
                     {
                         "original": im.get("original"),
