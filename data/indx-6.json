@@ -1,0 +1,1203 @@
+{
+ "slug": "6-preflight-check_1096263",
+ "title": "6. Preflight check",
+ "manual": "Prusa INDX Conversion kit for the Prusa CORE One/+",
+ "manual_slug": "prusa-indx-conversion-kit-for-the-prusa-core-one_2432",
+ "difficulty": "Easy",
+ "updated": "2026-08-19 14:09:23",
+ "steps": [
+  {
+   "id": 1109473,
+   "title": "Installing the spoolholder: Parts preparation",
+   "updated": "2026-07-29 17:15:39",
+   "lines": [
+    {
+     "html": "Listed are the parts needed for the 8-tool version of the printer. For the 4-tool version, you will need half of the parts.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "For the next step, prepare:",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Telescopic spoolholder (8x)<em> found in the Telescopic Spoolholder Set bag</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "O-ring (8x) <em>found in the Telescopic Spoolholder Set bag</em>",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9634eeeb674eb9228958f58f9afed451.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9634eeeb674eb9228958f58f9afed451-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9634eeeb674eb9228958f58f9afed451-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9634eeeb674eb9228958f58f9afed451-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9634eeeb674eb9228958f58f9afed451-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9634eeeb674eb9228958f58f9afed451-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9634eeeb674eb9228958f58f9afed451-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9634eeeb674eb9228958f58f9afed451.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109515,
+   "title": "Locking the spoolholders",
+   "updated": "2026-07-27 16:51:52",
+   "lines": [
+    {
+     "html": "Put the O-ring onto the telescopic spoolholder.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Ensure that the O-ring is placed correctly.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Push the telescopic spoolholder into the Puck-universal dock.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Lock the telescopic spoolholder by turning it <strong>clockwise</strong>.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>Repeat the same procedure for the remaining spoolholders.</strong>",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ec24b36981798d6be91502ed640ab376.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ec24b36981798d6be91502ed640ab376-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ec24b36981798d6be91502ed640ab376-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec24b36981798d6be91502ed640ab376-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec24b36981798d6be91502ed640ab376-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec24b36981798d6be91502ed640ab376-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec24b36981798d6be91502ed640ab376-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec24b36981798d6be91502ed640ab376.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4ce4fb9e99d3d0857ac864217d0728f0.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4ce4fb9e99d3d0857ac864217d0728f0-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4ce4fb9e99d3d0857ac864217d0728f0-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce4fb9e99d3d0857ac864217d0728f0-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce4fb9e99d3d0857ac864217d0728f0-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce4fb9e99d3d0857ac864217d0728f0-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce4fb9e99d3d0857ac864217d0728f0-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce4fb9e99d3d0857ac864217d0728f0.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/012d70741a16ef44d81373be98dc3a04.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/012d70741a16ef44d81373be98dc3a04-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/012d70741a16ef44d81373be98dc3a04-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/012d70741a16ef44d81373be98dc3a04-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/012d70741a16ef44d81373be98dc3a04-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/012d70741a16ef44d81373be98dc3a04-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/012d70741a16ef44d81373be98dc3a04-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/012d70741a16ef44d81373be98dc3a04.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1137606,
+   "title": "Telescopic spoolholders",
+   "updated": "2026-07-28 09:57:20",
+   "lines": [
+    {
+     "html": "To extend the telescopic spoolholder, gently turn it counter-clockwise until you hear the locking mechanism snap.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Do not use excessive force to unlock the spoolholder, or you risk disengaging it from the puck holder!",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Pull the spoolholder to extend it.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Lock the extended spoolholder by turning it clockwise until the lock snaps in place.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f73efdae78ab2cba6c24267c6abea410.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f73efdae78ab2cba6c24267c6abea410-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f73efdae78ab2cba6c24267c6abea410-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f73efdae78ab2cba6c24267c6abea410-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f73efdae78ab2cba6c24267c6abea410-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f73efdae78ab2cba6c24267c6abea410-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f73efdae78ab2cba6c24267c6abea410-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f73efdae78ab2cba6c24267c6abea410.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/84ff77aa3dafd88e662f95653b56ad3b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/84ff77aa3dafd88e662f95653b56ad3b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/84ff77aa3dafd88e662f95653b56ad3b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/84ff77aa3dafd88e662f95653b56ad3b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/84ff77aa3dafd88e662f95653b56ad3b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/84ff77aa3dafd88e662f95653b56ad3b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/84ff77aa3dafd88e662f95653b56ad3b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/84ff77aa3dafd88e662f95653b56ad3b.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109561,
+   "title": "Attaching the print sheet",
+   "updated": "2026-07-14 14:31:37",
+   "lines": [
+    {
+     "html": "<strong>Make sure there is nothing on the heatbed.</strong> The heatbed must be clean. Any dirt can damage the surface of both the heatbed and the print sheet.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "<strong>Attach the sheet by first aligning the rear cutout with the locking pins on the back of the heated bed.</strong> Hold the sheet by the front two corners and slowly lay it down onto the heated bed - <strong>watch your fingers!</strong>",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Keep the <a href=\"http://help.prusa3d.com/article/flexible-steel-sheets-guidepost_2195\">print sheet</a> clean for optimum performance.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "#1 cause of prints detaching from the print surface is a greasy print sheet. <a href=\"http://help.prusa3d.com/article/first-layer-issues_1804\">Use IPA (Isopropyl alcohol) to degrease it</a> if you have touched its surface before.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ad995708d759feff81db9c360749cf2c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ad995708d759feff81db9c360749cf2c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ad995708d759feff81db9c360749cf2c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ad995708d759feff81db9c360749cf2c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ad995708d759feff81db9c360749cf2c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ad995708d759feff81db9c360749cf2c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ad995708d759feff81db9c360749cf2c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ad995708d759feff81db9c360749cf2c.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109603,
+   "title": "Firmware update",
+   "updated": "2026-09-01 15:29:09",
+   "lines": [
+    {
+     "html": "Visit the <a href=\"https://help.prusa3d.com\">help.prusa3d.com</a> page.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Navigate to the Prusa CORE One/+ INDX page.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Download the latest firmware version.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Save the firmware file (<em>.bbf) onto a USB drive.</em>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/1a1aeee01aa2073e956015480768c487.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/1a1aeee01aa2073e956015480768c487-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/1a1aeee01aa2073e956015480768c487-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/1a1aeee01aa2073e956015480768c487-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/1a1aeee01aa2073e956015480768c487-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/1a1aeee01aa2073e956015480768c487-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/1a1aeee01aa2073e956015480768c487-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/1a1aeee01aa2073e956015480768c487.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5eda51bd7082607a7be414574aa4439a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5eda51bd7082607a7be414574aa4439a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5eda51bd7082607a7be414574aa4439a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5eda51bd7082607a7be414574aa4439a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5eda51bd7082607a7be414574aa4439a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5eda51bd7082607a7be414574aa4439a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5eda51bd7082607a7be414574aa4439a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/5eda51bd7082607a7be414574aa4439a.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109647,
+   "title": "Turning on the printer",
+   "updated": "2026-09-01 15:25:21",
+   "lines": [
+    {
+     "html": "Insert the USB drive into your printer.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Connect the power cable and plug the printer into a wall outlet.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Turn the printer on using the switch on the back.<br />",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The printer will now detect if a new firmware file is available on the USB drive.<br />",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "If the \"New firmware available\" screen appears, hit <strong>FLASH</strong> by pressing the rotary knob to upgrade to the latest firmware.<br />",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a3978a35d6047a0321a91b2452b86fe3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a3978a35d6047a0321a91b2452b86fe3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a3978a35d6047a0321a91b2452b86fe3-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3978a35d6047a0321a91b2452b86fe3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3978a35d6047a0321a91b2452b86fe3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3978a35d6047a0321a91b2452b86fe3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3978a35d6047a0321a91b2452b86fe3-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3978a35d6047a0321a91b2452b86fe3.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/884872152fe89287ac3ce615e4a53897.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/884872152fe89287ac3ce615e4a53897-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/884872152fe89287ac3ce615e4a53897-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/884872152fe89287ac3ce615e4a53897-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/884872152fe89287ac3ce615e4a53897-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/884872152fe89287ac3ce615e4a53897-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/884872152fe89287ac3ce615e4a53897-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/884872152fe89287ac3ce615e4a53897.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/97f3f64c7562bfdcfefb3357f1f0aecf.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/97f3f64c7562bfdcfefb3357f1f0aecf-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/97f3f64c7562bfdcfefb3357f1f0aecf-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/97f3f64c7562bfdcfefb3357f1f0aecf-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/97f3f64c7562bfdcfefb3357f1f0aecf-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/97f3f64c7562bfdcfefb3357f1f0aecf-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/97f3f64c7562bfdcfefb3357f1f0aecf-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/97f3f64c7562bfdcfefb3357f1f0aecf.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109709,
+   "title": "Setting up the printer: Intro",
+   "updated": "2026-07-28 13:33:17",
+   "lines": [
+    {
+     "html": "The printer displays on the screen a prompt to select your language. Use the control knob or touchscreen to set your preference.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "After selecting your language, the printer will display the welcome screen. Hit <strong>OK</strong> to continue through the setup process.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The next screen will prompt you to select your printer model COREONEINDX. Hit <strong>Done</strong> to continue.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/cf95ed229ad2f6fbaae8e7f0c512539a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/cf95ed229ad2f6fbaae8e7f0c512539a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/cf95ed229ad2f6fbaae8e7f0c512539a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/cf95ed229ad2f6fbaae8e7f0c512539a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/cf95ed229ad2f6fbaae8e7f0c512539a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/cf95ed229ad2f6fbaae8e7f0c512539a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/cf95ed229ad2f6fbaae8e7f0c512539a.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/dcd3c4b9d7b820daf3bc94495ab41957.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/dcd3c4b9d7b820daf3bc94495ab41957-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/dcd3c4b9d7b820daf3bc94495ab41957-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/dcd3c4b9d7b820daf3bc94495ab41957-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/dcd3c4b9d7b820daf3bc94495ab41957-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/dcd3c4b9d7b820daf3bc94495ab41957-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/dcd3c4b9d7b820daf3bc94495ab41957.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/dd16d72b0740648b2dbb692b35906aae.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/dd16d72b0740648b2dbb692b35906aae-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/dd16d72b0740648b2dbb692b35906aae-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/dd16d72b0740648b2dbb692b35906aae-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/dd16d72b0740648b2dbb692b35906aae-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/dd16d72b0740648b2dbb692b35906aae-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/dd16d72b0740648b2dbb692b35906aae.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109747,
+   "title": "Setting up the printer: Network setup",
+   "updated": "2026-07-14 14:31:52",
+   "lines": [
+    {
+     "html": "The Network Setup screen will ask you to connect to a Wi-Fi network using our official Prusa mobile app.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Read more on <a href=\"https://prusa.io/app\">prusa.io/app</a>.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "If you select <strong>No</strong>, the printer will show alternative ways to connect to Wi-Fi. This step is optional and can be done later.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "You can skip this screen and set up the network connection later.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/8a68d23e874a77449afebb495a85a688.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/8a68d23e874a77449afebb495a85a688-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/8a68d23e874a77449afebb495a85a688-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/8a68d23e874a77449afebb495a85a688-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/8a68d23e874a77449afebb495a85a688-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/8a68d23e874a77449afebb495a85a688-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/8a68d23e874a77449afebb495a85a688.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d9ffd4c6c9b5b1c1072fb21ae4a30c6b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d9ffd4c6c9b5b1c1072fb21ae4a30c6b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d9ffd4c6c9b5b1c1072fb21ae4a30c6b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d9ffd4c6c9b5b1c1072fb21ae4a30c6b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d9ffd4c6c9b5b1c1072fb21ae4a30c6b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d9ffd4c6c9b5b1c1072fb21ae4a30c6b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d9ffd4c6c9b5b1c1072fb21ae4a30c6b.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109791,
+   "title": "Wizard: Intro",
+   "updated": "2026-07-14 14:31:56",
+   "lines": [
+    {
+     "html": "The printer will prompt you to run self-tests and calibrations for all important components. The entire process takes a few minutes, with some parts requiring direct user interaction.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "Hit <strong>YES</strong> to begin the self-test and follow the instructions on screen.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "During the self-test, <strong>keep the door closed</strong> until you are prompted. Opening the door will interrupt the process.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "<strong>There are HOT and moving parts inside during the self-test.</strong>",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Some of the automatic tests that do not require direct input from the user are not mentioned in this guide.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5d897eba8d76997054eb71ffa0f71869.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5d897eba8d76997054eb71ffa0f71869-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5d897eba8d76997054eb71ffa0f71869-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5d897eba8d76997054eb71ffa0f71869-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5d897eba8d76997054eb71ffa0f71869-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5d897eba8d76997054eb71ffa0f71869-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5d897eba8d76997054eb71ffa0f71869.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109841,
+   "title": "Wizard: Door sensor calibration",
+   "updated": "2026-07-14 14:31:58",
+   "lines": [
+    {
+     "html": "<strong>This step can be skipped</strong>. The door sensor is only calibrated during assembly and has a dedicated calibration section at the end of its own guide.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "Hit the <strong>Skip</strong> button to proceed to the next calibration.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Follow the instructions on the screen. The printer will now run the automatic X-axis and Y-axis test, and the Z alignment calibration.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9c74aacca7a9a773b62dd6d866535330.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9c74aacca7a9a773b62dd6d866535330-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9c74aacca7a9a773b62dd6d866535330-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9c74aacca7a9a773b62dd6d866535330-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9c74aacca7a9a773b62dd6d866535330-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9c74aacca7a9a773b62dd6d866535330-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9c74aacca7a9a773b62dd6d866535330.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109875,
+   "title": "Wizard: Belt tensioning",
+   "updated": "2026-09-01 15:30:00",
+   "lines": [
+    {
+     "html": "The printer will now prompt you to fine-tune the belts. Follow the on-screen instructions.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Open the top lid and manually move the INDX Tool head <strong>as far back as possible</strong> and check that there are <strong>no gaps between the stops</strong> on the left and right.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>WARNING: Incorrect procedure may result in damage to plastic parts or seizing of screws. Before adjusting the belt tension, read the dedicated article:</strong>",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "<a href=\"http://help.prusa3d.com/article/adjusting-belt-tension-core-one-core-one-indx-core-one-l_845048\">Adjusting <strong>belt tension (CORE One)</a></strong>",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The belts are adjusted using the tensioning mechanism on each side for each belt:",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The <strong>left screw </strong>adjusts the <strong>upper belt</strong>.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The <strong>right screw</strong> adjusts the <strong>lower belt</strong>.",
+     "color": "violet",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Once the belts are perfectly tuned, press <strong>Continue</strong> and follow the on-screen instructions.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/cbaba73521453d1dd254d74c40eb46e0.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/cbaba73521453d1dd254d74c40eb46e0-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/cbaba73521453d1dd254d74c40eb46e0-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/cbaba73521453d1dd254d74c40eb46e0-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/cbaba73521453d1dd254d74c40eb46e0-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/cbaba73521453d1dd254d74c40eb46e0-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/cbaba73521453d1dd254d74c40eb46e0.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a0d82e77a5898dd57aca822f70b39840.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a0d82e77a5898dd57aca822f70b39840-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a0d82e77a5898dd57aca822f70b39840-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a0d82e77a5898dd57aca822f70b39840-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a0d82e77a5898dd57aca822f70b39840-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a0d82e77a5898dd57aca822f70b39840-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a0d82e77a5898dd57aca822f70b39840-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a0d82e77a5898dd57aca822f70b39840.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c846e3528af51064a7f33e9c6e87ed5e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c846e3528af51064a7f33e9c6e87ed5e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c846e3528af51064a7f33e9c6e87ed5e-534x400.jpg 534w, https://help.prusa3d.com/wp-content/uploads/2026/07/c846e3528af51064a7f33e9c6e87ed5e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c846e3528af51064a7f33e9c6e87ed5e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c846e3528af51064a7f33e9c6e87ed5e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c846e3528af51064a7f33e9c6e87ed5e-1536x1151.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c846e3528af51064a7f33e9c6e87ed5e.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1109953,
+   "title": "Wizard: Dock calibration I.",
+   "updated": "2026-07-14 14:32:06",
+   "lines": [
+    {
+     "html": "Once the automatic homing calibration is complete, calibrate the docks. Hit <strong>Continue</strong> and follow the on-screen instructions.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The printer will ask you to enter the number of docks on your printer.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "It means how many tool dock positions are installed on the front profile (nozzle holders). This is typically 4 or 8.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "On the next screen, ensure that all dock positions are <strong>set to &lt;Calibrate&gt;</strong> and not to &lt;Skip&gt;.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Once all docks are ready to be calibrated, scroll down and hit <strong>Continue</strong>.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b3c25b62231810e48262f4da602f8527.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b3c25b62231810e48262f4da602f8527-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b3c25b62231810e48262f4da602f8527-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b3c25b62231810e48262f4da602f8527-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b3c25b62231810e48262f4da602f8527-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b3c25b62231810e48262f4da602f8527-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b3c25b62231810e48262f4da602f8527.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/42d8df108b42836694c46c7ef22bd6c7.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/42d8df108b42836694c46c7ef22bd6c7-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/42d8df108b42836694c46c7ef22bd6c7-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/42d8df108b42836694c46c7ef22bd6c7-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/42d8df108b42836694c46c7ef22bd6c7-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/42d8df108b42836694c46c7ef22bd6c7-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/42d8df108b42836694c46c7ef22bd6c7.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0737a56934bed4a45fa52a5233a0184d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0737a56934bed4a45fa52a5233a0184d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0737a56934bed4a45fa52a5233a0184d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0737a56934bed4a45fa52a5233a0184d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0737a56934bed4a45fa52a5233a0184d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0737a56934bed4a45fa52a5233a0184d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0737a56934bed4a45fa52a5233a0184d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0737a56934bed4a45fa52a5233a0184d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110007,
+   "title": "Wizard: Dock calibration II.",
+   "updated": "2026-07-14 14:32:11",
+   "lines": [
+    {
+     "html": "The screen will now prompt you to tighten the silver screws securing each dock to the front profile.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Use a T10 key/screwdriver to tighten the silver screws <strong>in all positions</strong>.",
+     "color": "blue",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Do not overtighten them</strong>, as they will be loosened again later.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Hit <strong>Continue</strong>.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Make sure to <strong>follow the on-screen guide in the next step</strong>. The printer will inform you when it is safe to touch it and calibrate the docks.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/586d77f8f9b568136148f6c351a89f38.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/586d77f8f9b568136148f6c351a89f38-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/586d77f8f9b568136148f6c351a89f38-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/586d77f8f9b568136148f6c351a89f38-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/586d77f8f9b568136148f6c351a89f38-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/586d77f8f9b568136148f6c351a89f38-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/586d77f8f9b568136148f6c351a89f38.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e392905ac23876c0d9020fffe928d045.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e392905ac23876c0d9020fffe928d045-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e392905ac23876c0d9020fffe928d045-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e392905ac23876c0d9020fffe928d045-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e392905ac23876c0d9020fffe928d045-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e392905ac23876c0d9020fffe928d045-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e392905ac23876c0d9020fffe928d045-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e392905ac23876c0d9020fffe928d045.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110059,
+   "title": "Wizard: Dock calibration III.",
+   "updated": "2026-07-14 14:32:14",
+   "lines": [
+    {
+     "html": "Keep the top lid open.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "You are now prompted to manually move the head onto the dock.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From above, carefully slide the INDX Tool head onto tool dock <strong>position 1</strong> by hand.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Watch the alignment from above to ensure the <strong>head seats perfectly onto the hotend</strong>.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Once properly seated, you will feel a click indicating the correct position.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Hit <strong>Continue</strong> and repeat the same process for the remaining docks, <strong>following the on-screen instructions</strong>.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "After all docks have been aligned, loosen the silver screws securing all dock positions by one full turn.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2ce91a1fa9c86bdf5f1f9d01ce9e690e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2ce91a1fa9c86bdf5f1f9d01ce9e690e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2ce91a1fa9c86bdf5f1f9d01ce9e690e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2ce91a1fa9c86bdf5f1f9d01ce9e690e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2ce91a1fa9c86bdf5f1f9d01ce9e690e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2ce91a1fa9c86bdf5f1f9d01ce9e690e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2ce91a1fa9c86bdf5f1f9d01ce9e690e.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/46902f1d95e278c80a61078285f6105a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/46902f1d95e278c80a61078285f6105a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/46902f1d95e278c80a61078285f6105a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/46902f1d95e278c80a61078285f6105a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/46902f1d95e278c80a61078285f6105a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/46902f1d95e278c80a61078285f6105a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/46902f1d95e278c80a61078285f6105a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/46902f1d95e278c80a61078285f6105a.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b57c3f661390e7403264fde2e8a12e66.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b57c3f661390e7403264fde2e8a12e66-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b57c3f661390e7403264fde2e8a12e66-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b57c3f661390e7403264fde2e8a12e66-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b57c3f661390e7403264fde2e8a12e66-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b57c3f661390e7403264fde2e8a12e66-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b57c3f661390e7403264fde2e8a12e66.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110129,
+   "title": "Wizard: Loadcell Test",
+   "updated": "2026-07-14 14:32:19",
+   "lines": [
+    {
+     "html": "The next step of the wizard will prompt you to touch the nozzle to test and calibrate the Loadcell. During this procedure, the<strong> parts of the printer are not heated up,</strong> so you can touch them. Press <strong>Continue</strong>.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Loadcell calibration requires the door to be open, as you must interact directly inside the printer.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "Do not touch the nozzle yet, wait until prompted by the <strong>Tap nozzle NOW</strong> message.<br />",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Tap the nozzle from below. In case the Loadcell does not detect the touch, you will be prompted to repeat the step. Otherwise, you will see <strong>Loadcell test passed OK</strong> when it succeeds.<br />",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "To allow the printer to continue with the Wizard, <strong>close the door</strong>.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "After this test, the printer will run the automatic Z-axis test.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7924033ddb349c914d00c74c970ee494.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7924033ddb349c914d00c74c970ee494-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7924033ddb349c914d00c74c970ee494-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7924033ddb349c914d00c74c970ee494-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7924033ddb349c914d00c74c970ee494-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7924033ddb349c914d00c74c970ee494-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7924033ddb349c914d00c74c970ee494.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5802ee0518b6c4b1e76e41a4bb5ef929.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5802ee0518b6c4b1e76e41a4bb5ef929-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5802ee0518b6c4b1e76e41a4bb5ef929-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5802ee0518b6c4b1e76e41a4bb5ef929-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5802ee0518b6c4b1e76e41a4bb5ef929-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5802ee0518b6c4b1e76e41a4bb5ef929-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5802ee0518b6c4b1e76e41a4bb5ef929-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/5802ee0518b6c4b1e76e41a4bb5ef929.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/73003c0c8181609e3a5c638f97feeab3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/73003c0c8181609e3a5c638f97feeab3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/73003c0c8181609e3a5c638f97feeab3-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/73003c0c8181609e3a5c638f97feeab3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/73003c0c8181609e3a5c638f97feeab3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/73003c0c8181609e3a5c638f97feeab3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/73003c0c8181609e3a5c638f97feeab3.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110191,
+   "title": "Wizard: Fan test",
+   "updated": "2026-07-14 14:32:24",
+   "lines": [
+    {
+     "html": "The printer will test all the fans during this process. Be aware—it can get quite noisy for a while!",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2e02e4b77246229853b1226a188ede2d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2e02e4b77246229853b1226a188ede2d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2e02e4b77246229853b1226a188ede2d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e02e4b77246229853b1226a188ede2d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e02e4b77246229853b1226a188ede2d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e02e4b77246229853b1226a188ede2d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e02e4b77246229853b1226a188ede2d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e02e4b77246229853b1226a188ede2d.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/06a9d35ecc1ffc92e4f186e7d488facd.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/06a9d35ecc1ffc92e4f186e7d488facd-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/06a9d35ecc1ffc92e4f186e7d488facd-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/06a9d35ecc1ffc92e4f186e7d488facd-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/06a9d35ecc1ffc92e4f186e7d488facd-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/06a9d35ecc1ffc92e4f186e7d488facd-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/06a9d35ecc1ffc92e4f186e7d488facd-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/06a9d35ecc1ffc92e4f186e7d488facd.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110209,
+   "title": "Wizard: Tool offsets calibration",
+   "updated": "2026-07-14 14:32:26",
+   "lines": [
+    {
+     "html": "Select <strong>Continue,</strong> and the printer will proceed with testing the offsets for each toolhead.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f5af8e97f0fb64c760053a17a3621202.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f5af8e97f0fb64c760053a17a3621202-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f5af8e97f0fb64c760053a17a3621202-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f5af8e97f0fb64c760053a17a3621202-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f5af8e97f0fb64c760053a17a3621202-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f5af8e97f0fb64c760053a17a3621202-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f5af8e97f0fb64c760053a17a3621202-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f5af8e97f0fb64c760053a17a3621202.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/8311f205b0168e9af594f2b9d3bb4890.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/8311f205b0168e9af594f2b9d3bb4890-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/8311f205b0168e9af594f2b9d3bb4890-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/8311f205b0168e9af594f2b9d3bb4890-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/8311f205b0168e9af594f2b9d3bb4890-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/8311f205b0168e9af594f2b9d3bb4890-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/8311f205b0168e9af594f2b9d3bb4890-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/8311f205b0168e9af594f2b9d3bb4890.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110228,
+   "title": "Wizard: Nozzle cleaner calibration",
+   "updated": "2026-07-14 14:32:28",
+   "lines": [
+    {
+     "html": "In the following steps, you will calibrate the nozzle with the wiper bin.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Once you press <strong>Continue</strong>, the Toolhead will move itself closer to the priming block on the nozzle cleaner.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<span style=\"box-sizing: border-box; margin: 0px; padding: 0px;\">In the tooldock, <strong>under position 8, there is an opening</strong> through which you can</span> directly observe nozzle alignment on the silicone priming block.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "If you look closely through the opening, you will see the V-shaped cutouts in the wiper base and the silicone priming block.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Manually move the head above the bin on the right side of the printer. Position it in the middle of the priming block as shown on the screen.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Through the opening, observe and align the head with the V-shaped cutout in the front priming block, as shown on the screen.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9e98c61de7546510a204578e9ae97869.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9e98c61de7546510a204578e9ae97869-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9e98c61de7546510a204578e9ae97869-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e98c61de7546510a204578e9ae97869-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e98c61de7546510a204578e9ae97869-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e98c61de7546510a204578e9ae97869-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e98c61de7546510a204578e9ae97869-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e98c61de7546510a204578e9ae97869.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/577a7b98d514baaf6acdbd1ec9242d14.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/577a7b98d514baaf6acdbd1ec9242d14-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/577a7b98d514baaf6acdbd1ec9242d14-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/577a7b98d514baaf6acdbd1ec9242d14-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/577a7b98d514baaf6acdbd1ec9242d14-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/577a7b98d514baaf6acdbd1ec9242d14-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/577a7b98d514baaf6acdbd1ec9242d14-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/577a7b98d514baaf6acdbd1ec9242d14.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/612838198f33dc14.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/612838198f33dc14-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/612838198f33dc14-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/612838198f33dc14-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/612838198f33dc14-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/612838198f33dc14-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/612838198f33dc14-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/612838198f33dc14.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110290,
+   "title": "Wizard: Nozzle cleaner calibration Z/X-axis",
+   "updated": "2026-07-14 14:32:34",
+   "lines": [
+    {
+     "html": "The printer will now prompt you to align the nozzle cleaner.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Manually adjust the head position so the nozzle is placed in the <strong>V-shaped cutout in the silicone priming block</strong>. Observe the alignment through the front opening in the tooldock.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The printer will <strong>lock the motors</strong> and warn you to <strong>remove your hands from the printer </strong>before proceeding with the calibration.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Use the universal wrench to <strong>precisely adjust</strong> the Wiper-adjuster until the nozzle <strong>fully fills the V-shaped cutout</strong>, touching both angled sides and the bottom. Check the alignment through the opening.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The Wiper-adjuster allows the bin position to be adjusted up or down.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Once the position is correctly set (see reference detail), select <strong>Continue</strong> and follow the on-screen instructions.<strong><br /></strong>",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5f9e2f744698695bc9173d7d7cc2a72a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5f9e2f744698695bc9173d7d7cc2a72a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5f9e2f744698695bc9173d7d7cc2a72a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f9e2f744698695bc9173d7d7cc2a72a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f9e2f744698695bc9173d7d7cc2a72a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f9e2f744698695bc9173d7d7cc2a72a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f9e2f744698695bc9173d7d7cc2a72a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f9e2f744698695bc9173d7d7cc2a72a.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ea5058853a5da57e1fa399ea8acccf3e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ea5058853a5da57e1fa399ea8acccf3e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ea5058853a5da57e1fa399ea8acccf3e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ea5058853a5da57e1fa399ea8acccf3e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ea5058853a5da57e1fa399ea8acccf3e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ea5058853a5da57e1fa399ea8acccf3e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ea5058853a5da57e1fa399ea8acccf3e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ea5058853a5da57e1fa399ea8acccf3e.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/937fe389e7e1cf8cf85ef67a559466a3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/937fe389e7e1cf8cf85ef67a559466a3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/937fe389e7e1cf8cf85ef67a559466a3-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/937fe389e7e1cf8cf85ef67a559466a3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/937fe389e7e1cf8cf85ef67a559466a3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/937fe389e7e1cf8cf85ef67a559466a3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/937fe389e7e1cf8cf85ef67a559466a3-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/937fe389e7e1cf8cf85ef67a559466a3.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110352,
+   "title": "Wizard: Nozzle cleaner calibration Y-axis",
+   "updated": "2026-07-14 14:32:39",
+   "lines": [
+    {
+     "html": "Now, the printer screen prompts you to align the nozzle on the Y-axis.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Manually move the INDX Tool head into the V-shaped cutout on the left side of the nozzle cleaner bin and <strong>precisely align it</strong>. The nozzle must not touch the walls.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The correct cutout is marked with \"Y\"",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Observe through the open door.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The printer will <strong>lock the motors</strong> and warn you to <strong>remove your hands from the printer</strong> before proceeding with the calibration.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Once the alignment is perfect, press <strong>Continue</strong> and follow the on-screen instructions.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/675fe6ef39c5e3e93742b264540f6a29.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/675fe6ef39c5e3e93742b264540f6a29-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/675fe6ef39c5e3e93742b264540f6a29-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/675fe6ef39c5e3e93742b264540f6a29-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/675fe6ef39c5e3e93742b264540f6a29-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/675fe6ef39c5e3e93742b264540f6a29-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/675fe6ef39c5e3e93742b264540f6a29-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/675fe6ef39c5e3e93742b264540f6a29.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9533054725784927a28c35e61e348676.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9533054725784927a28c35e61e348676-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9533054725784927a28c35e61e348676-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9533054725784927a28c35e61e348676-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9533054725784927a28c35e61e348676-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9533054725784927a28c35e61e348676-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9533054725784927a28c35e61e348676-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9533054725784927a28c35e61e348676.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110412,
+   "title": "Wizard: Filament sensors calibration",
+   "updated": "2026-07-14 14:32:43",
+   "lines": [
+    {
+     "html": "During each tool filament sensor calibration, you will need a short piece of filament. Prepare the filament and select <strong>Continue</strong>.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "There should be <strong>no filament</strong> inside the extruder before the calibration process starts.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "Place the filament spool on the spoolholder and, <strong>when prompted</strong>, guide the filament into the filament sensor at <strong>position 1</strong>.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the filament <strong>only through the filament sensor</strong>; there is no need to feed it through the full length of the PTFE tube.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "After calibration finishes press <strong>Continue</strong> to calibrate the next position.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Once all the positions are calibrated, continue to the automatic calibrations of phase stepping and input shaper.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/aa6cc4cccb88a6be74ba347b4dc088ee.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/aa6cc4cccb88a6be74ba347b4dc088ee-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/aa6cc4cccb88a6be74ba347b4dc088ee-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/aa6cc4cccb88a6be74ba347b4dc088ee-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/aa6cc4cccb88a6be74ba347b4dc088ee-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/aa6cc4cccb88a6be74ba347b4dc088ee-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/aa6cc4cccb88a6be74ba347b4dc088ee.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/df0e46d77d1bbc0c06896c9c47f05eff.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/df0e46d77d1bbc0c06896c9c47f05eff-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/df0e46d77d1bbc0c06896c9c47f05eff-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/df0e46d77d1bbc0c06896c9c47f05eff-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/df0e46d77d1bbc0c06896c9c47f05eff-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/df0e46d77d1bbc0c06896c9c47f05eff-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/df0e46d77d1bbc0c06896c9c47f05eff-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/df0e46d77d1bbc0c06896c9c47f05eff.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110472,
+   "title": "Wizard complete",
+   "updated": "2026-07-14 14:32:47",
+   "lines": [
+    {
+     "html": "Congratulations! The Wizard is complete. Now let's test some prints.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e0690060e2b2c0cab4b2a4e418b29c9d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e0690060e2b2c0cab4b2a4e418b29c9d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e0690060e2b2c0cab4b2a4e418b29c9d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0690060e2b2c0cab4b2a4e418b29c9d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0690060e2b2c0cab4b2a4e418b29c9d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0690060e2b2c0cab4b2a4e418b29c9d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0690060e2b2c0cab4b2a4e418b29c9d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0690060e2b2c0cab4b2a4e418b29c9d.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c52fa14f168c4cab3d50c4ffa190250a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c52fa14f168c4cab3d50c4ffa190250a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c52fa14f168c4cab3d50c4ffa190250a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c52fa14f168c4cab3d50c4ffa190250a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c52fa14f168c4cab3d50c4ffa190250a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c52fa14f168c4cab3d50c4ffa190250a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c52fa14f168c4cab3d50c4ffa190250a.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110490,
+   "title": "Haribo time!",
+   "updated": "2026-07-14 14:32:49",
+   "lines": [
+    {
+     "html": "All your hard work has paid off, and it’s time for the final reward. Finish all the gummy bears now.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f6af605576d245c3f2b0be0f1f4dbcc2.png",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f6af605576d245c3f2b0be0f1f4dbcc2-800x600.png",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f6af605576d245c3f2b0be0f1f4dbcc2-533x400.png 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6af605576d245c3f2b0be0f1f4dbcc2-800x600.png 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6af605576d245c3f2b0be0f1f4dbcc2-300x225.png 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6af605576d245c3f2b0be0f1f4dbcc2-768x576.png 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6af605576d245c3f2b0be0f1f4dbcc2-1536x1152.png 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6af605576d245c3f2b0be0f1f4dbcc2-2048x1536.png 2048w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6af605576d245c3f2b0be0f1f4dbcc2.png 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110508,
+   "title": "Prusa knowledge base",
+   "updated": "2026-07-14 14:32:56",
+   "lines": [
+    {
+     "html": "Go to the <strong>CORE One/+ INDX </strong>product page at <a href=\"https://prusa.io/coreone-indx\">prusa.io/coreone-indx</a> and navigate to the <strong>Getting started </strong>section for additional information and resources.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>You can also find more information at <a href=\"https://help.prusa3d.com\">help.prusa3d.com</a>:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Find software downloads, product manuals, and detailed assembly guides.",
+     "color": null,
+     "icon": "reminder",
+     "level": 1
+    },
+    {
+     "html": "Access troubleshooting tips and solutions for common questions.",
+     "color": null,
+     "icon": "reminder",
+     "level": 1
+    },
+    {
+     "html": "Tutorials and articles to help you get the most out of your printer.",
+     "color": null,
+     "icon": "reminder",
+     "level": 1
+    },
+    {
+     "html": "We are adding new topics every day!",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/52bfca8c2b76f1b89dca635e03df4551.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/52bfca8c2b76f1b89dca635e03df4551-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/52bfca8c2b76f1b89dca635e03df4551-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/52bfca8c2b76f1b89dca635e03df4551-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/52bfca8c2b76f1b89dca635e03df4551-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/52bfca8c2b76f1b89dca635e03df4551-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/52bfca8c2b76f1b89dca635e03df4551-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/52bfca8c2b76f1b89dca635e03df4551.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110566,
+   "title": "Give us feedback",
+   "updated": "2026-07-14 14:32:59",
+   "lines": [
+    {
+     "html": "We know you’re eager to start printing, but we’d really appreciate it if you could take 3–4 minutes to <strong>share your thoughts</strong> on this manual: how clear it was, how easy it was to follow, and any ideas to improve it.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "This feedback is a little different from the usual comments you might leave on individual steps.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "<strong><a href=\"https://help-8192.sleekplan.app/survey/su696510f4141e9/\">Share your feedback here.</a></strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Thank you for helping us make our manuals even better!",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b833366612b7a80ca39bdfb6a39acc41.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b833366612b7a80ca39bdfb6a39acc41-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b833366612b7a80ca39bdfb6a39acc41-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b833366612b7a80ca39bdfb6a39acc41-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b833366612b7a80ca39bdfb6a39acc41-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b833366612b7a80ca39bdfb6a39acc41-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b833366612b7a80ca39bdfb6a39acc41-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b833366612b7a80ca39bdfb6a39acc41.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110607,
+   "title": "Join Printables!",
+   "updated": "2026-07-14 14:33:00",
+   "lines": [
+    {
+     "html": "Don't forget to join the biggest Prusa community! Download the latest models in STL or G-code tailored for your printer. Register at <a href=\"https://www.printables.com\">Printables.com</a>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Looking for inspiration on new projects? Check our blog for weekly updates.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "If you need help with the build, check out our forum with a great community :-)",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "All Prusa services share one user account.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9ddd5d25a5d1af6a55c639548ca3b323.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9ddd5d25a5d1af6a55c639548ca3b323-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9ddd5d25a5d1af6a55c639548ca3b323-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ddd5d25a5d1af6a55c639548ca3b323-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ddd5d25a5d1af6a55c639548ca3b323-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ddd5d25a5d1af6a55c639548ca3b323-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ddd5d25a5d1af6a55c639548ca3b323-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ddd5d25a5d1af6a55c639548ca3b323.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/67cfdac69c432fee1a83a79ea906dd79.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/67cfdac69c432fee1a83a79ea906dd79-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/67cfdac69c432fee1a83a79ea906dd79-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/67cfdac69c432fee1a83a79ea906dd79-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/67cfdac69c432fee1a83a79ea906dd79-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/67cfdac69c432fee1a83a79ea906dd79-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/67cfdac69c432fee1a83a79ea906dd79-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/67cfdac69c432fee1a83a79ea906dd79.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0837bad929f43021f9f744cc6bc7f1e4.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0837bad929f43021f9f744cc6bc7f1e4-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0837bad929f43021f9f744cc6bc7f1e4-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0837bad929f43021f9f744cc6bc7f1e4-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0837bad929f43021f9f744cc6bc7f1e4-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0837bad929f43021f9f744cc6bc7f1e4-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0837bad929f43021f9f744cc6bc7f1e4-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0837bad929f43021f9f744cc6bc7f1e4.jpg 1600w"
+    }
+   ]
+  }
+ ]
+}

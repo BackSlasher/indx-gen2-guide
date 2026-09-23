@@ -1,0 +1,731 @@
+{
+ "slug": "1-introduction_1096223",
+ "title": "1. Introduction",
+ "manual": "Prusa INDX Conversion kit for the Prusa CORE One/+",
+ "manual_slug": "prusa-indx-conversion-kit-for-the-prusa-core-one_2432",
+ "difficulty": "Very easy",
+ "updated": "2026-08-19 14:07:58",
+ "steps": [
+  {
+   "id": 1096271,
+   "title": "How to navigate through the manual",
+   "updated": "2026-07-14 14:10:04",
+   "lines": [
+    {
+     "html": "Use the graphical navigation buttons in the bottom right corner or the arrow keys on your keyboard:",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>Play backward button / Up arrow key</strong> - Moves to the previous step.",
+     "color": "blue",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Left arrow button / Left arrow key</strong> - Moves to the previous image, or to the previous step if it’s the first image in the step.",
+     "color": "violet",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Next button / Right arrow key</strong> - Moves to the next image, or to the next step if it’s the last image in the step.",
+     "color": "green",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Play forward (Next) button / Down arrow</strong> <strong>key</strong> - Moves to the next step.",
+     "color": "red",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Click on <strong>Contents</strong> to expand the full list of steps in this guide. This allows you to jump to any step regardless of the sequence.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Click on <strong>Comments</strong> to open the discussion for a specific step and leave your feedback.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/722621d77443a08a7b98bbd0b4a93fdc.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/722621d77443a08a7b98bbd0b4a93fdc-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/722621d77443a08a7b98bbd0b4a93fdc-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/722621d77443a08a7b98bbd0b4a93fdc-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/722621d77443a08a7b98bbd0b4a93fdc-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/722621d77443a08a7b98bbd0b4a93fdc-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/722621d77443a08a7b98bbd0b4a93fdc-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/722621d77443a08a7b98bbd0b4a93fdc.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a84f379814b3fe6b5282dc873cc517dc.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a84f379814b3fe6b5282dc873cc517dc-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a84f379814b3fe6b5282dc873cc517dc-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a84f379814b3fe6b5282dc873cc517dc-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a84f379814b3fe6b5282dc873cc517dc-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a84f379814b3fe6b5282dc873cc517dc-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a84f379814b3fe6b5282dc873cc517dc-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a84f379814b3fe6b5282dc873cc517dc.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f93702ef8eee51f6f32f67dd3861a5ef.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f93702ef8eee51f6f32f67dd3861a5ef-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f93702ef8eee51f6f32f67dd3861a5ef-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f93702ef8eee51f6f32f67dd3861a5ef-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f93702ef8eee51f6f32f67dd3861a5ef-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f93702ef8eee51f6f32f67dd3861a5ef-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f93702ef8eee51f6f32f67dd3861a5ef-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f93702ef8eee51f6f32f67dd3861a5ef.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096341,
+   "title": "View high resolution images",
+   "updated": "2026-07-14 14:10:10",
+   "lines": [
+    {
+     "html": "When you browse the guide on <a href=\"https://help.prusa3d.com\">help.prusa3d.com</a>, you can view the original images in high resolution for clarity.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Just click on the image to open it in high resolution for a detailed view.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Click on <strong>Fullscreen mode</strong> or press the F key to maximize your screen space and focus entirely on the instructions.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ed2ced4c37d2f9cfa2caa5ea6e539b0f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ed2ced4c37d2f9cfa2caa5ea6e539b0f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ed2ced4c37d2f9cfa2caa5ea6e539b0f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed2ced4c37d2f9cfa2caa5ea6e539b0f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed2ced4c37d2f9cfa2caa5ea6e539b0f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed2ced4c37d2f9cfa2caa5ea6e539b0f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed2ced4c37d2f9cfa2caa5ea6e539b0f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed2ced4c37d2f9cfa2caa5ea6e539b0f.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096375,
+   "title": "Before you begin",
+   "updated": "2026-08-12 10:27:34",
+   "lines": [
+    {
+     "html": "If you plan on installing the <strong>Prusa CORE One+ Gen 2 upgrade</strong> along with the Prusa INDX conversion, follow the instructions here: <strong><a href=\"http://help.prusa3d.com/article/assemblling-the-prusa-indx-core-one-with-the-gen-2-upgrade_1147602\">Conversion of the PRUSA INDX Core One to Gen 2</a></strong>",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "The <strong>INDX Conversion kit is compatible with the Prusa CORE One and CORE One+</strong>. This guide uses the CORE One+; some disassembly steps may vary between models.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "The required steps depend on your printer’s current state:",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>If your CORE One+ is brand new</strong> and still unboxed, first follow the <a href=\"http://help.prusa3d.com/guide/1-introduction_980161\"><strong>CORE One+ Unpacking &amp; First run guide</strong></a>  before installing the INDX conversion.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>If you already use the CORE One+</strong> and purchased only the INDX Conversion kit (Founders Edition) you can continue with this guide.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Do not discard any removed parts until instructed. </strong>Some parts will be reused later in the upgrade.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "<strong>This guide is for both the 4-tool and the 8-tool PRUSA Core One/+ INDX conversion kit.</strong>",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "Some photos may show the 8-tool version. This does not affect the conversion process for the 4-tool version.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/95b06d759a0434bd.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/95b06d759a0434bd-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/95b06d759a0434bd-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/95b06d759a0434bd-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/95b06d759a0434bd-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/95b06d759a0434bd-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/95b06d759a0434bd-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/95b06d759a0434bd.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096424,
+   "title": "All the required tools are included",
+   "updated": "2026-07-14 14:10:15",
+   "lines": [
+    {
+     "html": "<strong>Tools required for this upgrade:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Use the tools originally included with your CORE One+ / CORE One printer.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "Needle-nose pliers (1x)",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Philips (PH2) screwdriver (1x)",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Universal wrench (1x)",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Allen key set",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Torx key set",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The <strong>T10 screwdriver is included only with kit versions</strong> and may not be available with fully assembled printers. <br />It is not required, but may be more convenient in some steps.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "We also recommend printing out the community-made <strong><a href=\"https://www.printables.com/model/1208623-core-one-snap-rivet-remover\">Snap-rivet-remover</a></strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3891202da22274cb2ddd8077d26b9570.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3891202da22274cb2ddd8077d26b9570-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3891202da22274cb2ddd8077d26b9570-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3891202da22274cb2ddd8077d26b9570-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3891202da22274cb2ddd8077d26b9570-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3891202da22274cb2ddd8077d26b9570-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3891202da22274cb2ddd8077d26b9570-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3891202da22274cb2ddd8077d26b9570.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/6bc57806545967062f79cb3c0ae3ecf8.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/6bc57806545967062f79cb3c0ae3ecf8-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/6bc57806545967062f79cb3c0ae3ecf8-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/6bc57806545967062f79cb3c0ae3ecf8-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/6bc57806545967062f79cb3c0ae3ecf8-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/6bc57806545967062f79cb3c0ae3ecf8-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/6bc57806545967062f79cb3c0ae3ecf8-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/6bc57806545967062f79cb3c0ae3ecf8.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096508,
+   "title": "Labels guide",
+   "updated": "2026-07-14 14:10:20",
+   "lines": [
+    {
+     "html": "All the boxes and bags including parts for the build are labeled.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The labels include the list of contents and part count.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "You can download a <strong>Cheatsheet</strong> with 1:1 fastener drawings from our site <a href=\"https://prusa.io/C1-INDX-cheatsheet\">prusa.io/C1-INDX-cheatsheet</a>. Print it at 100 % on A4 paper, don't rescale it, otherwise, it won't work.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "For PRUSA veterans: Fasteners are divided into individual bags according to its type. Not into packages for individual chapters, as it was with previous printers.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "The instructions will specify the package for each part, with the exception of fasteners, which are always located in the Fasteners package.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0dd6f51ad55c4fcd825ac224392880d8.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0dd6f51ad55c4fcd825ac224392880d8-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0dd6f51ad55c4fcd825ac224392880d8-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0dd6f51ad55c4fcd825ac224392880d8-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0dd6f51ad55c4fcd825ac224392880d8-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0dd6f51ad55c4fcd825ac224392880d8-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0dd6f51ad55c4fcd825ac224392880d8-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0dd6f51ad55c4fcd825ac224392880d8.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/679cbb1f057e12cb5300769dbcc4b3e3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/679cbb1f057e12cb5300769dbcc4b3e3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/679cbb1f057e12cb5300769dbcc4b3e3-534x400.jpg 534w, https://help.prusa3d.com/wp-content/uploads/2026/07/679cbb1f057e12cb5300769dbcc4b3e3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/679cbb1f057e12cb5300769dbcc4b3e3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/679cbb1f057e12cb5300769dbcc4b3e3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/679cbb1f057e12cb5300769dbcc4b3e3-1536x1151.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/679cbb1f057e12cb5300769dbcc4b3e3.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096560,
+   "title": "Spare bag",
+   "updated": "2026-07-14 14:10:24",
+   "lines": [
+    {
+     "html": "Spare fasteners are included in each bag of fasteners. The amount of spare is always included in the total number shown on the bag.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Similarly, some parts may include one extra piece in the same bag.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5ecb2d1f6f653087a3b1001159561c8d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5ecb2d1f6f653087a3b1001159561c8d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5ecb2d1f6f653087a3b1001159561c8d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ecb2d1f6f653087a3b1001159561c8d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ecb2d1f6f653087a3b1001159561c8d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ecb2d1f6f653087a3b1001159561c8d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ecb2d1f6f653087a3b1001159561c8d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ecb2d1f6f653087a3b1001159561c8d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096586,
+   "title": "Printed parts - versioning",
+   "updated": "2026-07-14 14:10:27",
+   "lines": [
+    {
+     "html": "Most of the 3D printed parts are marked with their version.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>E, F and Gx series</strong> (e.g. E1) - those parts are printed on Prusa Research farm and are distributed with the kit.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>R, S and Tx series</strong> (e.g. R1) - those parts are available for download at <a href=\"https://printables.com\">https://www.printables.com/model/1758233-core-one-indx-printed-parts</a>. They are identical to the factory ones.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The numbers indicate minor revisions that usually involve small design tweaks. A different label in the manual (e.g., a different version shown in photos) does not affect the assembly – all versions are fully compatible.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "if you have issues while assembling the printer with a specific printed part, find the label and share it with our support team.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7206d1dea4a483254d254bf90b1336da.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7206d1dea4a483254d254bf90b1336da-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7206d1dea4a483254d254bf90b1336da-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7206d1dea4a483254d254bf90b1336da-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7206d1dea4a483254d254bf90b1336da-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7206d1dea4a483254d254bf90b1336da-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7206d1dea4a483254d254bf90b1336da-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7206d1dea4a483254d254bf90b1336da.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096636,
+   "title": "We are here for you!",
+   "updated": "2026-07-14 14:10:29",
+   "lines": [
+    {
+     "html": "Lost in the instructions, missing screw or cracked printed part? <strong>Let us know!</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "You can contact us using the following channels:",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using comments under each step.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Using our 24/7 live chat here at <a href=\"https://help.prusa3d.com/en\">help.prusa3d.com</a>",
+     "color": "violet",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Writing an email to <a href=\"mailto:info@prusa3d.com\" subject=\"The assembly manual request\" body=\"Please write down the generation of the printer, order number and the issue you have (include pictures or video):\">info@prusa3d.com</a>",
+     "color": null,
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/416b311f198d23fa149aff47fdd63bc9.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/416b311f198d23fa149aff47fdd63bc9-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/416b311f198d23fa149aff47fdd63bc9-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/416b311f198d23fa149aff47fdd63bc9-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/416b311f198d23fa149aff47fdd63bc9-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/416b311f198d23fa149aff47fdd63bc9-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/416b311f198d23fa149aff47fdd63bc9-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/416b311f198d23fa149aff47fdd63bc9.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9814c9d5d15ca855366bd6b55f1b1768.png",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9814c9d5d15ca855366bd6b55f1b1768-800x600.png",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9814c9d5d15ca855366bd6b55f1b1768-533x400.png 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9814c9d5d15ca855366bd6b55f1b1768-800x600.png 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9814c9d5d15ca855366bd6b55f1b1768-300x225.png 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9814c9d5d15ca855366bd6b55f1b1768-768x576.png 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9814c9d5d15ca855366bd6b55f1b1768.png 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096688,
+   "title": "Pro tip: inserting the nuts",
+   "updated": "2026-07-14 14:10:34",
+   "lines": [
+    {
+     "html": "3D printed parts are very precise, however, there still might be a tolerance in the printed part and the same goes for the size of the nut.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Therefore it might happen, that the nut won't fit easily in or might be falling out. Let's see, how to fix it:",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>Nut won't fit in</strong>: use a screw with a thread along its entire length (typically: M3x10, M3x18) and screw it from the opposite side of the opening. While tightening the screw, the nut will be pulled in. Remove the screw afterwards.",
+     "color": "green",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Nut keeps falling out</strong>: Use a piece of tape to fix the nut temporarily in place, as soon as you insert the screw in, you can remove the tape. <em>Using glue isn't recommended as it can partly reach into the thread and you won't be able to tighten the screw properly.</em>",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Every time we recommend using the \"screw pulling technique\", you will be reminded with Joe's avatar ;)",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Parts in the pictures are used as an example.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/73236842de53d300f04b78c6965d2e17.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/73236842de53d300f04b78c6965d2e17-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/73236842de53d300f04b78c6965d2e17-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/73236842de53d300f04b78c6965d2e17-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/73236842de53d300f04b78c6965d2e17-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/73236842de53d300f04b78c6965d2e17-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/73236842de53d300f04b78c6965d2e17-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/73236842de53d300f04b78c6965d2e17.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/19727998c0a9eca1613b99521049286d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/19727998c0a9eca1613b99521049286d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/19727998c0a9eca1613b99521049286d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/19727998c0a9eca1613b99521049286d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/19727998c0a9eca1613b99521049286d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/19727998c0a9eca1613b99521049286d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/19727998c0a9eca1613b99521049286d-1536x1153.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/19727998c0a9eca1613b99521049286d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096748,
+   "title": "Electronics protection (ESD)",
+   "updated": "2026-07-14 14:10:38",
+   "lines": [
+    {
+     "html": "<strong>WARNING</strong>: Make sure to <strong>protect the electronics against electrostatic discharge (ESD)</strong>. Always unpack the electronics right before you need them!",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "Here are some <strong>tips to prevent damage to the electronics:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>Keep the electronics inside the ESD bag</strong> right until you are asked to install them.",
+     "color": "green",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Always touch the sides of the board only</strong> while handling it. Avoid touching the components on the surface.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Before you touch the electronics </strong>use any conductive (metal) structure nearby to neutralize the possible static charge from your hands.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Be extra cautious <strong>in rooms with carpets</strong>, which are often a source of electrostatic energy.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Clothes made of wool or certain synthetic fabrics can easily gather static electricity too. It is safer to wear cotton clothing for the assembly.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2d6c14b2396f2862c9384a598d1fd78f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2d6c14b2396f2862c9384a598d1fd78f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2d6c14b2396f2862c9384a598d1fd78f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2d6c14b2396f2862c9384a598d1fd78f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2d6c14b2396f2862c9384a598d1fd78f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2d6c14b2396f2862c9384a598d1fd78f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2d6c14b2396f2862c9384a598d1fd78f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2d6c14b2396f2862c9384a598d1fd78f.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1149726,
+   "title": "Optional CORE One+ Gen 2 upgrade",
+   "updated": "2026-08-20 06:29:46",
+   "lines": [
+    {
+     "html": "The <strong>Prusa INDX Conversion Kit for CORE One+</strong> includes parts for the optional <strong>CORE One+ Gen 2 upgrade</strong>.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "<strong>The Gen 2 upgrade is not required </strong>for the Prusa INDX upgrade.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "If you want to install the Gen 2 parts, use the companion article below. It tells you when to switch between this guide and the CORE One+ Gen 2 Upgrade guide.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong><a href=\"http://help.prusa3d.com/article/assemblling-the-prusa-indx-core-one-with-the-gen-2-upgrade_1147602\">Conversion of the PRUSA INDX Core one to Gen 2</a></strong>",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>We recommend keeping the companion article open throughout the assembly.</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/b04592dc7b0d4c85975a86144c868557.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/b04592dc7b0d4c85975a86144c868557-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/b04592dc7b0d4c85975a86144c868557-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/b04592dc7b0d4c85975a86144c868557-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/b04592dc7b0d4c85975a86144c868557-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/b04592dc7b0d4c85975a86144c868557-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/b04592dc7b0d4c85975a86144c868557-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/b04592dc7b0d4c85975a86144c868557.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096874,
+   "title": "Removing the MMU3",
+   "updated": "2026-07-14 14:10:46",
+   "lines": [
+    {
+     "html": "If your printer is equipped with the MMU3, it <strong>must be removed before continuing</strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "This step applies to both the MMU3 <strong>Lite</strong> (left) and the MMU3 <strong>Enclosed</strong> (right).",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Turn off the printer and disconnect it from the power.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "To remove the MMU3, follow the MMU3 assembly guide in reverse order. The guide is available on the MMU3 product page <a href=\"https://prusa.io/mmu3\">prusa.io/mmu3</a>.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Once the MMU3 has been removed, return to this guide and continue with the next step.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f627ff9750bdad3744fe50f8a3c9fd50.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f627ff9750bdad3744fe50f8a3c9fd50-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f627ff9750bdad3744fe50f8a3c9fd50-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f627ff9750bdad3744fe50f8a3c9fd50-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f627ff9750bdad3744fe50f8a3c9fd50-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f627ff9750bdad3744fe50f8a3c9fd50-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f627ff9750bdad3744fe50f8a3c9fd50-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f627ff9750bdad3744fe50f8a3c9fd50.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096814,
+   "title": "Reward yourself",
+   "updated": "2026-07-14 14:10:41",
+   "lines": [
+    {
+     "html": "Converting your CORE One+ to the INDX CORE One+ is a rewarding experience. After finishing each chapter, reward yourself. <strong>There is a bag of Haribo bears in the box just for that!</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Do not eat all the bears before you start or at once! Not following instructions will have serious consequences. We are currently assembling the Prusa Haribo tactical squad for this matter.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "After years of scientific research, we came up with a solution.  <strong>Throughout the guide, we will tell you exactly how many bears to consume.</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Eating an incorrect amount than prescribed in the manual might lead to a sudden boost of energy. Please consult a professional in the closest candy store.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>Cut open</strong> the bag of the Prusa Haribo carefully so the gummy bears don’t spill onto the table. This step is very important!",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "<strong>Hide the Haribo for now!</strong> From our experience, an unattended bag with sweets might suddenly disappear. This phenomenon is confirmed by multiple cases all around the world.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/100f9e69802eb2395878ccb8c0526bed.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/100f9e69802eb2395878ccb8c0526bed-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/100f9e69802eb2395878ccb8c0526bed-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/100f9e69802eb2395878ccb8c0526bed-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/100f9e69802eb2395878ccb8c0526bed-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/100f9e69802eb2395878ccb8c0526bed-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/100f9e69802eb2395878ccb8c0526bed-1536x1153.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/100f9e69802eb2395878ccb8c0526bed.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/33279cda5dd46df8262053b7491d7fdd.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/33279cda5dd46df8262053b7491d7fdd-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/33279cda5dd46df8262053b7491d7fdd-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/33279cda5dd46df8262053b7491d7fdd-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/33279cda5dd46df8262053b7491d7fdd-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/33279cda5dd46df8262053b7491d7fdd-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/33279cda5dd46df8262053b7491d7fdd-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/33279cda5dd46df8262053b7491d7fdd.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f01468e2c34f23f89b301624da452787.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f01468e2c34f23f89b301624da452787-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f01468e2c34f23f89b301624da452787-534x400.jpg 534w, https://help.prusa3d.com/wp-content/uploads/2026/07/f01468e2c34f23f89b301624da452787-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f01468e2c34f23f89b301624da452787-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f01468e2c34f23f89b301624da452787-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f01468e2c34f23f89b301624da452787-1536x1151.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f01468e2c34f23f89b301624da452787.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1096924,
+   "title": "Prepare your desk",
+   "updated": "2026-07-14 14:10:48",
+   "lines": [
+    {
+     "html": "<p><strong>Clear your workspace.</strong> Make sure you have enough room. A nice clear flat workbench will get you the results you are aiming for.</p>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>Let there be light!</strong> Make sure you are in a well-lit environment. Another lamp or even an extra flashlight will probably come in handy.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<p>Prepare something to contain the plastic bags and the removed packing materials so you can recycle them afterwards. Make sure there are no important parts being discarded.</p>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "A minimum working space of 1.5 × 1.5 meters (60 × 60 inches) is recommended.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>We highly recommend placing a soft pad on your workbench</strong>. Some sheet metal parts have sharp edges that could scratch the surface.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "You can use a piece of cardboard as a protective pad.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Let's start with chapter <strong>2. Printer preparation &amp; dissasembly</strong>.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a20c152cb05a8c6d11332ecfb98b90eb.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a20c152cb05a8c6d11332ecfb98b90eb-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a20c152cb05a8c6d11332ecfb98b90eb-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a20c152cb05a8c6d11332ecfb98b90eb-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a20c152cb05a8c6d11332ecfb98b90eb-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a20c152cb05a8c6d11332ecfb98b90eb-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a20c152cb05a8c6d11332ecfb98b90eb-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a20c152cb05a8c6d11332ecfb98b90eb.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a9c6fe784176200039a2a559387f1b0a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a9c6fe784176200039a2a559387f1b0a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a9c6fe784176200039a2a559387f1b0a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a9c6fe784176200039a2a559387f1b0a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a9c6fe784176200039a2a559387f1b0a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a9c6fe784176200039a2a559387f1b0a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a9c6fe784176200039a2a559387f1b0a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a9c6fe784176200039a2a559387f1b0a.jpg 1600w"
+    }
+   ]
+  }
+ ]
+}

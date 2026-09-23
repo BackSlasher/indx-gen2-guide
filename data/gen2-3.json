@@ -1,0 +1,2723 @@
+{
+ "slug": "3-belts-upgrade_1110672",
+ "title": "3. Belts upgrade",
+ "manual": "Prusa CORE One+ to (Gen 2) upgrade",
+ "manual_slug": "prusa-core-one-to-gen-2-upgrade_2435",
+ "difficulty": "Very difficult",
+ "updated": "2026-08-14 09:13:16",
+ "steps": [
+  {
+   "id": 1113009,
+   "title": "Tools",
+   "updated": "2026-07-31 09:10:19",
+   "lines": [
+    {
+     "html": "<strong>Tools necessary for this chapter:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "2.0mm Allen key",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "2.5mm Allen key",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "T10 key/screwdriver",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Needle-nose pliers",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Universal wrench",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9b625748ccda80c9391eb30dc7f5b13a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9b625748ccda80c9391eb30dc7f5b13a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9b625748ccda80c9391eb30dc7f5b13a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b625748ccda80c9391eb30dc7f5b13a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b625748ccda80c9391eb30dc7f5b13a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b625748ccda80c9391eb30dc7f5b13a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b625748ccda80c9391eb30dc7f5b13a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b625748ccda80c9391eb30dc7f5b13a.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/badadd763a3b882ae191624cb45754f7.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/badadd763a3b882ae191624cb45754f7-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/badadd763a3b882ae191624cb45754f7-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/badadd763a3b882ae191624cb45754f7-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/badadd763a3b882ae191624cb45754f7-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/badadd763a3b882ae191624cb45754f7-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/badadd763a3b882ae191624cb45754f7-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/badadd763a3b882ae191624cb45754f7.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1149106,
+   "title": "Loosening the belts",
+   "updated": "2026-08-04 11:09:34",
+   "lines": [
+    {
+     "html": "Using a 2.5 mm Allen key, remove the left belt tensioner.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Be careful, the tensioner may fall out when loosened.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Using the same method, loosen the belt tensioner on the right side.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Ensure the M3nS nuts in the Belt-tensioner-pulleys do not fall out!",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/09ff2aa091653ad87dfd1414bcdec169.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/09ff2aa091653ad87dfd1414bcdec169-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/09ff2aa091653ad87dfd1414bcdec169-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/09ff2aa091653ad87dfd1414bcdec169-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/09ff2aa091653ad87dfd1414bcdec169-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/09ff2aa091653ad87dfd1414bcdec169-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/09ff2aa091653ad87dfd1414bcdec169-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/09ff2aa091653ad87dfd1414bcdec169.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/440669f56c215c24e4842b04a8cdc184.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/440669f56c215c24e4842b04a8cdc184-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/440669f56c215c24e4842b04a8cdc184-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/440669f56c215c24e4842b04a8cdc184-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/440669f56c215c24e4842b04a8cdc184-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/440669f56c215c24e4842b04a8cdc184-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/440669f56c215c24e4842b04a8cdc184-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/440669f56c215c24e4842b04a8cdc184.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1149150,
+   "title": "Unlocking the belts",
+   "updated": "2026-08-04 11:09:38",
+   "lines": [
+    {
+     "html": "Remove the four M3x10 screws securing the Nextruder holder.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From the back of the holder, push all belt ends through the holder.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Slide the Nextruder holder off the belts.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/1a7ddd26a27775fbfc02c9b094c9274f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/1a7ddd26a27775fbfc02c9b094c9274f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/1a7ddd26a27775fbfc02c9b094c9274f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/1a7ddd26a27775fbfc02c9b094c9274f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/1a7ddd26a27775fbfc02c9b094c9274f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/1a7ddd26a27775fbfc02c9b094c9274f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/1a7ddd26a27775fbfc02c9b094c9274f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/1a7ddd26a27775fbfc02c9b094c9274f.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/6c85e55921223cb97576d3c8cf1205e7.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/6c85e55921223cb97576d3c8cf1205e7-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/6c85e55921223cb97576d3c8cf1205e7-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/6c85e55921223cb97576d3c8cf1205e7-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/6c85e55921223cb97576d3c8cf1205e7-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/6c85e55921223cb97576d3c8cf1205e7-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/6c85e55921223cb97576d3c8cf1205e7-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/6c85e55921223cb97576d3c8cf1205e7.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/a479a4a104a22f552bf6dce1aee662c2.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/a479a4a104a22f552bf6dce1aee662c2-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/a479a4a104a22f552bf6dce1aee662c2-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/a479a4a104a22f552bf6dce1aee662c2-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/a479a4a104a22f552bf6dce1aee662c2-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/a479a4a104a22f552bf6dce1aee662c2-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/a479a4a104a22f552bf6dce1aee662c2-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/a479a4a104a22f552bf6dce1aee662c2.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1149188,
+   "title": "Removing the belts",
+   "updated": "2026-08-04 11:09:43",
+   "lines": [
+    {
+     "html": "Remove both belts from the assembly.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Caution: The belt tensioner idlers are <strong>still attached to the belts</strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/be5f1ad10b000309906d4cc8a40bc986.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/be5f1ad10b000309906d4cc8a40bc986-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/be5f1ad10b000309906d4cc8a40bc986-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/be5f1ad10b000309906d4cc8a40bc986-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/be5f1ad10b000309906d4cc8a40bc986-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/be5f1ad10b000309906d4cc8a40bc986-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/be5f1ad10b000309906d4cc8a40bc986-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/be5f1ad10b000309906d4cc8a40bc986.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1149214,
+   "title": "Releasing the left motor",
+   "updated": "2026-08-27 09:07:33",
+   "lines": [
+    {
+     "html": "Move to the underside of the left rear motor.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the four M3x35 screws securing the motor to the motor holder.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the M3x6 screw securing the motor holder.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Avoid removing the screws securing the rod holder.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/35473a7e0958eb663b035f26edebd6a8.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/35473a7e0958eb663b035f26edebd6a8-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/35473a7e0958eb663b035f26edebd6a8-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/35473a7e0958eb663b035f26edebd6a8-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/35473a7e0958eb663b035f26edebd6a8-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/35473a7e0958eb663b035f26edebd6a8-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/35473a7e0958eb663b035f26edebd6a8-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/35473a7e0958eb663b035f26edebd6a8.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/23fc0e753cebcedfdd10b8aa5c6d0070.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/23fc0e753cebcedfdd10b8aa5c6d0070-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/23fc0e753cebcedfdd10b8aa5c6d0070-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/23fc0e753cebcedfdd10b8aa5c6d0070-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/23fc0e753cebcedfdd10b8aa5c6d0070-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/23fc0e753cebcedfdd10b8aa5c6d0070-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/23fc0e753cebcedfdd10b8aa5c6d0070-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/23fc0e753cebcedfdd10b8aa5c6d0070.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1149258,
+   "title": "Releasing the right motor",
+   "updated": "2026-08-27 09:07:57",
+   "lines": [
+    {
+     "html": "Loosen the screw securing the main cable clip and leave it attached to the cable bundle.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Do not move or reposition the Main-cable-clip on the cable bundle during the upgrade.",
+     "color": null,
+     "icon": "caution",
+     "level": 1
+    },
+    {
+     "html": "Move to the underside of the right rear motor.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the four M3x35 screws securing the motor to the motor holder.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the M3x6 screw securing the motor holder.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Avoid removing the screws securing the rod holder.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/163e36bed71a489641b9dd98c3b1e663.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/163e36bed71a489641b9dd98c3b1e663-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/163e36bed71a489641b9dd98c3b1e663-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/163e36bed71a489641b9dd98c3b1e663-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/163e36bed71a489641b9dd98c3b1e663-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/163e36bed71a489641b9dd98c3b1e663-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/163e36bed71a489641b9dd98c3b1e663-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/163e36bed71a489641b9dd98c3b1e663.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/6d7140aa11cb4a84ab5ab899d836453d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/6d7140aa11cb4a84ab5ab899d836453d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/6d7140aa11cb4a84ab5ab899d836453d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/6d7140aa11cb4a84ab5ab899d836453d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/6d7140aa11cb4a84ab5ab899d836453d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/6d7140aa11cb4a84ab5ab899d836453d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/6d7140aa11cb4a84ab5ab899d836453d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/6d7140aa11cb4a84ab5ab899d836453d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113087,
+   "title": "Disassembling the right motor",
+   "updated": "2026-07-22 11:23:35",
+   "lines": [
+    {
+     "html": "We recommend <strong>protecting the heatbed during handling</strong>. An empty Prusament box is an ideal protective layer.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "Focus on the rear-right motor.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the motor from the motor holder.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Place the motor on the edge of the printer frame.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using a 2.0 mm Allen key, loosen the two set screws securing the pulley.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the pulley.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Carefully cut the zip tie securing the motor cable to the motor mount.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "This pulley will no longer be used. Set it aside or discard it to <strong>avoid confusing it with the new one</strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/fdefd02e87f11e216c9f34751dfe8d0c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/fdefd02e87f11e216c9f34751dfe8d0c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/fdefd02e87f11e216c9f34751dfe8d0c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/fdefd02e87f11e216c9f34751dfe8d0c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/fdefd02e87f11e216c9f34751dfe8d0c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/fdefd02e87f11e216c9f34751dfe8d0c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/fdefd02e87f11e216c9f34751dfe8d0c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/fdefd02e87f11e216c9f34751dfe8d0c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/6cd3f7df578f12cf37ae052eede36158.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/6cd3f7df578f12cf37ae052eede36158-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/6cd3f7df578f12cf37ae052eede36158-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/6cd3f7df578f12cf37ae052eede36158-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/6cd3f7df578f12cf37ae052eede36158-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/6cd3f7df578f12cf37ae052eede36158-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/6cd3f7df578f12cf37ae052eede36158-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/6cd3f7df578f12cf37ae052eede36158.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ba010d70558bb4df0bd7ae04409ecad3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ba010d70558bb4df0bd7ae04409ecad3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ba010d70558bb4df0bd7ae04409ecad3-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ba010d70558bb4df0bd7ae04409ecad3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ba010d70558bb4df0bd7ae04409ecad3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ba010d70558bb4df0bd7ae04409ecad3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ba010d70558bb4df0bd7ae04409ecad3-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ba010d70558bb4df0bd7ae04409ecad3.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113097,
+   "title": "New pulley: parts preparation (right motor)",
+   "updated": "2026-08-20 08:55:24",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, please prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "T21-1.5GT pulley (1x)",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "1.5GT belt (2x)",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Pulley-offset-tool (1x)",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9e657ea0139429b3e0a3f50bc9d58463.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9e657ea0139429b3e0a3f50bc9d58463-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9e657ea0139429b3e0a3f50bc9d58463-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e657ea0139429b3e0a3f50bc9d58463-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e657ea0139429b3e0a3f50bc9d58463-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e657ea0139429b3e0a3f50bc9d58463-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e657ea0139429b3e0a3f50bc9d58463-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9e657ea0139429b3e0a3f50bc9d58463.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113142,
+   "title": "Installing the new pulley (right motor)",
+   "updated": "2026-08-20 08:55:38",
+   "lines": [
+    {
+     "html": "Rotate the motor shaft so that the flat faces you.<strong> Do not rotate the shaft any further.</strong>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Slide the new T21-1.5GT pulley onto the end of the shaft, with the set screw side <strong>facing the motor</strong>.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the Pulley-offset-tool, with the <strong>side marked \"Y\"</strong>, between the motor and the pulley to set the correct distance.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Press the pulley against the Pulley-offset-tool and tighten the set screw <strong>against the flat on the motor shaft</strong>.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Rotate the pulley and tighten the second set screw.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a3cdccb2ad8975f774290b24a4421221.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a3cdccb2ad8975f774290b24a4421221-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a3cdccb2ad8975f774290b24a4421221-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3cdccb2ad8975f774290b24a4421221-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3cdccb2ad8975f774290b24a4421221-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3cdccb2ad8975f774290b24a4421221-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3cdccb2ad8975f774290b24a4421221-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a3cdccb2ad8975f774290b24a4421221.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7a8c10f2f4b1bcab29e996999d11004f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7a8c10f2f4b1bcab29e996999d11004f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7a8c10f2f4b1bcab29e996999d11004f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7a8c10f2f4b1bcab29e996999d11004f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7a8c10f2f4b1bcab29e996999d11004f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7a8c10f2f4b1bcab29e996999d11004f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7a8c10f2f4b1bcab29e996999d11004f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7a8c10f2f4b1bcab29e996999d11004f.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/bfbd7a7a4562a0f890ba601f6b30d33f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/bfbd7a7a4562a0f890ba601f6b30d33f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/bfbd7a7a4562a0f890ba601f6b30d33f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/bfbd7a7a4562a0f890ba601f6b30d33f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/bfbd7a7a4562a0f890ba601f6b30d33f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/bfbd7a7a4562a0f890ba601f6b30d33f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/bfbd7a7a4562a0f890ba601f6b30d33f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/bfbd7a7a4562a0f890ba601f6b30d33f.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113153,
+   "title": "Inserting the lower belt (right motor)",
+   "updated": "2026-07-22 06:57:48",
+   "lines": [
+    {
+     "html": "Remove the motor mount from the printer.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Take one of the belts and form a loop with the <strong>teeth facing inward</strong>.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Push the belt loop into the motor mount<strong> between the two lower idlers</strong>.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Viewed from the top, the belt loop should follow the circular cutout in the motor mount as closely as possible.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/fbfdb6509e486300379c88ebdcbef862.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/fbfdb6509e486300379c88ebdcbef862-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/fbfdb6509e486300379c88ebdcbef862-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/fbfdb6509e486300379c88ebdcbef862-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/fbfdb6509e486300379c88ebdcbef862-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/fbfdb6509e486300379c88ebdcbef862-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/fbfdb6509e486300379c88ebdcbef862-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/fbfdb6509e486300379c88ebdcbef862.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c0ca3986f38dd65b123e29ff86249747.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c0ca3986f38dd65b123e29ff86249747-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c0ca3986f38dd65b123e29ff86249747-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0ca3986f38dd65b123e29ff86249747-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0ca3986f38dd65b123e29ff86249747-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0ca3986f38dd65b123e29ff86249747-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0ca3986f38dd65b123e29ff86249747-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0ca3986f38dd65b123e29ff86249747.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113164,
+   "title": "Securing the lower belt (right motor)",
+   "updated": "2026-07-30 15:20:50",
+   "lines": [
+    {
+     "html": "Throughout the process, make sure the <strong>belt does not slip out of the assembly</strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "Place the motor mount onto the printer frame. The side with the two idlers must be facing down and towards you.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the motor with the pulley into the belt loop inside the motor mount.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Fully seat the motor against the motor mount.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Orient it so that the <strong>motor cable faces outward</strong> (towards you).",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Gently pull both ends of the belts to secure the belt loop around the pulley.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a36c1ffee29899ad999a2366335b3f2b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a36c1ffee29899ad999a2366335b3f2b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a36c1ffee29899ad999a2366335b3f2b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a36c1ffee29899ad999a2366335b3f2b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a36c1ffee29899ad999a2366335b3f2b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a36c1ffee29899ad999a2366335b3f2b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a36c1ffee29899ad999a2366335b3f2b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a36c1ffee29899ad999a2366335b3f2b.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b937a2995cdcc554f0f8c70f43f58e06.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b937a2995cdcc554f0f8c70f43f58e06-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b937a2995cdcc554f0f8c70f43f58e06-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b937a2995cdcc554f0f8c70f43f58e06-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b937a2995cdcc554f0f8c70f43f58e06-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b937a2995cdcc554f0f8c70f43f58e06-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b937a2995cdcc554f0f8c70f43f58e06-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b937a2995cdcc554f0f8c70f43f58e06.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113174,
+   "title": "Guiding the lower belt (right motor)",
+   "updated": "2026-07-22 07:00:01",
+   "lines": [
+    {
+     "html": "Grasp the belt coming from the left idler.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route the belt around the idler from the left side and insert it into the motor mount.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "On the opposite side, watch for the belt to come out through the opening and pull it through until approximately 15 cm (6 in) is sticking out.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5b6f273e3f8051842d31b0d1a8b31970.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5b6f273e3f8051842d31b0d1a8b31970-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5b6f273e3f8051842d31b0d1a8b31970-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b6f273e3f8051842d31b0d1a8b31970-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b6f273e3f8051842d31b0d1a8b31970-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b6f273e3f8051842d31b0d1a8b31970-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b6f273e3f8051842d31b0d1a8b31970-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b6f273e3f8051842d31b0d1a8b31970.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9eedf9103ad48c62d765edca60774c48.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9eedf9103ad48c62d765edca60774c48-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9eedf9103ad48c62d765edca60774c48-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9eedf9103ad48c62d765edca60774c48-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9eedf9103ad48c62d765edca60774c48-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9eedf9103ad48c62d765edca60774c48-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9eedf9103ad48c62d765edca60774c48-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9eedf9103ad48c62d765edca60774c48.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/292d367b6819a5ba0a344051a622869d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/292d367b6819a5ba0a344051a622869d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/292d367b6819a5ba0a344051a622869d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/292d367b6819a5ba0a344051a622869d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/292d367b6819a5ba0a344051a622869d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/292d367b6819a5ba0a344051a622869d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/292d367b6819a5ba0a344051a622869d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/292d367b6819a5ba0a344051a622869d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113184,
+   "title": "Guiding the upper belt (right motor)",
+   "updated": "2026-08-05 14:21:37",
+   "lines": [
+    {
+     "html": "Take the second new belt.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route one end of the belt around the <strong>upper idler</strong> from the left side. Make sure the <strong>teeth face away</strong> from the idler.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From the opposite side, watch for the belt to come out through the opening.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Pull it through until approximately the same length of belt is sticking out - around 15 cm (6 in).",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<em>Pro tip:</em> To prevent the belts from being accidentally pulled out, loosely secure their ends together with a zip tie.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/995642ced7925f9636d6604f5a9332d8.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/995642ced7925f9636d6604f5a9332d8-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/995642ced7925f9636d6604f5a9332d8-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/995642ced7925f9636d6604f5a9332d8-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/995642ced7925f9636d6604f5a9332d8-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/995642ced7925f9636d6604f5a9332d8-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/995642ced7925f9636d6604f5a9332d8-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/995642ced7925f9636d6604f5a9332d8.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/84a5db48c8acf5adc06760ab04053544.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/84a5db48c8acf5adc06760ab04053544-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/84a5db48c8acf5adc06760ab04053544-534x400.jpg 534w, https://help.prusa3d.com/wp-content/uploads/2026/08/84a5db48c8acf5adc06760ab04053544-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/84a5db48c8acf5adc06760ab04053544-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/84a5db48c8acf5adc06760ab04053544-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/84a5db48c8acf5adc06760ab04053544-1536x1151.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/84a5db48c8acf5adc06760ab04053544.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113195,
+   "title": "Securing the motor cable (right motor)",
+   "updated": "2026-08-17 09:53:53",
+   "lines": [
+    {
+     "html": "Throughout the process, <strong>make sure the belts do not slip out of the assembly</strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "Move the assembly closer to the rear corner of the printer.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route the free ends of the belts toward the rear of the printer. Leave them loose for now.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Make sure the M3nN nut <strong>is still inserted </strong>in the motor mount and has not fallen out.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>If the M3nN nut has fallen out</strong>, reinsert it fully into the part.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Route the motor cable through the cable channel, as shown in the picture.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Push the zip tie through the hole in the printed part.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Carefully secure the cable with the zip tie.<br />",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b8a30338685d8d9065196048ece79f93.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b8a30338685d8d9065196048ece79f93-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b8a30338685d8d9065196048ece79f93-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b8a30338685d8d9065196048ece79f93-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b8a30338685d8d9065196048ece79f93-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b8a30338685d8d9065196048ece79f93-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b8a30338685d8d9065196048ece79f93-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b8a30338685d8d9065196048ece79f93.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d0daeceaf0b24c854ae2acf4d76055d1.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d0daeceaf0b24c854ae2acf4d76055d1-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d0daeceaf0b24c854ae2acf4d76055d1-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0daeceaf0b24c854ae2acf4d76055d1-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0daeceaf0b24c854ae2acf4d76055d1-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0daeceaf0b24c854ae2acf4d76055d1-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0daeceaf0b24c854ae2acf4d76055d1-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0daeceaf0b24c854ae2acf4d76055d1.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/17de20dd5fd6540eca9aa27568157b1d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/17de20dd5fd6540eca9aa27568157b1d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/17de20dd5fd6540eca9aa27568157b1d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/17de20dd5fd6540eca9aa27568157b1d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/17de20dd5fd6540eca9aa27568157b1d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/17de20dd5fd6540eca9aa27568157b1d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/17de20dd5fd6540eca9aa27568157b1d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/17de20dd5fd6540eca9aa27568157b1d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113207,
+   "title": "Fixing the right motor",
+   "updated": "2026-07-23 10:30:58",
+   "lines": [
+    {
+     "html": "Rotate the motor assembly with the motor mount into the correct position. The <strong>belt pulleys must face the rear side</strong> of the printer.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The motor mount has a tab on the bottom side that must fit into the rectangular cutout in the frame.",
+     "color": "yellow",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "From the inner side of the printer, check that the lower belt is seated on the pulley throught the hexa hole in the motor-mount.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/fc24058b9c1e7dbec08db28c48055513.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/fc24058b9c1e7dbec08db28c48055513-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/fc24058b9c1e7dbec08db28c48055513-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc24058b9c1e7dbec08db28c48055513-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc24058b9c1e7dbec08db28c48055513-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc24058b9c1e7dbec08db28c48055513-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc24058b9c1e7dbec08db28c48055513-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc24058b9c1e7dbec08db28c48055513.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7e053f5ca79b2ad9a7c66966c6b4cb74.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7e053f5ca79b2ad9a7c66966c6b4cb74-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7e053f5ca79b2ad9a7c66966c6b4cb74-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7e053f5ca79b2ad9a7c66966c6b4cb74-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7e053f5ca79b2ad9a7c66966c6b4cb74-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7e053f5ca79b2ad9a7c66966c6b4cb74-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7e053f5ca79b2ad9a7c66966c6b4cb74-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7e053f5ca79b2ad9a7c66966c6b4cb74.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113217,
+   "title": "Right motor screws: parts preparation",
+   "updated": "2026-08-27 09:09:18",
+   "lines": [
+    {
+     "html": "<strong>For the followings steps, please prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x35 screw (4x) <em>you removed earlier</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x6 screw (1x) <em>you removed earlier</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3nS nut (1x) you removed earlier<em>may have remained inserted from the outer side of the motor mount.</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x10 screw (1x) <em>you removed earlier</em>",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/39e302167ee46eb54c29d40b8eb5f1ae.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/39e302167ee46eb54c29d40b8eb5f1ae-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/39e302167ee46eb54c29d40b8eb5f1ae-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/39e302167ee46eb54c29d40b8eb5f1ae-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/39e302167ee46eb54c29d40b8eb5f1ae-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/39e302167ee46eb54c29d40b8eb5f1ae-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/39e302167ee46eb54c29d40b8eb5f1ae-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/39e302167ee46eb54c29d40b8eb5f1ae.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/837526e6af5381e21a382c82c91f41ab.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/837526e6af5381e21a382c82c91f41ab-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/837526e6af5381e21a382c82c91f41ab-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/837526e6af5381e21a382c82c91f41ab-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/837526e6af5381e21a382c82c91f41ab-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/837526e6af5381e21a382c82c91f41ab-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/837526e6af5381e21a382c82c91f41ab-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/837526e6af5381e21a382c82c91f41ab.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113237,
+   "title": "Tightening the right motor",
+   "updated": "2026-08-27 09:08:38",
+   "lines": [
+    {
+     "html": "Secure the entire motor assembly from the bottom side of the frame using four M3x35 screws.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Finally, secure the motor mount with an M3x6 screw.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From the top side, behind the motor, attach the Main-cable-clip back to the motor mount using the pre-inserted M3x10 screw.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ca91f245b59fa97f056b9445fadddebe.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ca91f245b59fa97f056b9445fadddebe-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ca91f245b59fa97f056b9445fadddebe-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ca91f245b59fa97f056b9445fadddebe-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ca91f245b59fa97f056b9445fadddebe-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ca91f245b59fa97f056b9445fadddebe-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ca91f245b59fa97f056b9445fadddebe-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ca91f245b59fa97f056b9445fadddebe.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/55224d491741a5a13bf2b35422492e5f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/55224d491741a5a13bf2b35422492e5f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/55224d491741a5a13bf2b35422492e5f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/55224d491741a5a13bf2b35422492e5f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/55224d491741a5a13bf2b35422492e5f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/55224d491741a5a13bf2b35422492e5f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/55224d491741a5a13bf2b35422492e5f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/55224d491741a5a13bf2b35422492e5f.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113247,
+   "title": "Securing the Bowden-guide",
+   "updated": "2026-07-20 07:58:44",
+   "lines": [
+    {
+     "html": "From the outer side of the motor mount, insert the M3nN nut if it is not already inserted.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Attach the Bowden-guide to the motor-mount using the M3x10 screw.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/32ceb5b7c2d3cdeeb782a83d2c067d92.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/32ceb5b7c2d3cdeeb782a83d2c067d92-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/32ceb5b7c2d3cdeeb782a83d2c067d92-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/32ceb5b7c2d3cdeeb782a83d2c067d92-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/32ceb5b7c2d3cdeeb782a83d2c067d92-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/32ceb5b7c2d3cdeeb782a83d2c067d92-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/32ceb5b7c2d3cdeeb782a83d2c067d92-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/32ceb5b7c2d3cdeeb782a83d2c067d92.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4241338766529c45f037e05de8173617.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4241338766529c45f037e05de8173617-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4241338766529c45f037e05de8173617-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4241338766529c45f037e05de8173617-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4241338766529c45f037e05de8173617-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4241338766529c45f037e05de8173617-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4241338766529c45f037e05de8173617-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4241338766529c45f037e05de8173617.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113260,
+   "title": "Disassembling the left motor",
+   "updated": "2026-07-20 08:06:14",
+   "lines": [
+    {
+     "html": "Focus on the rear-left motor.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Rotate the motor assembly with the cable facing outward.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Carefully cut the zip tie. Be careful not to cut the cable.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the motor from the motor-mount and remove the motor-mount from the printer.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Place the motor on the printer frame.<br />",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using a 2.0 mm Allen key, loosen the two set screws securing the pulley.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the pulley.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "This pulley will no longer be used. Set it aside or discard it to <strong>avoid confusing it with the new one</strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a690bb59c07c1f53d88f23c56c6da591.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a690bb59c07c1f53d88f23c56c6da591-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a690bb59c07c1f53d88f23c56c6da591-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a690bb59c07c1f53d88f23c56c6da591-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a690bb59c07c1f53d88f23c56c6da591-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a690bb59c07c1f53d88f23c56c6da591-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a690bb59c07c1f53d88f23c56c6da591-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a690bb59c07c1f53d88f23c56c6da591.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/59d79ae93bef36ff64d092c8fb4d9eef.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/59d79ae93bef36ff64d092c8fb4d9eef-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/59d79ae93bef36ff64d092c8fb4d9eef-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/59d79ae93bef36ff64d092c8fb4d9eef-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/59d79ae93bef36ff64d092c8fb4d9eef-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/59d79ae93bef36ff64d092c8fb4d9eef-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/59d79ae93bef36ff64d092c8fb4d9eef-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/59d79ae93bef36ff64d092c8fb4d9eef.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f46a22cf093644ae978f2f5b024bd875.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f46a22cf093644ae978f2f5b024bd875-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f46a22cf093644ae978f2f5b024bd875-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f46a22cf093644ae978f2f5b024bd875-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f46a22cf093644ae978f2f5b024bd875-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f46a22cf093644ae978f2f5b024bd875-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f46a22cf093644ae978f2f5b024bd875-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f46a22cf093644ae978f2f5b024bd875.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113280,
+   "title": "New pulley: parts preparation (left motor)",
+   "updated": "2026-08-20 08:53:39",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, please prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "T21-1.5GT pulley (1x)",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Pulley-offset-tool (1x) <em>you used it before</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/635f3f88167844613b1f0b1b58e5ea07.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c1d6249aadd38079917ef0b2802dbfa.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113499,
+   "title": "Belt routing overview",
+   "updated": "2026-07-20 08:13:14",
+   "lines": [
+    {
+     "html": "Before routing the belts, familiarize yourself with their path through the CoreXY mechanism.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "The following diagrams show the routing of the upper and lower belts and their orientation within the assembly.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Upper belt path",
+     "color": "light_blue",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Lower belt path",
+     "color": "violet",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Do not perform any actions in this step.</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/47738b411a64a370f11f964d94e83684.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/47738b411a64a370f11f964d94e83684-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/47738b411a64a370f11f964d94e83684-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/47738b411a64a370f11f964d94e83684-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/47738b411a64a370f11f964d94e83684-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/47738b411a64a370f11f964d94e83684-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/47738b411a64a370f11f964d94e83684-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/47738b411a64a370f11f964d94e83684.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113272,
+   "title": "Installing the new pulley (left motor)",
+   "updated": "2026-08-20 08:53:54",
+   "lines": [
+    {
+     "html": "Rotate the motor shaft so that the flat faces you. <strong>Do not rotate the shaft any further.</strong>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Slide the new T21-1.5GT pulley onto the shaft, with the set screw side facing <strong>away from the motor</strong>.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the Pulley-offset-tool, with the side marked \"X\", between the motor and the pulley to set the correct distance.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Press the pulley against the Pulley-offset-tool and tighten the set screw <strong>against the flat on the motor shaft</strong>.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Rotate the pulley and tighten the second set screw.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c53b4ddd7df6204d0bedd210eb35be75.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c53b4ddd7df6204d0bedd210eb35be75-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c53b4ddd7df6204d0bedd210eb35be75-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c53b4ddd7df6204d0bedd210eb35be75-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c53b4ddd7df6204d0bedd210eb35be75-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c53b4ddd7df6204d0bedd210eb35be75-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c53b4ddd7df6204d0bedd210eb35be75-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c53b4ddd7df6204d0bedd210eb35be75.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9722570f344e3edd112a7fd2827913e1.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9722570f344e3edd112a7fd2827913e1-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9722570f344e3edd112a7fd2827913e1-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9722570f344e3edd112a7fd2827913e1-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9722570f344e3edd112a7fd2827913e1-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9722570f344e3edd112a7fd2827913e1-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9722570f344e3edd112a7fd2827913e1-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9722570f344e3edd112a7fd2827913e1.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2ea07d051f3dc82f184ff5e0fa5f4670.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2ea07d051f3dc82f184ff5e0fa5f4670-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2ea07d051f3dc82f184ff5e0fa5f4670-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2ea07d051f3dc82f184ff5e0fa5f4670-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2ea07d051f3dc82f184ff5e0fa5f4670-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2ea07d051f3dc82f184ff5e0fa5f4670-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2ea07d051f3dc82f184ff5e0fa5f4670-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2ea07d051f3dc82f184ff5e0fa5f4670.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113291,
+   "title": "Guiding the lower belt (left motor)",
+   "updated": "2026-07-20 08:23:25",
+   "lines": [
+    {
+     "html": "Route both belts from the right motor towards the rear side of the printer and guide them to the left motor.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Place the motor-mount onto the printer frame with the side containing one pulley facing downward.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route the <strong>lower belt </strong>around the lower idler from the right side.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>Make sure you are holding the lower belt</strong> coming from the right motor.<br /><strong>The belt must not be twisted along its path.</strong>",
+     "color": null,
+     "icon": "caution",
+     "level": 1
+    },
+    {
+     "html": "From the opposite side, pull the belt out approximately 15 cm (6 in).",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/fd62d1aead5b34cd45d33b5561611308.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/fd62d1aead5b34cd45d33b5561611308-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/fd62d1aead5b34cd45d33b5561611308-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/fd62d1aead5b34cd45d33b5561611308-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/fd62d1aead5b34cd45d33b5561611308-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/fd62d1aead5b34cd45d33b5561611308-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/fd62d1aead5b34cd45d33b5561611308-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/fd62d1aead5b34cd45d33b5561611308.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e74a0d5c1c5ac5c5fb0a6d102c455d9d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e74a0d5c1c5ac5c5fb0a6d102c455d9d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e74a0d5c1c5ac5c5fb0a6d102c455d9d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e74a0d5c1c5ac5c5fb0a6d102c455d9d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e74a0d5c1c5ac5c5fb0a6d102c455d9d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e74a0d5c1c5ac5c5fb0a6d102c455d9d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e74a0d5c1c5ac5c5fb0a6d102c455d9d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e74a0d5c1c5ac5c5fb0a6d102c455d9d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113301,
+   "title": "Inserting the upper belt (left motor)",
+   "updated": "2026-07-20 08:27:12",
+   "lines": [
+    {
+     "html": "Take the<strong> upper belt</strong> and form a loop with the <strong>teeth facing inward</strong>.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Push the belt loop into the motor mount <strong>between the two upper pulleys</strong>.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Viewed from the top, the belt loop should follow the circular cutout in the motor mount as closely as possible.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/8fd293d7308e5b1d2cd1771295437578.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/8fd293d7308e5b1d2cd1771295437578-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/8fd293d7308e5b1d2cd1771295437578-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/8fd293d7308e5b1d2cd1771295437578-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/8fd293d7308e5b1d2cd1771295437578-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/8fd293d7308e5b1d2cd1771295437578-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/8fd293d7308e5b1d2cd1771295437578-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/8fd293d7308e5b1d2cd1771295437578.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d9c56159e01bdf3629f21daa4367bb09.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d9c56159e01bdf3629f21daa4367bb09-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d9c56159e01bdf3629f21daa4367bb09-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d9c56159e01bdf3629f21daa4367bb09-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d9c56159e01bdf3629f21daa4367bb09-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d9c56159e01bdf3629f21daa4367bb09-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d9c56159e01bdf3629f21daa4367bb09-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d9c56159e01bdf3629f21daa4367bb09.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113311,
+   "title": "Securing the upper belt (left motor)",
+   "updated": "2026-07-23 12:25:49",
+   "lines": [
+    {
+     "html": "Throughout the process, make sure the <strong>belt does not slip out of the assembly</strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "Insert the motor with the pulley into the belt loop inside the motor mount.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Fully seat the motor against the motor mount.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Orient it so that the motor cable faces backward (towards the pulleys).",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Gently pull both ends of the belts to secure the belt loop around the pulley.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ce3762d81811ec1332fe0697354e7a0c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ce3762d81811ec1332fe0697354e7a0c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ce3762d81811ec1332fe0697354e7a0c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ce3762d81811ec1332fe0697354e7a0c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ce3762d81811ec1332fe0697354e7a0c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ce3762d81811ec1332fe0697354e7a0c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ce3762d81811ec1332fe0697354e7a0c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ce3762d81811ec1332fe0697354e7a0c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/95476dda702a39a76a1c205d697a0537.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/95476dda702a39a76a1c205d697a0537-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/95476dda702a39a76a1c205d697a0537-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/95476dda702a39a76a1c205d697a0537-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/95476dda702a39a76a1c205d697a0537-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/95476dda702a39a76a1c205d697a0537-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/95476dda702a39a76a1c205d697a0537-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/95476dda702a39a76a1c205d697a0537.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113321,
+   "title": "Guiding the upper belt (left motor)",
+   "updated": "2026-07-21 13:24:26",
+   "lines": [
+    {
+     "html": "Grasp the right belt coming from the upper pulley.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route the belt around the upper right pulley <strong>from the right side </strong>and insert it into the motor mount.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "On the opposite side, watch for the belt to come out through the opening and pull it through until approximately 15 cm (6 in) is sticking out.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/aab3073e89a96d1b2d23dec44a69aa00.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/aab3073e89a96d1b2d23dec44a69aa00-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/aab3073e89a96d1b2d23dec44a69aa00-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/aab3073e89a96d1b2d23dec44a69aa00-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/aab3073e89a96d1b2d23dec44a69aa00-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/aab3073e89a96d1b2d23dec44a69aa00-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/aab3073e89a96d1b2d23dec44a69aa00-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/aab3073e89a96d1b2d23dec44a69aa00.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5b81d26e6a28364f51c104a04a4054df.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5b81d26e6a28364f51c104a04a4054df-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5b81d26e6a28364f51c104a04a4054df-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b81d26e6a28364f51c104a04a4054df-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b81d26e6a28364f51c104a04a4054df-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b81d26e6a28364f51c104a04a4054df-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b81d26e6a28364f51c104a04a4054df-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b81d26e6a28364f51c104a04a4054df.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113332,
+   "title": "Securing the motor cable (left motor)",
+   "updated": "2026-08-20 16:21:35",
+   "lines": [
+    {
+     "html": "Move the assembly closer to the rear corner of the printer.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route the motor cable through the cable channel, as shown in the picture.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Push the zip tie through the hole in the printed part. And carefully secure the cable with the zip tie.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/d39c704d94923d589702b595efe63a73.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/d39c704d94923d589702b595efe63a73-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/d39c704d94923d589702b595efe63a73-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/d39c704d94923d589702b595efe63a73-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/d39c704d94923d589702b595efe63a73-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/d39c704d94923d589702b595efe63a73-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/d39c704d94923d589702b595efe63a73-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/d39c704d94923d589702b595efe63a73.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/f2baf98dbc912c9391678fabdfc9ea6d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/f2baf98dbc912c9391678fabdfc9ea6d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/f2baf98dbc912c9391678fabdfc9ea6d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/f2baf98dbc912c9391678fabdfc9ea6d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/f2baf98dbc912c9391678fabdfc9ea6d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/f2baf98dbc912c9391678fabdfc9ea6d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/f2baf98dbc912c9391678fabdfc9ea6d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/f2baf98dbc912c9391678fabdfc9ea6d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1115041,
+   "title": "Fixing the left motor",
+   "updated": "2026-07-22 06:57:21",
+   "lines": [
+    {
+     "html": "Rotate the motor assembly with the motor mount into the correct position. The <strong>belt idlers must face the rear side</strong> of the printer.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The motor mount has a tab on the bottom side that must fit into the rectangular cutout in the frame.",
+     "color": "yellow",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "From the inner side of the printer, check that the upper belt is seated on the idler throught the hexa hole in the motor-mount.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2baceb43aa8b41b36cd734cb6fd0e1be.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2baceb43aa8b41b36cd734cb6fd0e1be-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2baceb43aa8b41b36cd734cb6fd0e1be-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2baceb43aa8b41b36cd734cb6fd0e1be-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2baceb43aa8b41b36cd734cb6fd0e1be-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2baceb43aa8b41b36cd734cb6fd0e1be-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2baceb43aa8b41b36cd734cb6fd0e1be-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2baceb43aa8b41b36cd734cb6fd0e1be.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2df57a047102a7fe0a672f55291fb86b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2df57a047102a7fe0a672f55291fb86b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2df57a047102a7fe0a672f55291fb86b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2df57a047102a7fe0a672f55291fb86b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2df57a047102a7fe0a672f55291fb86b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2df57a047102a7fe0a672f55291fb86b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2df57a047102a7fe0a672f55291fb86b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2df57a047102a7fe0a672f55291fb86b.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113350,
+   "title": "Belt tensioner pulleys: parts preparation",
+   "updated": "2026-08-27 09:09:51",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, please prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x35 screw (4x) <em>you removed earlier</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x6 screw (1x) <em>you removed earlier</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Belt tensioner assembly (2x) <em>you removed earlier</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/db41cb78467bff113eb1fb5607f409cd.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/db41cb78467bff113eb1fb5607f409cd-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/db41cb78467bff113eb1fb5607f409cd-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/db41cb78467bff113eb1fb5607f409cd-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/db41cb78467bff113eb1fb5607f409cd-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/db41cb78467bff113eb1fb5607f409cd-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/db41cb78467bff113eb1fb5607f409cd-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/db41cb78467bff113eb1fb5607f409cd.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/6b0896938171318f83dac1ab2bcc28b7.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/6b0896938171318f83dac1ab2bcc28b7-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/6b0896938171318f83dac1ab2bcc28b7-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/6b0896938171318f83dac1ab2bcc28b7-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/6b0896938171318f83dac1ab2bcc28b7-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/6b0896938171318f83dac1ab2bcc28b7-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/6b0896938171318f83dac1ab2bcc28b7-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/6b0896938171318f83dac1ab2bcc28b7.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113341,
+   "title": "Tightening the left motor",
+   "updated": "2026-08-27 09:08:17",
+   "lines": [
+    {
+     "html": "Secure the entire motor assembly from the bottom side of the frame using four M3x35 screws.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Finally, secure the motor mount with an M3x6 screw.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b9619e1b4b5c9ef82b409f3b9fe5e995.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b9619e1b4b5c9ef82b409f3b9fe5e995-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b9619e1b4b5c9ef82b409f3b9fe5e995-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9619e1b4b5c9ef82b409f3b9fe5e995-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9619e1b4b5c9ef82b409f3b9fe5e995-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9619e1b4b5c9ef82b409f3b9fe5e995-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9619e1b4b5c9ef82b409f3b9fe5e995-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9619e1b4b5c9ef82b409f3b9fe5e995.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113364,
+   "title": "Guiding the upper belt (left side)",
+   "updated": "2026-07-20 09:09:49",
+   "lines": [
+    {
+     "html": "Take the <strong>upper</strong> belt coming from the left motor.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>Route the belt around the idler so that:</strong>",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The \"L\" (left) mark on the idler faces upward",
+     "color": "green",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The toothed side of the belt does not contact the idler",
+     "color": "red",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The belt must not be twisted along its path.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/6286b70da1fa813b26e8142979e62c79.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/6286b70da1fa813b26e8142979e62c79-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/6286b70da1fa813b26e8142979e62c79-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/6286b70da1fa813b26e8142979e62c79-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/6286b70da1fa813b26e8142979e62c79-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/6286b70da1fa813b26e8142979e62c79-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/6286b70da1fa813b26e8142979e62c79-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/6286b70da1fa813b26e8142979e62c79.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f75a37ac4b54cb559ed15a32c8e51f09.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f75a37ac4b54cb559ed15a32c8e51f09-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f75a37ac4b54cb559ed15a32c8e51f09-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f75a37ac4b54cb559ed15a32c8e51f09-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f75a37ac4b54cb559ed15a32c8e51f09-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f75a37ac4b54cb559ed15a32c8e51f09-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f75a37ac4b54cb559ed15a32c8e51f09-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f75a37ac4b54cb559ed15a32c8e51f09.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113372,
+   "title": "Attaching the left belt tensioner",
+   "updated": "2026-07-20 09:16:58",
+   "lines": [
+    {
+     "html": "Insert the idler with the belt wrapped around it into the \"rails\" of the left tensioner.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From the opposite side, tighten the pre-inserted screw until the idler assembly starts to move.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Stop tightening when the sliding part is flush with the stationary part.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/41f7ef3822865118a0b5ce615dc30f43.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/41f7ef3822865118a0b5ce615dc30f43-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/41f7ef3822865118a0b5ce615dc30f43-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/41f7ef3822865118a0b5ce615dc30f43-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/41f7ef3822865118a0b5ce615dc30f43-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/41f7ef3822865118a0b5ce615dc30f43-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/41f7ef3822865118a0b5ce615dc30f43-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/41f7ef3822865118a0b5ce615dc30f43.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f9c51448ee53d797c7418059b79e91b9.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f9c51448ee53d797c7418059b79e91b9-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f9c51448ee53d797c7418059b79e91b9-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f9c51448ee53d797c7418059b79e91b9-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f9c51448ee53d797c7418059b79e91b9-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f9c51448ee53d797c7418059b79e91b9-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f9c51448ee53d797c7418059b79e91b9-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f9c51448ee53d797c7418059b79e91b9.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113381,
+   "title": "Guiding the upper belt (gantry - left)",
+   "updated": "2026-07-20 09:23:57",
+   "lines": [
+    {
+     "html": "Route the free end of the belt coming from the idler around the upper idler on the XY gantry.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The XY gantry idlers may differ visually between printer versions. The procedure is identical for both 3D-printed and injection-molded parts.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f6aab55183d8b3412501c62093196f79.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f6aab55183d8b3412501c62093196f79-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f6aab55183d8b3412501c62093196f79-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6aab55183d8b3412501c62093196f79-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6aab55183d8b3412501c62093196f79-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6aab55183d8b3412501c62093196f79-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6aab55183d8b3412501c62093196f79-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f6aab55183d8b3412501c62093196f79.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113394,
+   "title": "Guiding the lower belt (gantry - left)",
+   "updated": "2026-07-20 09:27:22",
+   "lines": [
+    {
+     "html": "Take the lower belt coming from the left motor.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route it towards the XY gantry and around the lower idler.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From the opposite side, pull the belt through until at least 8 cm (3 in) is sticking out.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/be4a9d2ba4077129892553f8e93b1ec1.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/be4a9d2ba4077129892553f8e93b1ec1-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/be4a9d2ba4077129892553f8e93b1ec1-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/be4a9d2ba4077129892553f8e93b1ec1-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/be4a9d2ba4077129892553f8e93b1ec1-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/be4a9d2ba4077129892553f8e93b1ec1-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/be4a9d2ba4077129892553f8e93b1ec1-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/be4a9d2ba4077129892553f8e93b1ec1.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/346a103ca16f2ee67952b12b98bc5fdc.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/346a103ca16f2ee67952b12b98bc5fdc-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/346a103ca16f2ee67952b12b98bc5fdc-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/346a103ca16f2ee67952b12b98bc5fdc-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/346a103ca16f2ee67952b12b98bc5fdc-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/346a103ca16f2ee67952b12b98bc5fdc-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/346a103ca16f2ee67952b12b98bc5fdc-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/346a103ca16f2ee67952b12b98bc5fdc.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c1b5ecc51abb543a8647876c2cc5bc96.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c1b5ecc51abb543a8647876c2cc5bc96-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c1b5ecc51abb543a8647876c2cc5bc96-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1b5ecc51abb543a8647876c2cc5bc96-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1b5ecc51abb543a8647876c2cc5bc96-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1b5ecc51abb543a8647876c2cc5bc96-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1b5ecc51abb543a8647876c2cc5bc96-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1b5ecc51abb543a8647876c2cc5bc96.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113404,
+   "title": "Guiding the lower belt",
+   "updated": "2026-07-27 07:52:00",
+   "lines": [
+    {
+     "html": "Move to the right motor.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the zip tie securing the two free belt ends on the right side of the printer, if you used one.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Take the <strong>lower</strong> belt coming from the right motor.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>Route the belt around the idler so that:</strong>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The \"R\" (right) mark on the idler faces upward",
+     "color": "blue",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The toothed side of the belt does not contact the idler",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The belt must not be twisted along its path.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4aa0368f6d2de51a14b3391d07c3beb5.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4aa0368f6d2de51a14b3391d07c3beb5-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4aa0368f6d2de51a14b3391d07c3beb5-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4aa0368f6d2de51a14b3391d07c3beb5-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4aa0368f6d2de51a14b3391d07c3beb5-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4aa0368f6d2de51a14b3391d07c3beb5-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4aa0368f6d2de51a14b3391d07c3beb5-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4aa0368f6d2de51a14b3391d07c3beb5.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/eb559945ad4080d76f314d78b1a48b99.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/eb559945ad4080d76f314d78b1a48b99-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/eb559945ad4080d76f314d78b1a48b99-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/eb559945ad4080d76f314d78b1a48b99-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/eb559945ad4080d76f314d78b1a48b99-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/eb559945ad4080d76f314d78b1a48b99-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/eb559945ad4080d76f314d78b1a48b99-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/eb559945ad4080d76f314d78b1a48b99.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/bd3b47c1034a8e531d26113763f7816e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/bd3b47c1034a8e531d26113763f7816e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/bd3b47c1034a8e531d26113763f7816e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3b47c1034a8e531d26113763f7816e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3b47c1034a8e531d26113763f7816e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3b47c1034a8e531d26113763f7816e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3b47c1034a8e531d26113763f7816e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3b47c1034a8e531d26113763f7816e.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113415,
+   "title": "Attaching the right belt tensioner",
+   "updated": "2026-07-20 09:44:18",
+   "lines": [
+    {
+     "html": "Insert the idler with the belt wrapped around it into the \"rails\" of the right tensioner.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From the opposite side, tighten the pre-inserted screw until the idler assembly starts to move.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Stop tightening when the sliding part is flush with the stationary part.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/43dad90731fe80c0c2a458ac1e3441b5.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/43dad90731fe80c0c2a458ac1e3441b5-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/43dad90731fe80c0c2a458ac1e3441b5-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/43dad90731fe80c0c2a458ac1e3441b5-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/43dad90731fe80c0c2a458ac1e3441b5-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/43dad90731fe80c0c2a458ac1e3441b5-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/43dad90731fe80c0c2a458ac1e3441b5-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/43dad90731fe80c0c2a458ac1e3441b5.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b24fbfb90bc5ad28bd88455407be5019.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b24fbfb90bc5ad28bd88455407be5019-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b24fbfb90bc5ad28bd88455407be5019-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b24fbfb90bc5ad28bd88455407be5019-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b24fbfb90bc5ad28bd88455407be5019-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b24fbfb90bc5ad28bd88455407be5019-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b24fbfb90bc5ad28bd88455407be5019-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b24fbfb90bc5ad28bd88455407be5019.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113481,
+   "title": "Guiding the lower belt (gantry - right)",
+   "updated": "2026-09-01 16:12:30",
+   "lines": [
+    {
+     "html": "Route the free end of the belt coming from the idler around the lower idler on the XY gantry.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From the opposite side, pull the belt through until at least 8 cm (3 in) is sticking out.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The XY gantry idlers may differ visually between printer versions. The procedure is identical for both 3D-printed and injection-molded parts.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c3e5ac566605b2e74b313953c9d0d74.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c3e5ac566605b2e74b313953c9d0d74-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c3e5ac566605b2e74b313953c9d0d74-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c3e5ac566605b2e74b313953c9d0d74-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c3e5ac566605b2e74b313953c9d0d74-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c3e5ac566605b2e74b313953c9d0d74-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c3e5ac566605b2e74b313953c9d0d74-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c3e5ac566605b2e74b313953c9d0d74.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113491,
+   "title": "Guiding the upper belt (gantry - right)",
+   "updated": "2026-08-18 15:08:54",
+   "lines": [
+    {
+     "html": "Take the upper belt coming from the right motor.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route the belt around the upper idler on the XY gantry.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From the opposite side, pull the belt through until at least 8 cm (3 in) is sticking out.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "If you are assembling the Prusa INDX along with the GEN 2 upgrade, <strong><a href=\"http://help.prusa3d.com/article/assemblling-the-prusa-indx-core-one-with-the-gen-2-upgrade_1147602#gantry-aligner-tool\">return to the Prusa INDX GEN 2 article now</a></strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3a5aa4ed4295def8d2e89a9d1d422414.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3a5aa4ed4295def8d2e89a9d1d422414-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3a5aa4ed4295def8d2e89a9d1d422414-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3a5aa4ed4295def8d2e89a9d1d422414-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3a5aa4ed4295def8d2e89a9d1d422414-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3a5aa4ed4295def8d2e89a9d1d422414-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3a5aa4ed4295def8d2e89a9d1d422414-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3a5aa4ed4295def8d2e89a9d1d422414.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3df9696b19349352696b7cb8af950c2b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3df9696b19349352696b7cb8af950c2b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3df9696b19349352696b7cb8af950c2b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3df9696b19349352696b7cb8af950c2b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3df9696b19349352696b7cb8af950c2b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3df9696b19349352696b7cb8af950c2b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3df9696b19349352696b7cb8af950c2b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3df9696b19349352696b7cb8af950c2b.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b0ffe7e6c2e424fc60a4c5395b1c9462.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b0ffe7e6c2e424fc60a4c5395b1c9462-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b0ffe7e6c2e424fc60a4c5395b1c9462-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b0ffe7e6c2e424fc60a4c5395b1c9462-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b0ffe7e6c2e424fc60a4c5395b1c9462-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b0ffe7e6c2e424fc60a4c5395b1c9462-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b0ffe7e6c2e424fc60a4c5395b1c9462-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b0ffe7e6c2e424fc60a4c5395b1c9462.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113507,
+   "title": "Nextruder holder: parts preparation",
+   "updated": "2026-07-20 09:58:02",
+   "lines": [
+    {
+     "html": "<strong>For the follwing steps, pelase prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Nextruder holder assembly (1x) <em>you removed earlier</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x10 screw (4x) <em>you removed earlier</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/95d9b0b2b496eee0054ab4a76a4b999c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/95d9b0b2b496eee0054ab4a76a4b999c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/95d9b0b2b496eee0054ab4a76a4b999c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/95d9b0b2b496eee0054ab4a76a4b999c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/95d9b0b2b496eee0054ab4a76a4b999c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/95d9b0b2b496eee0054ab4a76a4b999c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/95d9b0b2b496eee0054ab4a76a4b999c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/95d9b0b2b496eee0054ab4a76a4b999c.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113518,
+   "title": "Securing the belts I.",
+   "updated": "2026-07-20 10:11:32",
+   "lines": [
+    {
+     "html": "Gently pull all belt ends towards the center of the printer.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Keep the Nextruder holder in the same orientation as shown in the picture.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route the <strong>lower left</strong> belt through the center opening of the Nextruder holder from the rear side to the front.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Pull the belt out so that approximately 15 mm protrudes.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "From the front side of the Nextruder holder, route the belt back through the left opening towards the rear.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3cb4c0d6f241eab497b602cbf0b59c61.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3cb4c0d6f241eab497b602cbf0b59c61-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3cb4c0d6f241eab497b602cbf0b59c61-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3cb4c0d6f241eab497b602cbf0b59c61-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3cb4c0d6f241eab497b602cbf0b59c61-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3cb4c0d6f241eab497b602cbf0b59c61-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3cb4c0d6f241eab497b602cbf0b59c61-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3cb4c0d6f241eab497b602cbf0b59c61.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f607ccf457a03c4c30ea8e9bc421f02e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f607ccf457a03c4c30ea8e9bc421f02e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f607ccf457a03c4c30ea8e9bc421f02e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f607ccf457a03c4c30ea8e9bc421f02e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f607ccf457a03c4c30ea8e9bc421f02e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f607ccf457a03c4c30ea8e9bc421f02e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f607ccf457a03c4c30ea8e9bc421f02e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f607ccf457a03c4c30ea8e9bc421f02e.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/89d54bcfe23763c7f750db2e05b2c056.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/89d54bcfe23763c7f750db2e05b2c056-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/89d54bcfe23763c7f750db2e05b2c056-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/89d54bcfe23763c7f750db2e05b2c056-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/89d54bcfe23763c7f750db2e05b2c056-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/89d54bcfe23763c7f750db2e05b2c056-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/89d54bcfe23763c7f750db2e05b2c056-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/89d54bcfe23763c7f750db2e05b2c056.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113543,
+   "title": "Securing the belts II.",
+   "updated": "2026-07-20 10:11:18",
+   "lines": [
+    {
+     "html": "From the rear side, place the belt end against the Nextruder holder.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Adjust the belt length so that the belt end is f<strong>lush with the edge</strong> of the Nextruder holder.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Repeat the same procedure for the <strong>upper left </strong>belt.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/be3b715e5d116a9a0d2b75af15fc072c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/be3b715e5d116a9a0d2b75af15fc072c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/be3b715e5d116a9a0d2b75af15fc072c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/be3b715e5d116a9a0d2b75af15fc072c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/be3b715e5d116a9a0d2b75af15fc072c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/be3b715e5d116a9a0d2b75af15fc072c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/be3b715e5d116a9a0d2b75af15fc072c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/be3b715e5d116a9a0d2b75af15fc072c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a364320598c29f7b89473e892b507c66.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a364320598c29f7b89473e892b507c66-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a364320598c29f7b89473e892b507c66-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a364320598c29f7b89473e892b507c66-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a364320598c29f7b89473e892b507c66-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a364320598c29f7b89473e892b507c66-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a364320598c29f7b89473e892b507c66-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a364320598c29f7b89473e892b507c66.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113554,
+   "title": "Securing the belts III.",
+   "updated": "2026-07-20 10:16:40",
+   "lines": [
+    {
+     "html": "From the rear side, route the <strong>lower belt</strong> <strong>coming from the right</strong> side through the center opening of the Nextruder holder.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Pull out approximately 15 mm of the belt.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Route the upper right belt through the rear side of the Nextruder holder.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Bend both right-side belts and route them back through the right opening of the Nextruder holder.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3be10b2dd3300c319cbd36cf20207fb6.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3be10b2dd3300c319cbd36cf20207fb6-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3be10b2dd3300c319cbd36cf20207fb6-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3be10b2dd3300c319cbd36cf20207fb6-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3be10b2dd3300c319cbd36cf20207fb6-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3be10b2dd3300c319cbd36cf20207fb6-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3be10b2dd3300c319cbd36cf20207fb6-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3be10b2dd3300c319cbd36cf20207fb6.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/346898e2a68e079b3bb292e18006c6ae.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/346898e2a68e079b3bb292e18006c6ae-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/346898e2a68e079b3bb292e18006c6ae-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/346898e2a68e079b3bb292e18006c6ae-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/346898e2a68e079b3bb292e18006c6ae-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/346898e2a68e079b3bb292e18006c6ae-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/346898e2a68e079b3bb292e18006c6ae-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/346898e2a68e079b3bb292e18006c6ae.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e555cc45a1ecdba495939aa305fd896a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e555cc45a1ecdba495939aa305fd896a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e555cc45a1ecdba495939aa305fd896a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e555cc45a1ecdba495939aa305fd896a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e555cc45a1ecdba495939aa305fd896a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e555cc45a1ecdba495939aa305fd896a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e555cc45a1ecdba495939aa305fd896a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e555cc45a1ecdba495939aa305fd896a.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113565,
+   "title": "Attaching the Nextruder holder",
+   "updated": "2026-07-20 10:25:51",
+   "lines": [
+    {
+     "html": "Align the right-side belts with the edge of the Nextruder holder and adjust their length if needed.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Align the Nextruder holder with the X-carriage. The Nextruder holder is attached from the belt side.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Attach the Nextruder holder to the X-carriage and lightly secure it using one upper and one lower M3x10 screw.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Check that all belts run straight and are not twisted.",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the remaining two M3x10 screws and tighten all four screws firmly.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/07119983258fe216d6d647d08688f9d0.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/07119983258fe216d6d647d08688f9d0-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/07119983258fe216d6d647d08688f9d0-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/07119983258fe216d6d647d08688f9d0-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/07119983258fe216d6d647d08688f9d0-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/07119983258fe216d6d647d08688f9d0-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/07119983258fe216d6d647d08688f9d0-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/07119983258fe216d6d647d08688f9d0.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7bc100dcfedde56e05a74da8087133e3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7bc100dcfedde56e05a74da8087133e3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7bc100dcfedde56e05a74da8087133e3-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7bc100dcfedde56e05a74da8087133e3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7bc100dcfedde56e05a74da8087133e3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7bc100dcfedde56e05a74da8087133e3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7bc100dcfedde56e05a74da8087133e3-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7bc100dcfedde56e05a74da8087133e3.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/bce8e606783c51ceb06618fa826a0b18.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/bce8e606783c51ceb06618fa826a0b18-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/bce8e606783c51ceb06618fa826a0b18-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/bce8e606783c51ceb06618fa826a0b18-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/bce8e606783c51ceb06618fa826a0b18-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/bce8e606783c51ceb06618fa826a0b18-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/bce8e606783c51ceb06618fa826a0b18-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/bce8e606783c51ceb06618fa826a0b18.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113574,
+   "title": "Installing the LoveBoard assembly",
+   "updated": "2026-07-20 10:28:34",
+   "lines": [
+    {
+     "html": "Look at the rear side of the Nextruder holder.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Attach the LoveBoard assembly to the rear side of the Nextruder holder while it is resting on the box.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The LoveBoard assembly has two pre-inserted screws. Align them with the holes in the Nextruder holder and tighten them using a 2.5 mm Allen key.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/56fa67a100c593bf06f123e3931cb8b9.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/56fa67a100c593bf06f123e3931cb8b9-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/56fa67a100c593bf06f123e3931cb8b9-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/56fa67a100c593bf06f123e3931cb8b9-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/56fa67a100c593bf06f123e3931cb8b9-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/56fa67a100c593bf06f123e3931cb8b9-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/56fa67a100c593bf06f123e3931cb8b9-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/56fa67a100c593bf06f123e3931cb8b9.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113584,
+   "title": "Fan shroud assembly: parts preparation",
+   "updated": "2026-07-20 10:31:30",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, please prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Fan shroud assembly (1x) <em>you removed earlier</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x10 screw (2x) <em>you removed earlier</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Cable-clip (1x) <em>you removed earlier</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x4rT screw (2x) <em>you removed earlier</em>",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/63b3fbdd130472b2c4b9951d2ee1c6a6.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/63b3fbdd130472b2c4b9951d2ee1c6a6-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/63b3fbdd130472b2c4b9951d2ee1c6a6-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/63b3fbdd130472b2c4b9951d2ee1c6a6-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/63b3fbdd130472b2c4b9951d2ee1c6a6-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/63b3fbdd130472b2c4b9951d2ee1c6a6-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/63b3fbdd130472b2c4b9951d2ee1c6a6-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/63b3fbdd130472b2c4b9951d2ee1c6a6.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7c0b320556b85b2df48d5fe8253d8b49.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7c0b320556b85b2df48d5fe8253d8b49-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7c0b320556b85b2df48d5fe8253d8b49-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7c0b320556b85b2df48d5fe8253d8b49-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7c0b320556b85b2df48d5fe8253d8b49-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7c0b320556b85b2df48d5fe8253d8b49-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7c0b320556b85b2df48d5fe8253d8b49-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7c0b320556b85b2df48d5fe8253d8b49.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0864f3202b78485ddbb8777d3068200a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0864f3202b78485ddbb8777d3068200a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0864f3202b78485ddbb8777d3068200a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0864f3202b78485ddbb8777d3068200a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0864f3202b78485ddbb8777d3068200a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0864f3202b78485ddbb8777d3068200a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0864f3202b78485ddbb8777d3068200a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0864f3202b78485ddbb8777d3068200a.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1115650,
+   "title": "Attaching the fan shroud assembly",
+   "updated": "2026-07-20 10:35:33",
+   "lines": [
+    {
+     "html": "From the rear side of the Nextruder holder, place the fan shroud assembly and align it with the holes.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Secure the assembly using two M3x10 screws.<br />",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9b024239539aa4de817d85bdb4dd9ee0.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9b024239539aa4de817d85bdb4dd9ee0-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9b024239539aa4de817d85bdb4dd9ee0-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b024239539aa4de817d85bdb4dd9ee0-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b024239539aa4de817d85bdb4dd9ee0-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b024239539aa4de817d85bdb4dd9ee0-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b024239539aa4de817d85bdb4dd9ee0-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9b024239539aa4de817d85bdb4dd9ee0.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/6ffb4cb5e1d6275ffb8963eed5a3350d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/6ffb4cb5e1d6275ffb8963eed5a3350d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/6ffb4cb5e1d6275ffb8963eed5a3350d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/6ffb4cb5e1d6275ffb8963eed5a3350d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/6ffb4cb5e1d6275ffb8963eed5a3350d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/6ffb4cb5e1d6275ffb8963eed5a3350d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/6ffb4cb5e1d6275ffb8963eed5a3350d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/6ffb4cb5e1d6275ffb8963eed5a3350d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113605,
+   "title": "Installing the Cable-clip",
+   "updated": "2026-07-20 10:39:37",
+   "lines": [
+    {
+     "html": "From the front side of the Nextruder holder, place the Cable-clip in the orientation shown in the picture and align it with the holes.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Secure the Cable-clip using two M3x4rT screws and tighten them using a T10 key.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e7c57bf154ebe0d7f9342a83e43cdd64.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e7c57bf154ebe0d7f9342a83e43cdd64-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e7c57bf154ebe0d7f9342a83e43cdd64-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c57bf154ebe0d7f9342a83e43cdd64-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c57bf154ebe0d7f9342a83e43cdd64-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c57bf154ebe0d7f9342a83e43cdd64-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c57bf154ebe0d7f9342a83e43cdd64-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c57bf154ebe0d7f9342a83e43cdd64.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/fc1d0c6aa995d8cdb8ba5ca510ad1ca0.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/fc1d0c6aa995d8cdb8ba5ca510ad1ca0-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/fc1d0c6aa995d8cdb8ba5ca510ad1ca0-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc1d0c6aa995d8cdb8ba5ca510ad1ca0-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc1d0c6aa995d8cdb8ba5ca510ad1ca0-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc1d0c6aa995d8cdb8ba5ca510ad1ca0-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc1d0c6aa995d8cdb8ba5ca510ad1ca0-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/fc1d0c6aa995d8cdb8ba5ca510ad1ca0.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113615,
+   "title": "Nextruder assembly: parts preparation",
+   "updated": "2026-07-20 10:42:16",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, please prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Nextruder assembly (1x) <em>you removed earlier</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x10 screw (3x) <em>you removed earlier</em>",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5ab4da823a1062b9d7642e0fa81a1e7c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5ab4da823a1062b9d7642e0fa81a1e7c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5ab4da823a1062b9d7642e0fa81a1e7c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ab4da823a1062b9d7642e0fa81a1e7c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ab4da823a1062b9d7642e0fa81a1e7c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ab4da823a1062b9d7642e0fa81a1e7c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ab4da823a1062b9d7642e0fa81a1e7c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/5ab4da823a1062b9d7642e0fa81a1e7c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/8ef456cbaa08f106d82f4969ab44c567.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/8ef456cbaa08f106d82f4969ab44c567-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/8ef456cbaa08f106d82f4969ab44c567-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ef456cbaa08f106d82f4969ab44c567-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ef456cbaa08f106d82f4969ab44c567-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ef456cbaa08f106d82f4969ab44c567-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ef456cbaa08f106d82f4969ab44c567-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ef456cbaa08f106d82f4969ab44c567.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113625,
+   "title": "Attaching the Nextruder assembly",
+   "updated": "2026-07-20 10:45:24",
+   "lines": [
+    {
+     "html": "Take the Nextruder assembly and position it against the Nextruder holder.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Hook the NTC thermistor cable coming from the rear side of the heatsink into the right side of the Cable-clip.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Place the Nextruder onto the Nextruder holder spacers, align it, and secure it using three M3x10 screws.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2bdde929bbd8d603b658c9890277d9f5.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2bdde929bbd8d603b658c9890277d9f5-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2bdde929bbd8d603b658c9890277d9f5-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2bdde929bbd8d603b658c9890277d9f5-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2bdde929bbd8d603b658c9890277d9f5-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2bdde929bbd8d603b658c9890277d9f5-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2bdde929bbd8d603b658c9890277d9f5-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2bdde929bbd8d603b658c9890277d9f5.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/89e465cc4de0c258b035d00d602edf1d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/89e465cc4de0c258b035d00d602edf1d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/89e465cc4de0c258b035d00d602edf1d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/89e465cc4de0c258b035d00d602edf1d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/89e465cc4de0c258b035d00d602edf1d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/89e465cc4de0c258b035d00d602edf1d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/89e465cc4de0c258b035d00d602edf1d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/89e465cc4de0c258b035d00d602edf1d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113635,
+   "title": "Heatsink fan: parts preparation",
+   "updated": "2026-07-20 10:46:56",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, pelase prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Heatsink fan (1x) <em>you removed earlier</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x20 screw (2x) <em>you removed earlier</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Thumbs screw (1x) <em>you removed earlier</em>",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/8cd9d0964acb760783d51b5d8f3364a3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/8cd9d0964acb760783d51b5d8f3364a3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/8cd9d0964acb760783d51b5d8f3364a3-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/8cd9d0964acb760783d51b5d8f3364a3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/8cd9d0964acb760783d51b5d8f3364a3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/8cd9d0964acb760783d51b5d8f3364a3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/8cd9d0964acb760783d51b5d8f3364a3-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/8cd9d0964acb760783d51b5d8f3364a3.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/8a6bdefad3ee9c678d7369860a59062d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/8a6bdefad3ee9c678d7369860a59062d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/8a6bdefad3ee9c678d7369860a59062d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/8a6bdefad3ee9c678d7369860a59062d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/8a6bdefad3ee9c678d7369860a59062d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/8a6bdefad3ee9c678d7369860a59062d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/8a6bdefad3ee9c678d7369860a59062d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/8a6bdefad3ee9c678d7369860a59062d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113645,
+   "title": "Mounting the heatsink fan",
+   "updated": "2026-07-20 10:54:01",
+   "lines": [
+    {
+     "html": "Screw the thumb screw back into the side of the Nextruder heatsink and tighten it firmly by hand.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Attach the Nextruder heatsink fan using two M3x20 screws.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The fan must face outward with the side <strong>without the sticker facing out</strong>.",
+     "color": "red",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "The heatsink cable must exit from the <strong>lower-left corner</strong>.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b62dfb5c81789656dfba517d2253400b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b62dfb5c81789656dfba517d2253400b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b62dfb5c81789656dfba517d2253400b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b62dfb5c81789656dfba517d2253400b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b62dfb5c81789656dfba517d2253400b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b62dfb5c81789656dfba517d2253400b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b62dfb5c81789656dfba517d2253400b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b62dfb5c81789656dfba517d2253400b.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/60d997ac2d6fe92e6f407f84b844c1be.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/60d997ac2d6fe92e6f407f84b844c1be-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/60d997ac2d6fe92e6f407f84b844c1be-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/60d997ac2d6fe92e6f407f84b844c1be-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/60d997ac2d6fe92e6f407f84b844c1be-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/60d997ac2d6fe92e6f407f84b844c1be-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/60d997ac2d6fe92e6f407f84b844c1be-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/60d997ac2d6fe92e6f407f84b844c1be.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113655,
+   "title": "Connecting the heatsink fan",
+   "updated": "2026-07-20 10:57:44",
+   "lines": [
+    {
+     "html": "Route the heatsink fan cable above the lower thumb screw through the Cable-clip.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Connect it to the lowest connector on the LoveBoard.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/26ac2d4e95b0d0505902182ed9fc74ef.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/26ac2d4e95b0d0505902182ed9fc74ef-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/26ac2d4e95b0d0505902182ed9fc74ef-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/26ac2d4e95b0d0505902182ed9fc74ef-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/26ac2d4e95b0d0505902182ed9fc74ef-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/26ac2d4e95b0d0505902182ed9fc74ef-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/26ac2d4e95b0d0505902182ed9fc74ef-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/26ac2d4e95b0d0505902182ed9fc74ef.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/43340a53b221130a6628afec15564fac.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/43340a53b221130a6628afec15564fac-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/43340a53b221130a6628afec15564fac-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/43340a53b221130a6628afec15564fac-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/43340a53b221130a6628afec15564fac-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/43340a53b221130a6628afec15564fac-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/43340a53b221130a6628afec15564fac-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/43340a53b221130a6628afec15564fac.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c2458f9f3ca5974c3c8b36f326f6bdbd.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c2458f9f3ca5974c3c8b36f326f6bdbd-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c2458f9f3ca5974c3c8b36f326f6bdbd-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c2458f9f3ca5974c3c8b36f326f6bdbd-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c2458f9f3ca5974c3c8b36f326f6bdbd-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c2458f9f3ca5974c3c8b36f326f6bdbd-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c2458f9f3ca5974c3c8b36f326f6bdbd-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c2458f9f3ca5974c3c8b36f326f6bdbd.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113670,
+   "title": "Connecting the heatsink thermistor",
+   "updated": "2026-08-31 11:27:23",
+   "lines": [
+    {
+     "html": "Connect the heatsink thermistor to the upper right connector.",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "For better access, you can release the tensioning mechanism of the idler.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/51bc7377bf05029ca72bb3fc2c227ed6.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/51bc7377bf05029ca72bb3fc2c227ed6-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/51bc7377bf05029ca72bb3fc2c227ed6-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/51bc7377bf05029ca72bb3fc2c227ed6-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/51bc7377bf05029ca72bb3fc2c227ed6-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/51bc7377bf05029ca72bb3fc2c227ed6-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/51bc7377bf05029ca72bb3fc2c227ed6-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/51bc7377bf05029ca72bb3fc2c227ed6.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/342400b502670be16d88559d8bab12ee.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/342400b502670be16d88559d8bab12ee-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/342400b502670be16d88559d8bab12ee-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/342400b502670be16d88559d8bab12ee-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/342400b502670be16d88559d8bab12ee-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/342400b502670be16d88559d8bab12ee-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/342400b502670be16d88559d8bab12ee-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/342400b502670be16d88559d8bab12ee.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113684,
+   "title": "Connecting the print fan",
+   "updated": "2026-08-19 07:35:04",
+   "lines": [
+    {
+     "html": "Guide the print fan cable through the cable channel.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The cable should <strong>not be stretched too tightly</strong>.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Plug the print fan cable to the middle conenctor in the left row on the LoveBoard.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7dd752145562ba0d93d6ee6415239d3c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7dd752145562ba0d93d6ee6415239d3c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7dd752145562ba0d93d6ee6415239d3c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7dd752145562ba0d93d6ee6415239d3c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7dd752145562ba0d93d6ee6415239d3c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7dd752145562ba0d93d6ee6415239d3c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7dd752145562ba0d93d6ee6415239d3c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7dd752145562ba0d93d6ee6415239d3c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/249aaf8e4085addb0cc5c188ee100e7b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/249aaf8e4085addb0cc5c188ee100e7b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/249aaf8e4085addb0cc5c188ee100e7b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/249aaf8e4085addb0cc5c188ee100e7b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/249aaf8e4085addb0cc5c188ee100e7b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/249aaf8e4085addb0cc5c188ee100e7b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/249aaf8e4085addb0cc5c188ee100e7b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/249aaf8e4085addb0cc5c188ee100e7b.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d958fe98b53a5968e7ba27c6d1c5eca1.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d958fe98b53a5968e7ba27c6d1c5eca1-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d958fe98b53a5968e7ba27c6d1c5eca1-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d958fe98b53a5968e7ba27c6d1c5eca1-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d958fe98b53a5968e7ba27c6d1c5eca1-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d958fe98b53a5968e7ba27c6d1c5eca1-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d958fe98b53a5968e7ba27c6d1c5eca1-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d958fe98b53a5968e7ba27c6d1c5eca1.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113696,
+   "title": "Connecting the hotend cables and motor",
+   "updated": "2026-08-31 11:27:56",
+   "lines": [
+    {
+     "html": "Connect the nozzle thermistor cable to the top connector in the left row.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Connect the hotend heater cable to the black connector at the top.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Connect the extruder motor cable (E) to the topmost connector.",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/30d4c394dc615aebf834b10c53b55262.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/30d4c394dc615aebf834b10c53b55262-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/30d4c394dc615aebf834b10c53b55262-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/30d4c394dc615aebf834b10c53b55262-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/30d4c394dc615aebf834b10c53b55262-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/30d4c394dc615aebf834b10c53b55262-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/30d4c394dc615aebf834b10c53b55262-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/30d4c394dc615aebf834b10c53b55262.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0908629de0da361b5871c2e6551b4c5b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0908629de0da361b5871c2e6551b4c5b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0908629de0da361b5871c2e6551b4c5b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0908629de0da361b5871c2e6551b4c5b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0908629de0da361b5871c2e6551b4c5b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0908629de0da361b5871c2e6551b4c5b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0908629de0da361b5871c2e6551b4c5b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0908629de0da361b5871c2e6551b4c5b.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/08eb15379865a01d7bfb91804b0c51bf.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/08eb15379865a01d7bfb91804b0c51bf-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/08eb15379865a01d7bfb91804b0c51bf-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/08eb15379865a01d7bfb91804b0c51bf-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/08eb15379865a01d7bfb91804b0c51bf-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/08eb15379865a01d7bfb91804b0c51bf-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/08eb15379865a01d7bfb91804b0c51bf-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/08eb15379865a01d7bfb91804b0c51bf.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113705,
+   "title": "Guiding the hotend cables",
+   "updated": "2026-07-20 11:08:59",
+   "lines": [
+    {
+     "html": "Hook both hotend cables into the Cable-clip.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Hook the thermistor cable first, followed by the heater cable.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/67ad9d0a04868fa9f9c70fdfca093deb.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/67ad9d0a04868fa9f9c70fdfca093deb-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/67ad9d0a04868fa9f9c70fdfca093deb-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/67ad9d0a04868fa9f9c70fdfca093deb-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/67ad9d0a04868fa9f9c70fdfca093deb-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/67ad9d0a04868fa9f9c70fdfca093deb-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/67ad9d0a04868fa9f9c70fdfca093deb-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/67ad9d0a04868fa9f9c70fdfca093deb.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113713,
+   "title": "Wiring check",
+   "updated": "2026-08-31 11:28:43",
+   "lines": [
+    {
+     "html": "Before closing the Nextruder electronics, perform a final inspection according to the wiring diagram.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/08/a52affda4aa51e3e25eff7de535d87b8.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/08/a52affda4aa51e3e25eff7de535d87b8-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/08/a52affda4aa51e3e25eff7de535d87b8-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/08/a52affda4aa51e3e25eff7de535d87b8-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/08/a52affda4aa51e3e25eff7de535d87b8-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/08/a52affda4aa51e3e25eff7de535d87b8-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/08/a52affda4aa51e3e25eff7de535d87b8-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/08/a52affda4aa51e3e25eff7de535d87b8.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113722,
+   "title": "Print-head-cover-left: parts preparation",
+   "updated": "2026-07-20 11:14:20",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, please prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Printhead-cover-left (1x) <em>you removed earlier</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x10 screw (1x) <em>you removed earlier</em>",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d36c4f8ef84dfdabc511e3b66f0e085b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d36c4f8ef84dfdabc511e3b66f0e085b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d36c4f8ef84dfdabc511e3b66f0e085b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d36c4f8ef84dfdabc511e3b66f0e085b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d36c4f8ef84dfdabc511e3b66f0e085b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d36c4f8ef84dfdabc511e3b66f0e085b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d36c4f8ef84dfdabc511e3b66f0e085b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d36c4f8ef84dfdabc511e3b66f0e085b.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113732,
+   "title": "Covering the electronics - left side",
+   "updated": "2026-07-20 11:18:06",
+   "lines": [
+    {
+     "html": "Place the Printhead-cover-left onto the left side of the Nextruder.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the tab into the opening first.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Then secure the top of the cover using an M3x10 screw.",
+     "color": "green",
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c184cc803911ab732232aac8cf6a8e08.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c184cc803911ab732232aac8cf6a8e08-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c184cc803911ab732232aac8cf6a8e08-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c184cc803911ab732232aac8cf6a8e08-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c184cc803911ab732232aac8cf6a8e08-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c184cc803911ab732232aac8cf6a8e08-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c184cc803911ab732232aac8cf6a8e08-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c184cc803911ab732232aac8cf6a8e08.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/1adef27a636a61d54b316d60da5d2234.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/1adef27a636a61d54b316d60da5d2234-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/1adef27a636a61d54b316d60da5d2234-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/1adef27a636a61d54b316d60da5d2234-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/1adef27a636a61d54b316d60da5d2234-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/1adef27a636a61d54b316d60da5d2234-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/1adef27a636a61d54b316d60da5d2234-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/1adef27a636a61d54b316d60da5d2234.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113752,
+   "title": "Print-head-cover-right: parts preparation",
+   "updated": "2026-07-20 11:25:17",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, please prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Printhead-cover-right-lever (1x) <em>you removed earlier</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x6 screw (2x) <em>you removed earlier</em>",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Fitting M4-5 (1x) <em>you removed earlier</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a6ba42bf557616f85f507ce2d6d3bd45.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a6ba42bf557616f85f507ce2d6d3bd45-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a6ba42bf557616f85f507ce2d6d3bd45-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a6ba42bf557616f85f507ce2d6d3bd45-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a6ba42bf557616f85f507ce2d6d3bd45-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a6ba42bf557616f85f507ce2d6d3bd45-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a6ba42bf557616f85f507ce2d6d3bd45-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a6ba42bf557616f85f507ce2d6d3bd45.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d54eb27dd31310fa4ec14571e5ea3f3d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d54eb27dd31310fa4ec14571e5ea3f3d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d54eb27dd31310fa4ec14571e5ea3f3d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d54eb27dd31310fa4ec14571e5ea3f3d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d54eb27dd31310fa4ec14571e5ea3f3d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d54eb27dd31310fa4ec14571e5ea3f3d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d54eb27dd31310fa4ec14571e5ea3f3d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d54eb27dd31310fa4ec14571e5ea3f3d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113743,
+   "title": "Connecting the loadcell and FS",
+   "updated": "2026-07-20 11:24:04",
+   "lines": [
+    {
+     "html": "Plug the Loadcell cable to the upper connector on the right side of the Nextruder.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Plug the filaments sensor cable to the lower connector,",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The connectors are keyed and cannot be mixed up.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Place the Printhead-cover-right-lever on the right side of the Nextruder.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Do not pinch the cables!",
+     "color": null,
+     "icon": "caution",
+     "level": 1
+    },
+    {
+     "html": "Secure the cover with two M3x6 screw.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5f10794a7ba7cd2a4e032f7376f8bd36.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5f10794a7ba7cd2a4e032f7376f8bd36-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5f10794a7ba7cd2a4e032f7376f8bd36-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f10794a7ba7cd2a4e032f7376f8bd36-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f10794a7ba7cd2a4e032f7376f8bd36-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f10794a7ba7cd2a4e032f7376f8bd36-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f10794a7ba7cd2a4e032f7376f8bd36-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/5f10794a7ba7cd2a4e032f7376f8bd36.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ec92a3fa774579d039c9810a34698ae5.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ec92a3fa774579d039c9810a34698ae5-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ec92a3fa774579d039c9810a34698ae5-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec92a3fa774579d039c9810a34698ae5-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec92a3fa774579d039c9810a34698ae5-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec92a3fa774579d039c9810a34698ae5-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec92a3fa774579d039c9810a34698ae5-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec92a3fa774579d039c9810a34698ae5.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b29154fc51befbdd9edec2aa7b4de855.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b29154fc51befbdd9edec2aa7b4de855-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b29154fc51befbdd9edec2aa7b4de855-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b29154fc51befbdd9edec2aa7b4de855-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b29154fc51befbdd9edec2aa7b4de855-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b29154fc51befbdd9edec2aa7b4de855-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b29154fc51befbdd9edec2aa7b4de855-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b29154fc51befbdd9edec2aa7b4de855.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113772,
+   "title": "Installing the fitting",
+   "updated": "2026-07-20 11:28:23",
+   "lines": [
+    {
+     "html": "Insert the fitting M4-5 to the heatsink.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using the universal wrench, thighten the fitting firmly.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/47883ae94f00d967cfab051cc7830386.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/47883ae94f00d967cfab051cc7830386-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/47883ae94f00d967cfab051cc7830386-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/47883ae94f00d967cfab051cc7830386-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/47883ae94f00d967cfab051cc7830386-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/47883ae94f00d967cfab051cc7830386-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/47883ae94f00d967cfab051cc7830386-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/47883ae94f00d967cfab051cc7830386.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d415a31121a9dd8b60d3c89a136d164c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d415a31121a9dd8b60d3c89a136d164c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d415a31121a9dd8b60d3c89a136d164c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d415a31121a9dd8b60d3c89a136d164c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d415a31121a9dd8b60d3c89a136d164c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d415a31121a9dd8b60d3c89a136d164c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d415a31121a9dd8b60d3c89a136d164c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d415a31121a9dd8b60d3c89a136d164c.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1113782,
+   "title": "Connecting the PTFE tube",
+   "updated": "2026-08-19 07:42:57",
+   "lines": [
+    {
+     "html": "Push the free end of the removed PTFE tube into the fitting. Push it all the way down.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Slide the Bowden-bend down to cover the fitting.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "After connecting the cables, verify the routing against the reference image. Make sure the PTFE tube is<strong> not twisted</strong> and it's routed correctly.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/02b4467a4c019df8b3d27e35e5b8bd03.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/02b4467a4c019df8b3d27e35e5b8bd03-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/02b4467a4c019df8b3d27e35e5b8bd03-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/02b4467a4c019df8b3d27e35e5b8bd03-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/02b4467a4c019df8b3d27e35e5b8bd03-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/02b4467a4c019df8b3d27e35e5b8bd03-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/02b4467a4c019df8b3d27e35e5b8bd03-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/02b4467a4c019df8b3d27e35e5b8bd03.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e09a7468a4761ec70dd977f4ca6eeb29.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e09a7468a4761ec70dd977f4ca6eeb29-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e09a7468a4761ec70dd977f4ca6eeb29-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e09a7468a4761ec70dd977f4ca6eeb29-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e09a7468a4761ec70dd977f4ca6eeb29-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e09a7468a4761ec70dd977f4ca6eeb29-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e09a7468a4761ec70dd977f4ca6eeb29-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e09a7468a4761ec70dd977f4ca6eeb29.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/cfd30a84464c59ec492f4b0a32a869e8.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/cfd30a84464c59ec492f4b0a32a869e8-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/cfd30a84464c59ec492f4b0a32a869e8-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/cfd30a84464c59ec492f4b0a32a869e8-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/cfd30a84464c59ec492f4b0a32a869e8-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/cfd30a84464c59ec492f4b0a32a869e8-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/cfd30a84464c59ec492f4b0a32a869e8-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/cfd30a84464c59ec492f4b0a32a869e8.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1136327,
+   "title": "Almost there...",
+   "updated": "2026-07-30 13:22:35",
+   "lines": [
+    {
+     "html": "<strong>Congratulations! </strong>You have successfully replaced the belts.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Continue to the <strong>next chapter.</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4ce110138f1f2a59df20729f8e2580d0.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4ce110138f1f2a59df20729f8e2580d0-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4ce110138f1f2a59df20729f8e2580d0-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce110138f1f2a59df20729f8e2580d0-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce110138f1f2a59df20729f8e2580d0-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce110138f1f2a59df20729f8e2580d0-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce110138f1f2a59df20729f8e2580d0-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ce110138f1f2a59df20729f8e2580d0.jpg 1600w"
+    }
+   ]
+  }
+ ]
+}

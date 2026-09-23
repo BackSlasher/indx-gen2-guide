@@ -1,0 +1,938 @@
+{
+ "slug": "2-printer-disassembly_1110664",
+ "title": "2. Printer disassembly",
+ "manual": "Prusa CORE One+ to (Gen 2) upgrade",
+ "manual_slug": "prusa-core-one-to-gen-2-upgrade_2435",
+ "difficulty": "Easy",
+ "updated": "2026-08-14 09:11:55",
+ "steps": [
+  {
+   "id": 1110705,
+   "title": "Tools",
+   "updated": "2026-07-31 09:09:25",
+   "lines": [
+    {
+     "html": "<strong>Tools necessary for this chapter:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "2.5mm Allen key",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "T10 key/screwdriver",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Needle-nose pliers",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Universal wrench",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0a2d6319684ff237.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0a2d6319684ff237-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0a2d6319684ff237-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a2d6319684ff237-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a2d6319684ff237-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a2d6319684ff237-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a2d6319684ff237-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a2d6319684ff237.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f983679ac7c185e6b30b4b100a563482.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f983679ac7c185e6b30b4b100a563482-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f983679ac7c185e6b30b4b100a563482-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f983679ac7c185e6b30b4b100a563482-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f983679ac7c185e6b30b4b100a563482-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f983679ac7c185e6b30b4b100a563482-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f983679ac7c185e6b30b4b100a563482-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f983679ac7c185e6b30b4b100a563482.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110725,
+   "title": "Removing the door panel",
+   "updated": "2026-07-23 13:08:49",
+   "lines": [
+    {
+     "html": "We recommend <strong>protecting the heatbed</strong> during handling. An empty Prusament box is an ideal protective layer.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "For easier and safer handling during the upgrade, remove the door. <strong>Proceed carefully</strong> to avoid injury or damage to the door panel.<br />",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Loosen and remove two M3x5rT screws securing the door panel in both hinges.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "It is essential to <strong>hold the door panel securely</strong> while loosening the screws to prevent it from falling.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "Start removing the screws from the lowest.<br />",
+     "color": null,
+     "icon": "reminder",
+     "level": 1
+    },
+    {
+     "html": "Carefully slide the door panel out of the hinges. Leave the hinges open for the remainder of the upgrade.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Place the door panel and the four screws in a <strong>clean and safe</strong> area to avoid any damage.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Ensure that the shaft that is inside the hinge does not fall out. If the shaft falls out, insert it back in, or set it aside along with the hinge part. We will mount these back on at the end of the assembly.<br />",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3c7a99a751a95239f0c7a1da3e4018a6.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3c7a99a751a95239f0c7a1da3e4018a6-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3c7a99a751a95239f0c7a1da3e4018a6-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c7a99a751a95239f0c7a1da3e4018a6-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c7a99a751a95239f0c7a1da3e4018a6-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c7a99a751a95239f0c7a1da3e4018a6-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c7a99a751a95239f0c7a1da3e4018a6-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c7a99a751a95239f0c7a1da3e4018a6.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/8ea21eac2ea31af9e4dfa7c43c786572.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/8ea21eac2ea31af9e4dfa7c43c786572-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/8ea21eac2ea31af9e4dfa7c43c786572-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ea21eac2ea31af9e4dfa7c43c786572-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ea21eac2ea31af9e4dfa7c43c786572-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ea21eac2ea31af9e4dfa7c43c786572-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ea21eac2ea31af9e4dfa7c43c786572-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/8ea21eac2ea31af9e4dfa7c43c786572.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/1bdc35bd69f00661bc834105a3b0b4d7.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/1bdc35bd69f00661bc834105a3b0b4d7-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/1bdc35bd69f00661bc834105a3b0b4d7-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/1bdc35bd69f00661bc834105a3b0b4d7-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/1bdc35bd69f00661bc834105a3b0b4d7-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/1bdc35bd69f00661bc834105a3b0b4d7-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/1bdc35bd69f00661bc834105a3b0b4d7-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/1bdc35bd69f00661bc834105a3b0b4d7.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110737,
+   "title": "Removing the top panel",
+   "updated": "2026-07-15 07:34:23",
+   "lines": [
+    {
+     "html": "From the inside, gently push out all the nylon rivets securing the top cover with your finger.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using needle-nose pliers, carefully grasp the rivet head with the tip of the pliers and pull it out.<br />",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "You can also use the previously mentioned  <strong><a href=\"https://www.printables.com/model/1208623-core-one-snap-rivet-remover\">Core-one-snap-rivet-remover</a>.</strong><br />",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Be careful not to damage the top panel.<br />",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "If the lower part of a rivet remains in the panel, grasp it with pliers and remove it as well.<br />",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the top panel from the printer.<br />",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/078e7fabc3f1994f9299810cb5019c3d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/078e7fabc3f1994f9299810cb5019c3d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/078e7fabc3f1994f9299810cb5019c3d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/078e7fabc3f1994f9299810cb5019c3d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/078e7fabc3f1994f9299810cb5019c3d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/078e7fabc3f1994f9299810cb5019c3d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/078e7fabc3f1994f9299810cb5019c3d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/078e7fabc3f1994f9299810cb5019c3d.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/47fa3925f5905426fdb4f06f2043639c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/47fa3925f5905426fdb4f06f2043639c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/47fa3925f5905426fdb4f06f2043639c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/47fa3925f5905426fdb4f06f2043639c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/47fa3925f5905426fdb4f06f2043639c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/47fa3925f5905426fdb4f06f2043639c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/47fa3925f5905426fdb4f06f2043639c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/47fa3925f5905426fdb4f06f2043639c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e1a287bc5590892137d795969b7d2c3c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e1a287bc5590892137d795969b7d2c3c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e1a287bc5590892137d795969b7d2c3c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e1a287bc5590892137d795969b7d2c3c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e1a287bc5590892137d795969b7d2c3c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e1a287bc5590892137d795969b7d2c3c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e1a287bc5590892137d795969b7d2c3c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e1a287bc5590892137d795969b7d2c3c.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110747,
+   "title": "Removing the left side cover",
+   "updated": "2026-07-15 07:37:46",
+   "lines": [
+    {
+     "html": "Using the same procedure, remove all five nylon rivets securing the left side cover.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the side cover from the printer.",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Set it aside in a safe, clean place.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/bffd5689ed3967f365a89b6ef3314206.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/bffd5689ed3967f365a89b6ef3314206-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/bffd5689ed3967f365a89b6ef3314206-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/bffd5689ed3967f365a89b6ef3314206-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/bffd5689ed3967f365a89b6ef3314206-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/bffd5689ed3967f365a89b6ef3314206-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/bffd5689ed3967f365a89b6ef3314206-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/bffd5689ed3967f365a89b6ef3314206.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9ec5b645a7497e2b7d77b7408a4135a0.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9ec5b645a7497e2b7d77b7408a4135a0-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9ec5b645a7497e2b7d77b7408a4135a0-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ec5b645a7497e2b7d77b7408a4135a0-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ec5b645a7497e2b7d77b7408a4135a0-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ec5b645a7497e2b7d77b7408a4135a0-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ec5b645a7497e2b7d77b7408a4135a0-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9ec5b645a7497e2b7d77b7408a4135a0.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110757,
+   "title": "Removing the left metal panel",
+   "updated": "2026-07-15 07:45:02",
+   "lines": [
+    {
+     "html": "Remove the eleven nylon rivets securing the left steel panel.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Start with the bottom rivets. <strong>Support the panel by hand </strong>when removing the last rivets to prevent it from falling.",
+     "color": null,
+     "icon": "reminder",
+     "level": 1
+    },
+    {
+     "html": "Remove the metal panel from the printer.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/bd3852a96525e4f3b2f1a2e1fc787e4a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/bd3852a96525e4f3b2f1a2e1fc787e4a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/bd3852a96525e4f3b2f1a2e1fc787e4a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3852a96525e4f3b2f1a2e1fc787e4a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3852a96525e4f3b2f1a2e1fc787e4a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3852a96525e4f3b2f1a2e1fc787e4a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3852a96525e4f3b2f1a2e1fc787e4a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd3852a96525e4f3b2f1a2e1fc787e4a.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7756c5a3b949e164d62354627e7f8ce5.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7756c5a3b949e164d62354627e7f8ce5-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7756c5a3b949e164d62354627e7f8ce5-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7756c5a3b949e164d62354627e7f8ce5-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7756c5a3b949e164d62354627e7f8ce5-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7756c5a3b949e164d62354627e7f8ce5-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7756c5a3b949e164d62354627e7f8ce5-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7756c5a3b949e164d62354627e7f8ce5.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110767,
+   "title": "Removing the right side cover",
+   "updated": "2026-07-15 07:39:35",
+   "lines": [
+    {
+     "html": "Using the same procedure, remove all five nylon rivets securing the right side cover.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the side cover from the printer.",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Set it aside in a safe, clean place.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/5b4de0bcba3c3284545b847d3e536db3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/5b4de0bcba3c3284545b847d3e536db3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/5b4de0bcba3c3284545b847d3e536db3-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b4de0bcba3c3284545b847d3e536db3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b4de0bcba3c3284545b847d3e536db3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b4de0bcba3c3284545b847d3e536db3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b4de0bcba3c3284545b847d3e536db3-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/5b4de0bcba3c3284545b847d3e536db3.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/945acf54991b611cb7044da7faba5626.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/945acf54991b611cb7044da7faba5626-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/945acf54991b611cb7044da7faba5626-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/945acf54991b611cb7044da7faba5626-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/945acf54991b611cb7044da7faba5626-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/945acf54991b611cb7044da7faba5626-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/945acf54991b611cb7044da7faba5626-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/945acf54991b611cb7044da7faba5626.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110833,
+   "title": "Removing the right handle",
+   "updated": "2026-07-15 07:50:02",
+   "lines": [
+    {
+     "html": "Move to the opposite side of the printer and focus on the underside of the orange handle.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Press the black collet on the PTFE tube into the handle to unlock the tube.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "While holding the collet pressed in, pull out the PTFE tube.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using the T10 screwdriver release two M3x8rT screws securing the handle and the filament sensor.<br />",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the handle from the printer.<br />",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/78dd6f3662876e294219ee03caba7878.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/78dd6f3662876e294219ee03caba7878-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/78dd6f3662876e294219ee03caba7878-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/78dd6f3662876e294219ee03caba7878-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/78dd6f3662876e294219ee03caba7878-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/78dd6f3662876e294219ee03caba7878-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/78dd6f3662876e294219ee03caba7878-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/78dd6f3662876e294219ee03caba7878.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4f402601f4df0fdb3d8c376619dff3ed.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4f402601f4df0fdb3d8c376619dff3ed-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4f402601f4df0fdb3d8c376619dff3ed-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f402601f4df0fdb3d8c376619dff3ed-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f402601f4df0fdb3d8c376619dff3ed-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f402601f4df0fdb3d8c376619dff3ed-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f402601f4df0fdb3d8c376619dff3ed-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f402601f4df0fdb3d8c376619dff3ed.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2115cf0801b6dcb40009b772678c84de.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2115cf0801b6dcb40009b772678c84de-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2115cf0801b6dcb40009b772678c84de-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2115cf0801b6dcb40009b772678c84de-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2115cf0801b6dcb40009b772678c84de-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2115cf0801b6dcb40009b772678c84de-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2115cf0801b6dcb40009b772678c84de-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2115cf0801b6dcb40009b772678c84de.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110843,
+   "title": "Removing the right side panel",
+   "updated": "2026-07-15 07:56:58",
+   "lines": [
+    {
+     "html": "Remove the eleven nylon rivets securing the right steel panel.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Start with the bottom rivets. <strong>Support the panel by hand</strong> when removing the last rivets to prevent it from falling.",
+     "color": null,
+     "icon": "reminder",
+     "level": 1
+    },
+    {
+     "html": "Remove the metal panel from the printer.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ae5769d3fda894ca961baca2d14601b2.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ae5769d3fda894ca961baca2d14601b2-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ae5769d3fda894ca961baca2d14601b2-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ae5769d3fda894ca961baca2d14601b2-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ae5769d3fda894ca961baca2d14601b2-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ae5769d3fda894ca961baca2d14601b2-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ae5769d3fda894ca961baca2d14601b2-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ae5769d3fda894ca961baca2d14601b2.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0ac60b5c0eec112e8d3cc56e81052052.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0ac60b5c0eec112e8d3cc56e81052052-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0ac60b5c0eec112e8d3cc56e81052052-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0ac60b5c0eec112e8d3cc56e81052052-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0ac60b5c0eec112e8d3cc56e81052052-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0ac60b5c0eec112e8d3cc56e81052052-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0ac60b5c0eec112e8d3cc56e81052052-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0ac60b5c0eec112e8d3cc56e81052052.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110853,
+   "title": "Detaching the Bowden-guide",
+   "updated": "2026-07-23 07:22:35",
+   "lines": [
+    {
+     "html": "Remove the M3x10 screw and remove the Bowden guide from the motor mount.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<em>Pro tip</em>: Once the Bowden guide is removed, thread the M3x10 screw back into the motor mount by a few turns. This will keep the nut in place and make reassembly easier.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Leave the Bowden guide hanging on the PTFE tube.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The Bowden guide does not need to be removed completely. Loosen it to improve access for later steps.",
+     "color": null,
+     "icon": "reminder",
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f06732bb034ae9efda3d1df9347750bf.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f06732bb034ae9efda3d1df9347750bf-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f06732bb034ae9efda3d1df9347750bf-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f06732bb034ae9efda3d1df9347750bf-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f06732bb034ae9efda3d1df9347750bf-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f06732bb034ae9efda3d1df9347750bf-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f06732bb034ae9efda3d1df9347750bf-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f06732bb034ae9efda3d1df9347750bf.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110863,
+   "title": "Uncovering the cables",
+   "updated": "2026-07-15 08:11:59",
+   "lines": [
+    {
+     "html": "On the inside of the printer, remove the two M3x4rT screws holding the back cover.<br />",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "On the back of the printer, slide the center cover down to unlock it, then remove it.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ccf3294b2d57adae25ab1c9983dbfe27.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ccf3294b2d57adae25ab1c9983dbfe27-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ccf3294b2d57adae25ab1c9983dbfe27-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccf3294b2d57adae25ab1c9983dbfe27-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccf3294b2d57adae25ab1c9983dbfe27-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccf3294b2d57adae25ab1c9983dbfe27-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccf3294b2d57adae25ab1c9983dbfe27-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccf3294b2d57adae25ab1c9983dbfe27.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0707a407600f7746c40b0353f096fb54.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0707a407600f7746c40b0353f096fb54-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0707a407600f7746c40b0353f096fb54-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0707a407600f7746c40b0353f096fb54-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0707a407600f7746c40b0353f096fb54-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0707a407600f7746c40b0353f096fb54-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0707a407600f7746c40b0353f096fb54-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0707a407600f7746c40b0353f096fb54.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110873,
+   "title": "Uncovering the xBuddy electronics",
+   "updated": "2026-07-15 08:13:09",
+   "lines": [
+    {
+     "html": "Unscrew all six M3x4rT screws securing the electronics sheet (xBuddy box cover).<br />",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Slide the xBuddy box cover out of the electronics box and remove it from the printer.<br />",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ccfd8e84dc22de4502ecfaec7a321eaa.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ccfd8e84dc22de4502ecfaec7a321eaa-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ccfd8e84dc22de4502ecfaec7a321eaa-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccfd8e84dc22de4502ecfaec7a321eaa-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccfd8e84dc22de4502ecfaec7a321eaa-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccfd8e84dc22de4502ecfaec7a321eaa-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccfd8e84dc22de4502ecfaec7a321eaa-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ccfd8e84dc22de4502ecfaec7a321eaa.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4e53af9b5f64cacaeb0fdd1577cbf751.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4e53af9b5f64cacaeb0fdd1577cbf751-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4e53af9b5f64cacaeb0fdd1577cbf751-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4e53af9b5f64cacaeb0fdd1577cbf751-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4e53af9b5f64cacaeb0fdd1577cbf751-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4e53af9b5f64cacaeb0fdd1577cbf751-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4e53af9b5f64cacaeb0fdd1577cbf751-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4e53af9b5f64cacaeb0fdd1577cbf751.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1110884,
+   "title": "Disconnecting the motor cables",
+   "updated": "2026-07-15 08:23:08",
+   "lines": [
+    {
+     "html": "The connectors have a safety latch that must be pressed when disconnecting.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "Disconnect the X motor cable from the first connector on the left.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Disconnect the Y motor cable from the second connector on the left.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Gently pull the Y motor cable slightly to create some slack while keeping the connector inside the electronics compartment.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Gently pull the X motor cable slightly to create some slack while keeping the connector inside the electronics compartment.",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "If you feel resistance, <strong>stop pulling</strong>. If the cable cannot be moved at all, cut the zip ties securing the cable bundles. <strong>Be careful not to damage any cables</strong>.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2e668ca4aa8e17d4526e2b0e3b7b9fae.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2e668ca4aa8e17d4526e2b0e3b7b9fae-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2e668ca4aa8e17d4526e2b0e3b7b9fae-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e668ca4aa8e17d4526e2b0e3b7b9fae-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e668ca4aa8e17d4526e2b0e3b7b9fae-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e668ca4aa8e17d4526e2b0e3b7b9fae-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e668ca4aa8e17d4526e2b0e3b7b9fae-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2e668ca4aa8e17d4526e2b0e3b7b9fae.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/fddea17668d5af0d96f254458bf76c99.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/fddea17668d5af0d96f254458bf76c99-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/fddea17668d5af0d96f254458bf76c99-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/fddea17668d5af0d96f254458bf76c99-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/fddea17668d5af0d96f254458bf76c99-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/fddea17668d5af0d96f254458bf76c99-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/fddea17668d5af0d96f254458bf76c99-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/fddea17668d5af0d96f254458bf76c99.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4f963eb862f224c3a3e994c2ab4a60b3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4f963eb862f224c3a3e994c2ab4a60b3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4f963eb862f224c3a3e994c2ab4a60b3-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f963eb862f224c3a3e994c2ab4a60b3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f963eb862f224c3a3e994c2ab4a60b3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f963eb862f224c3a3e994c2ab4a60b3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f963eb862f224c3a3e994c2ab4a60b3-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4f963eb862f224c3a3e994c2ab4a60b3.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1111084,
+   "title": "Unplugging the PTFE tube",
+   "updated": "2026-07-15 08:26:46",
+   "lines": [
+    {
+     "html": "Move to the inside of the printer.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Slide the bowden-bend over the fitting in the Nextruder.<br />",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Press the black collet in the fitting down, preferably using two fingers.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Pull the PTFE tube out of the fitting.<br />",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using the 8mm cutout on the Universal wrench, remove the M5-4 fitting.<br />",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d20fa6e636e9a0f6340d69bb9d1a5581.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d20fa6e636e9a0f6340d69bb9d1a5581-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d20fa6e636e9a0f6340d69bb9d1a5581-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d20fa6e636e9a0f6340d69bb9d1a5581-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d20fa6e636e9a0f6340d69bb9d1a5581-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d20fa6e636e9a0f6340d69bb9d1a5581-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d20fa6e636e9a0f6340d69bb9d1a5581-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d20fa6e636e9a0f6340d69bb9d1a5581.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/dc1ff9e8cab9e4f1667d05adf1cdccdd.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/dc1ff9e8cab9e4f1667d05adf1cdccdd-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/dc1ff9e8cab9e4f1667d05adf1cdccdd-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/dc1ff9e8cab9e4f1667d05adf1cdccdd-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/dc1ff9e8cab9e4f1667d05adf1cdccdd-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/dc1ff9e8cab9e4f1667d05adf1cdccdd-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/dc1ff9e8cab9e4f1667d05adf1cdccdd-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/dc1ff9e8cab9e4f1667d05adf1cdccdd.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/36595aefb2d0405ba590ee868dd6dd0d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/36595aefb2d0405ba590ee868dd6dd0d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/36595aefb2d0405ba590ee868dd6dd0d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/36595aefb2d0405ba590ee868dd6dd0d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/36595aefb2d0405ba590ee868dd6dd0d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/36595aefb2d0405ba590ee868dd6dd0d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/36595aefb2d0405ba590ee868dd6dd0d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/36595aefb2d0405ba590ee868dd6dd0d.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1111073,
+   "title": "Disconnecting the Nextruder cables - left side",
+   "updated": "2026-07-23 07:45:35",
+   "lines": [
+    {
+     "html": "Using the 2.5mm Allen key, remove the M3x10 screw holding the side cover.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the cover.<br />",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<em>Pro tip: Keep the screws and nuts with the removed parts whenever possible. This will make reassembly easier.</em>",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "The connectors have a safety latch that <strong>must be pressed when disconnecting</strong>.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "Disconnect all cables on the left side of the Nextruder.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Do not disconnect the Nextruder main cable connector.<br />",
+     "color": "violet",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Disconnect the extruder motor cable on the top side of the Nextruder.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/edf5edec83154a8d964adf73732f5b95.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/edf5edec83154a8d964adf73732f5b95-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/edf5edec83154a8d964adf73732f5b95-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/edf5edec83154a8d964adf73732f5b95-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/edf5edec83154a8d964adf73732f5b95-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/edf5edec83154a8d964adf73732f5b95-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/edf5edec83154a8d964adf73732f5b95-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/edf5edec83154a8d964adf73732f5b95.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/8785648fb1b05ce4bfb17d0a41c51706.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/8785648fb1b05ce4bfb17d0a41c51706-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/8785648fb1b05ce4bfb17d0a41c51706-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/8785648fb1b05ce4bfb17d0a41c51706-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/8785648fb1b05ce4bfb17d0a41c51706-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/8785648fb1b05ce4bfb17d0a41c51706-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/8785648fb1b05ce4bfb17d0a41c51706-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/8785648fb1b05ce4bfb17d0a41c51706.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/25459473d1df98a3228a18cbf5e3dc77.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/25459473d1df98a3228a18cbf5e3dc77-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/25459473d1df98a3228a18cbf5e3dc77-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/25459473d1df98a3228a18cbf5e3dc77-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/25459473d1df98a3228a18cbf5e3dc77-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/25459473d1df98a3228a18cbf5e3dc77-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/25459473d1df98a3228a18cbf5e3dc77-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/25459473d1df98a3228a18cbf5e3dc77.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1111097,
+   "title": "Disconnecting the Nextruder cables - right side",
+   "updated": "2026-07-15 08:43:44",
+   "lines": [
+    {
+     "html": "Using the Allen key, remove two M3x6 screws securing the right cover on the Nextruder.<br />",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the cover.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The connectors have a safety latch that <strong>must be pressed when disconnecting</strong>.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "Disconnect both cables from the right side of the LoveBoard.<br />",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/87fe61066a5bd69184c611ef8e364240.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/87fe61066a5bd69184c611ef8e364240-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/87fe61066a5bd69184c611ef8e364240-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/87fe61066a5bd69184c611ef8e364240-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/87fe61066a5bd69184c611ef8e364240-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/87fe61066a5bd69184c611ef8e364240-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/87fe61066a5bd69184c611ef8e364240-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/87fe61066a5bd69184c611ef8e364240.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/df4174927f15353099ffdf98477ce25b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/df4174927f15353099ffdf98477ce25b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/df4174927f15353099ffdf98477ce25b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/df4174927f15353099ffdf98477ce25b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/df4174927f15353099ffdf98477ce25b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/df4174927f15353099ffdf98477ce25b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/df4174927f15353099ffdf98477ce25b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/df4174927f15353099ffdf98477ce25b.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1111108,
+   "title": "Removing the Cable-clip",
+   "updated": "2026-07-15 08:51:31",
+   "lines": [
+    {
+     "html": "Remove the lower thumb screw.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Leave the upper thumb screw in place. It provides access to the screw on the Cable-clip.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Remove the two M3x4rT screws securing the Cable-clip, then remove the cable clip from the printer.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Unhook all cables from the cable clip.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/57af40e1ede6c63bb6c8616233b17c0a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/57af40e1ede6c63bb6c8616233b17c0a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/57af40e1ede6c63bb6c8616233b17c0a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/57af40e1ede6c63bb6c8616233b17c0a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/57af40e1ede6c63bb6c8616233b17c0a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/57af40e1ede6c63bb6c8616233b17c0a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/57af40e1ede6c63bb6c8616233b17c0a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/57af40e1ede6c63bb6c8616233b17c0a.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/1d7dcbb4684693e526048275bddde95d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/1d7dcbb4684693e526048275bddde95d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/1d7dcbb4684693e526048275bddde95d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/1d7dcbb4684693e526048275bddde95d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/1d7dcbb4684693e526048275bddde95d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/1d7dcbb4684693e526048275bddde95d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/1d7dcbb4684693e526048275bddde95d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/1d7dcbb4684693e526048275bddde95d.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d63d1db74a9d50f43a6ad49cf852ff8e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d63d1db74a9d50f43a6ad49cf852ff8e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d63d1db74a9d50f43a6ad49cf852ff8e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d63d1db74a9d50f43a6ad49cf852ff8e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d63d1db74a9d50f43a6ad49cf852ff8e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d63d1db74a9d50f43a6ad49cf852ff8e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d63d1db74a9d50f43a6ad49cf852ff8e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d63d1db74a9d50f43a6ad49cf852ff8e.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1111117,
+   "title": "Detaching the heatsink fan",
+   "updated": "2026-07-15 08:52:33",
+   "lines": [
+    {
+     "html": "Using the Allen key, remove two M3x18 screws securing the heatsink fan.<br />",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the heatsink fan from the printer.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3c0c84d0e55a84e0b5105d49cacc63e4.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3c0c84d0e55a84e0b5105d49cacc63e4-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3c0c84d0e55a84e0b5105d49cacc63e4-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c0c84d0e55a84e0b5105d49cacc63e4-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c0c84d0e55a84e0b5105d49cacc63e4-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c0c84d0e55a84e0b5105d49cacc63e4-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c0c84d0e55a84e0b5105d49cacc63e4-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3c0c84d0e55a84e0b5105d49cacc63e4.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1111129,
+   "title": "Removing the Nextruder assembly",
+   "updated": "2026-07-15 08:54:31",
+   "lines": [
+    {
+     "html": "Remove three M3x10 screws securing the Nextruder assembly to the X-axis.<br />",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>CAUTION: </strong>While loosening the last screw, <strong>hold the Nextruder to prevent it from falling</strong> and damaging the printer.",
+     "color": null,
+     "icon": "caution",
+     "level": 1
+    },
+    {
+     "html": "Remove the Nextruder assembly from the printer.<br />",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Set the Nextruder assembly aside in a safe place.<br /><br />",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/743f9b13593ad01013c235284384a2ec.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/743f9b13593ad01013c235284384a2ec-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/743f9b13593ad01013c235284384a2ec-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/743f9b13593ad01013c235284384a2ec-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/743f9b13593ad01013c235284384a2ec-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/743f9b13593ad01013c235284384a2ec-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/743f9b13593ad01013c235284384a2ec-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/743f9b13593ad01013c235284384a2ec.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/13d2e16c1342ed290602991cf20a0251.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/13d2e16c1342ed290602991cf20a0251-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/13d2e16c1342ed290602991cf20a0251-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/13d2e16c1342ed290602991cf20a0251-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/13d2e16c1342ed290602991cf20a0251-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/13d2e16c1342ed290602991cf20a0251-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/13d2e16c1342ed290602991cf20a0251-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/13d2e16c1342ed290602991cf20a0251.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/eecdf3cee283245768430b6d7b49ee45.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/eecdf3cee283245768430b6d7b49ee45-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/eecdf3cee283245768430b6d7b49ee45-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/eecdf3cee283245768430b6d7b49ee45-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/eecdf3cee283245768430b6d7b49ee45-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/eecdf3cee283245768430b6d7b49ee45-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/eecdf3cee283245768430b6d7b49ee45-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/eecdf3cee283245768430b6d7b49ee45.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1111139,
+   "title": "Removing the fan shroud",
+   "updated": "2026-07-15 08:57:38",
+   "lines": [
+    {
+     "html": "Release and remove two M3x10 screws securing the Fan-shroud to the Nextruder holder.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the fan shroud assembly with the print fan from the printer.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Set the print fan assembly aside in a safe place.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c277e392cc78564582e16fe62d73e436.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c277e392cc78564582e16fe62d73e436-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c277e392cc78564582e16fe62d73e436-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c277e392cc78564582e16fe62d73e436-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c277e392cc78564582e16fe62d73e436-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c277e392cc78564582e16fe62d73e436-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c277e392cc78564582e16fe62d73e436-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c277e392cc78564582e16fe62d73e436.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/98f738dd6e53bd29247e8c68aa7857db.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/98f738dd6e53bd29247e8c68aa7857db-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/98f738dd6e53bd29247e8c68aa7857db-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/98f738dd6e53bd29247e8c68aa7857db-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/98f738dd6e53bd29247e8c68aa7857db-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/98f738dd6e53bd29247e8c68aa7857db-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/98f738dd6e53bd29247e8c68aa7857db-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/98f738dd6e53bd29247e8c68aa7857db.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1111149,
+   "title": "Removing the LoveBoard assembly",
+   "updated": "2026-08-31 11:29:48",
+   "lines": [
+    {
+     "html": "From the back of the LoveBoard assembly, loosen the two M3x10 screws through the access holes to release the assembly.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The screws remain inside the assembly.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Place the LoveBoard assembly on the cardboard box placed on the heatbed.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9f78eaeabe47d6689e97691373618d3f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9f78eaeabe47d6689e97691373618d3f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9f78eaeabe47d6689e97691373618d3f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f78eaeabe47d6689e97691373618d3f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f78eaeabe47d6689e97691373618d3f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f78eaeabe47d6689e97691373618d3f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f78eaeabe47d6689e97691373618d3f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f78eaeabe47d6689e97691373618d3f.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7656686c37e3091d6ea0484ee1eff8eb.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7656686c37e3091d6ea0484ee1eff8eb-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7656686c37e3091d6ea0484ee1eff8eb-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7656686c37e3091d6ea0484ee1eff8eb-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7656686c37e3091d6ea0484ee1eff8eb-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7656686c37e3091d6ea0484ee1eff8eb-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7656686c37e3091d6ea0484ee1eff8eb-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7656686c37e3091d6ea0484ee1eff8eb.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1111208,
+   "title": "Chapter completed",
+   "updated": "2026-07-15 09:35:50",
+   "lines": [
+    {
+     "html": "<strong>Congratulations!</strong> You have completed the partial disassembly of the printer and prepared it for the upgrade.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Proceed to the <strong>next chapter</strong>.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/1ca251989b6113aa25a71afb371d8a38.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/1ca251989b6113aa25a71afb371d8a38-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/1ca251989b6113aa25a71afb371d8a38-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/1ca251989b6113aa25a71afb371d8a38-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/1ca251989b6113aa25a71afb371d8a38-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/1ca251989b6113aa25a71afb371d8a38-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/1ca251989b6113aa25a71afb371d8a38-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/1ca251989b6113aa25a71afb371d8a38.jpg 1600w"
+    }
+   ]
+  }
+ ]
+}

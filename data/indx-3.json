@@ -1,0 +1,1896 @@
+{
+ "slug": "3-z-axis-upgrade_1096239",
+ "title": "3. Z-axis upgrade",
+ "manual": "Prusa INDX Conversion kit for the Prusa CORE One/+",
+ "manual_slug": "prusa-indx-conversion-kit-for-the-prusa-core-one_2432",
+ "difficulty": "Moderate",
+ "updated": "2026-08-19 14:08:32",
+ "steps": [
+  {
+   "id": 1098695,
+   "title": "Tools necessary for this chapter",
+   "updated": "2026-07-14 14:14:09",
+   "lines": [
+    {
+     "html": "<strong>For this chapter, please prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "2.5 mm Allen key",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "T10 key / screwdriver",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Needle-nose pliers <em>or flush cutters for cutting zip ties</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/af9eb69ab85fc8af.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/af9eb69ab85fc8af-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/af9eb69ab85fc8af-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/af9eb69ab85fc8af-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/af9eb69ab85fc8af-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/af9eb69ab85fc8af-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/af9eb69ab85fc8af-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/af9eb69ab85fc8af.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ac480d0d0305f33509bc83d3b6a80d72.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ac480d0d0305f33509bc83d3b6a80d72-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ac480d0d0305f33509bc83d3b6a80d72-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ac480d0d0305f33509bc83d3b6a80d72-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ac480d0d0305f33509bc83d3b6a80d72-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ac480d0d0305f33509bc83d3b6a80d72-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ac480d0d0305f33509bc83d3b6a80d72-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ac480d0d0305f33509bc83d3b6a80d72.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1098739,
+   "title": "Optional: Installing the Buddy3D Camera USB-C cable",
+   "updated": "2026-07-14 14:14:13",
+   "lines": [
+    {
+     "html": "This step applies only if you <strong>purchased the Buddy3D Camera </strong>and plan to install it.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "Now is the right time to install the USB-C cable included with the Buddy3D Camera.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "To install the cable, follow the dedicated <a href=\"http://help.prusa3d.com/guide/buddy3d-camera-for-core-one-installation_405529\"><strong>Buddy3D Camera for CORE One Installation</strong></a> guide.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Do not connect or mount the camera itself </strong>at this stage. This will be done at the end of the assembly.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a22c48a0e7e8f0324b7dfdb8a0ef5bee.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a22c48a0e7e8f0324b7dfdb8a0ef5bee-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a22c48a0e7e8f0324b7dfdb8a0ef5bee-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a22c48a0e7e8f0324b7dfdb8a0ef5bee-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a22c48a0e7e8f0324b7dfdb8a0ef5bee-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a22c48a0e7e8f0324b7dfdb8a0ef5bee-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a22c48a0e7e8f0324b7dfdb8a0ef5bee-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a22c48a0e7e8f0324b7dfdb8a0ef5bee.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/54d9e55db4788c6cdddcf3413390d007.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/54d9e55db4788c6cdddcf3413390d007-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/54d9e55db4788c6cdddcf3413390d007-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/54d9e55db4788c6cdddcf3413390d007-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/54d9e55db4788c6cdddcf3413390d007-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/54d9e55db4788c6cdddcf3413390d007-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/54d9e55db4788c6cdddcf3413390d007-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/54d9e55db4788c6cdddcf3413390d007.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1098782,
+   "title": "Removing the heatbed cable cover",
+   "updated": "2026-07-14 14:14:16",
+   "lines": [
+    {
+     "html": "Temporarily remove the protective cardboard box from the heatbed.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Focus on the heatbed cable area at the rear left.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Unscrew two M3x10 screws securing the CORE-One-bed-cable-cover-top.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the CORE-One-bed-cable-cover-top.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "You will no longer need the CORE-One-bed-cable-cover-top. We recommend removing it to avoid confusion with the new part.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/97bf4b5adb6308a47d93d1a2f929d333.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/97bf4b5adb6308a47d93d1a2f929d333-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/97bf4b5adb6308a47d93d1a2f929d333-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/97bf4b5adb6308a47d93d1a2f929d333-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/97bf4b5adb6308a47d93d1a2f929d333-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/97bf4b5adb6308a47d93d1a2f929d333-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/97bf4b5adb6308a47d93d1a2f929d333-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/97bf4b5adb6308a47d93d1a2f929d333.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e0aab63530f1ffc0a8a65efd87fd9620.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e0aab63530f1ffc0a8a65efd87fd9620-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e0aab63530f1ffc0a8a65efd87fd9620-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0aab63530f1ffc0a8a65efd87fd9620-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0aab63530f1ffc0a8a65efd87fd9620-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0aab63530f1ffc0a8a65efd87fd9620-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0aab63530f1ffc0a8a65efd87fd9620-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e0aab63530f1ffc0a8a65efd87fd9620.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9bcc63bf5b1c77d488af10502978c03c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9bcc63bf5b1c77d488af10502978c03c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9bcc63bf5b1c77d488af10502978c03c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9bcc63bf5b1c77d488af10502978c03c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9bcc63bf5b1c77d488af10502978c03c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9bcc63bf5b1c77d488af10502978c03c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9bcc63bf5b1c77d488af10502978c03c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9bcc63bf5b1c77d488af10502978c03c.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1098835,
+   "title": "Releasing the heatbed",
+   "updated": "2026-07-14 14:14:21",
+   "lines": [
+    {
+     "html": "Pull the heatbed cable bundle out from underneath the heatbed.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Be careful <strong>not to snag the cables</strong>. If you feel resistance, <strong>stop pulling immediately</strong>.",
+     "color": null,
+     "icon": "caution",
+     "level": 1
+    },
+    {
+     "html": "Remove the textile sleeve from the entire length of the cable bundle.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Set the sleeve aside, you will need this part again later.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Ensure that the LED cable is removed from the CORE-One-bed-cable-cover-bottom before proceeding.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Release and remove eight M3x4bT screws securing the heatbed.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Release and remove the M3x12bT screw in the middle.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2a14adea943cbb9df9209643012bb7d8.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2a14adea943cbb9df9209643012bb7d8-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2a14adea943cbb9df9209643012bb7d8-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2a14adea943cbb9df9209643012bb7d8-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2a14adea943cbb9df9209643012bb7d8-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2a14adea943cbb9df9209643012bb7d8-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2a14adea943cbb9df9209643012bb7d8-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2a14adea943cbb9df9209643012bb7d8.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/1793f9449c7991b5c215fec0242fea9b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/1793f9449c7991b5c215fec0242fea9b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/1793f9449c7991b5c215fec0242fea9b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/1793f9449c7991b5c215fec0242fea9b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/1793f9449c7991b5c215fec0242fea9b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/1793f9449c7991b5c215fec0242fea9b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/1793f9449c7991b5c215fec0242fea9b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/1793f9449c7991b5c215fec0242fea9b.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9f34828e6154d98776b6696eb0145b40.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9f34828e6154d98776b6696eb0145b40-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9f34828e6154d98776b6696eb0145b40-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f34828e6154d98776b6696eb0145b40-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f34828e6154d98776b6696eb0145b40-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f34828e6154d98776b6696eb0145b40-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f34828e6154d98776b6696eb0145b40-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9f34828e6154d98776b6696eb0145b40.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1098905,
+   "title": "Removing the heatbed",
+   "updated": "2026-07-14 14:14:27",
+   "lines": [
+    {
+     "html": "Carefully remove the heatbed out of the printer.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove it together with the cables <strong>leading from the heatbed</strong>.",
+     "color": "green",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Set the heatbed aside in a safe place</strong>, it will be needed again later.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "After removing the heatbed, a <strong>spacer remains loose</strong> on the Z-carriage. <strong>Keep it in a safe place for later use.</strong>",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a34f8aaeab868961726ea8b36fe8df03.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a34f8aaeab868961726ea8b36fe8df03-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a34f8aaeab868961726ea8b36fe8df03-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a34f8aaeab868961726ea8b36fe8df03-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a34f8aaeab868961726ea8b36fe8df03-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a34f8aaeab868961726ea8b36fe8df03-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a34f8aaeab868961726ea8b36fe8df03-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a34f8aaeab868961726ea8b36fe8df03.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/a4b3c95bcc43ec17d3cf8cfa00a6c8ff.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/a4b3c95bcc43ec17d3cf8cfa00a6c8ff-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/a4b3c95bcc43ec17d3cf8cfa00a6c8ff-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/a4b3c95bcc43ec17d3cf8cfa00a6c8ff-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/a4b3c95bcc43ec17d3cf8cfa00a6c8ff-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/a4b3c95bcc43ec17d3cf8cfa00a6c8ff-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/a4b3c95bcc43ec17d3cf8cfa00a6c8ff-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/a4b3c95bcc43ec17d3cf8cfa00a6c8ff.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1098993,
+   "title": "Heatbed spacers: parts preparation",
+   "updated": "2026-09-23 15:25:28",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "INDX-C1-bed-spacer-rear (1x) <em>found in the Heatbed bag located in the INDX 4/8T box</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "INDX-C1-bed-spacer-front (2x) <em>found in the Heatbed bag located in the INDX 4/8T box</em>",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3nN nut (2x) <em>found in the Fasteners 1/2 bag</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x18 screw (4x) <em>found in the Fasteners 1/2 bag</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c1edc8e11870640bd63338f19cc3c887.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c1edc8e11870640bd63338f19cc3c887-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c1edc8e11870640bd63338f19cc3c887-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1edc8e11870640bd63338f19cc3c887-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1edc8e11870640bd63338f19cc3c887-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1edc8e11870640bd63338f19cc3c887-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1edc8e11870640bd63338f19cc3c887-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c1edc8e11870640bd63338f19cc3c887.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099122,
+   "title": "Inserting the spacer - left",
+   "updated": "2026-07-14 14:14:45",
+   "lines": [
+    {
+     "html": "Focus on the front left Z-axis.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the two M3x10 screws securing the Z-carriage to the Z-axis.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Do not remove the screws from the trapezoidal nut.",
+     "color": null,
+     "icon": "caution",
+     "level": 1
+    },
+    {
+     "html": "Gently lift the Z-carriage so that a gap of approximately 8 mm (0.3 inches) is created between it and the bed mount.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the Bed-spacer-front into the gap.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Position the part so it fits around the bed mount, then align the holes.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/6aaa17f170fb184aaca22f9cdbcd385e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/6aaa17f170fb184aaca22f9cdbcd385e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/6aaa17f170fb184aaca22f9cdbcd385e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/6aaa17f170fb184aaca22f9cdbcd385e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/6aaa17f170fb184aaca22f9cdbcd385e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/6aaa17f170fb184aaca22f9cdbcd385e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/6aaa17f170fb184aaca22f9cdbcd385e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/6aaa17f170fb184aaca22f9cdbcd385e.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/90cc9441284e302eec795bdac0502e3d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/90cc9441284e302eec795bdac0502e3d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/90cc9441284e302eec795bdac0502e3d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/90cc9441284e302eec795bdac0502e3d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/90cc9441284e302eec795bdac0502e3d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/90cc9441284e302eec795bdac0502e3d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/90cc9441284e302eec795bdac0502e3d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/90cc9441284e302eec795bdac0502e3d.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/89f9206e676f8bd3.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/89f9206e676f8bd3-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/89f9206e676f8bd3-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/89f9206e676f8bd3-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/89f9206e676f8bd3-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/89f9206e676f8bd3-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/89f9206e676f8bd3-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/89f9206e676f8bd3.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099184,
+   "title": "Securing the bed spacer - left",
+   "updated": "2026-07-14 14:14:50",
+   "lines": [
+    {
+     "html": "Make sure the two M3nN nuts inserted from below do not fall out of the bed mount.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "Secure the spacer with two M3x18 screws.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Tighten the inner screw first.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Then tighten the outer screw.",
+     "color": "blue",
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/664ea75e88bacfe022eb3035fceb65c2.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/664ea75e88bacfe022eb3035fceb65c2-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/664ea75e88bacfe022eb3035fceb65c2-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/664ea75e88bacfe022eb3035fceb65c2-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/664ea75e88bacfe022eb3035fceb65c2-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/664ea75e88bacfe022eb3035fceb65c2-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/664ea75e88bacfe022eb3035fceb65c2-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/664ea75e88bacfe022eb3035fceb65c2.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099226,
+   "title": "Inserting the spacer - right",
+   "updated": "2026-07-14 14:14:53",
+   "lines": [
+    {
+     "html": "Focus on the front right Z-axis.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the two M3x10 screws securing the Z-carriage to the Z-axis.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Do not remove the screws from the trapezoidal nut.<br />",
+     "color": null,
+     "icon": "caution",
+     "level": 1
+    },
+    {
+     "html": "Gently lift the Z-carriage so that a gap of approximately 8 mm (0.3 inches) is created between it and the bed mount.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the Bed-spacer-front into the gap.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Position the part so it fits around the bed mount, then align the holes.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/728b830eb745717af1977f0e60641577.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/728b830eb745717af1977f0e60641577-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/728b830eb745717af1977f0e60641577-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/728b830eb745717af1977f0e60641577-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/728b830eb745717af1977f0e60641577-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/728b830eb745717af1977f0e60641577-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/728b830eb745717af1977f0e60641577-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/728b830eb745717af1977f0e60641577.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7b9ba6ac79c959ba914604fc398b266c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7b9ba6ac79c959ba914604fc398b266c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7b9ba6ac79c959ba914604fc398b266c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b9ba6ac79c959ba914604fc398b266c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b9ba6ac79c959ba914604fc398b266c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b9ba6ac79c959ba914604fc398b266c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b9ba6ac79c959ba914604fc398b266c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b9ba6ac79c959ba914604fc398b266c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/946fb1c1c1e89189.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/946fb1c1c1e89189-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/946fb1c1c1e89189-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/946fb1c1c1e89189-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/946fb1c1c1e89189-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/946fb1c1c1e89189-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/946fb1c1c1e89189-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/946fb1c1c1e89189.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099288,
+   "title": "Securing the bed spacer - right",
+   "updated": "2026-08-18 14:44:16",
+   "lines": [
+    {
+     "html": "Note that there are two M3nN nuts inserted into the bed mount from below. Ensure that these do not fall out.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "Secure the spacer with two M3x18 screws.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Tighten the inner screw first.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Then tighten the outer screw.",
+     "color": "blue",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "If you plan on installing the <strong>Prusa CORE One+ Gen 2</strong> upgrade along with the Prusa INDX conversion, follow the instructions in this article: <strong><a href=\"http://help.prusa3d.com/article/assemblling-the-prusa-indx-core-one-with-the-gen-2-upgrade_1147602#securing-the-bed-spacer-right-additional-information\">Assemblling the Prusa INDX Core One with the Gen 2 upgrade</a></strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b6600e630bebf72c6550b62cf14a675c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b6600e630bebf72c6550b62cf14a675c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b6600e630bebf72c6550b62cf14a675c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b6600e630bebf72c6550b62cf14a675c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b6600e630bebf72c6550b62cf14a675c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b6600e630bebf72c6550b62cf14a675c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b6600e630bebf72c6550b62cf14a675c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b6600e630bebf72c6550b62cf14a675c.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1098949,
+   "title": "Removing the rear bed spacer",
+   "updated": "2026-07-30 12:56:17",
+   "lines": [
+    {
+     "html": "Loosen two M3x18 screw securing the trapezoidal nut and the CORE-One-bed-spacer-rear (on the underside).",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "While loosening the screws, hold the CORE-One-bed-spacer-rear in place and remove it once they are loose.",
+     "color": "violet",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "<strong>Leave the screws in the trapezoidal nut.</strong>",
+     "color": null,
+     "icon": "reminder",
+     "level": 1
+    },
+    {
+     "html": "Discard the CORE-One-bed-spacer-rear to avoid confusion with the new part. You will no longer need this part.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/03e3ea1343d64880bc5f55f1661ab74e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/03e3ea1343d64880bc5f55f1661ab74e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/03e3ea1343d64880bc5f55f1661ab74e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/03e3ea1343d64880bc5f55f1661ab74e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/03e3ea1343d64880bc5f55f1661ab74e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/03e3ea1343d64880bc5f55f1661ab74e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/03e3ea1343d64880bc5f55f1661ab74e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/03e3ea1343d64880bc5f55f1661ab74e.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d73287fa5d8dcccff264c45d55cf926c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d73287fa5d8dcccff264c45d55cf926c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d73287fa5d8dcccff264c45d55cf926c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d73287fa5d8dcccff264c45d55cf926c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d73287fa5d8dcccff264c45d55cf926c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d73287fa5d8dcccff264c45d55cf926c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d73287fa5d8dcccff264c45d55cf926c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d73287fa5d8dcccff264c45d55cf926c.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099043,
+   "title": "Assembling the INDX-bed-spacer-rear",
+   "updated": "2026-07-14 14:14:37",
+   "lines": [
+    {
+     "html": "Insert two M3nN nuts into the Bed-spacer-rear and <strong>push them in as far as possible</strong>.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the nuts with the nylon insert (blue plastic ring) <strong>facing up</strong>.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Pro tip: Use the screw-pulling technique.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/dd149be588e9ff6f56b4e0e56727e208.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/dd149be588e9ff6f56b4e0e56727e208-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/dd149be588e9ff6f56b4e0e56727e208-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/dd149be588e9ff6f56b4e0e56727e208-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/dd149be588e9ff6f56b4e0e56727e208-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/dd149be588e9ff6f56b4e0e56727e208-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/dd149be588e9ff6f56b4e0e56727e208-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/dd149be588e9ff6f56b4e0e56727e208.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099077,
+   "title": "Mounting the INDX-bed-spacer-rear",
+   "updated": "2026-07-30 16:04:48",
+   "lines": [
+    {
+     "html": "Focus on the rear underside of the heatbed, where you removed the original Bed-spacer-rear.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Hold the Bed-spacer-rear <strong>in the same orientation as shown </strong>and fit it <strong>around</strong> the rear Z-axis threaded rod.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Align the holes in the bed spacer with the M3x18 screws that you kept in the trapezoidal nut.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Secure the part by tightening the two M3x18 screws.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/bcf995caa01f016982dc0e1c79e73039.jpeg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/bcf995caa01f016982dc0e1c79e73039-800x600.jpeg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/bcf995caa01f016982dc0e1c79e73039-533x400.jpeg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/bcf995caa01f016982dc0e1c79e73039-800x600.jpeg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/bcf995caa01f016982dc0e1c79e73039-300x225.jpeg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/bcf995caa01f016982dc0e1c79e73039-768x576.jpeg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/bcf995caa01f016982dc0e1c79e73039-1536x1152.jpeg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/bcf995caa01f016982dc0e1c79e73039.jpeg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/fb440aeeacb59e7a3fbf582b7f6f4be6.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/fb440aeeacb59e7a3fbf582b7f6f4be6-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/fb440aeeacb59e7a3fbf582b7f6f4be6-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/fb440aeeacb59e7a3fbf582b7f6f4be6-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/fb440aeeacb59e7a3fbf582b7f6f4be6-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/fb440aeeacb59e7a3fbf582b7f6f4be6-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/fb440aeeacb59e7a3fbf582b7f6f4be6-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/fb440aeeacb59e7a3fbf582b7f6f4be6.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099330,
+   "title": "Offset sensor: parts preparation",
+   "updated": "2026-07-31 11:20:11",
+   "lines": [
+    {
+     "html": "<strong>For following steps, prepare:</strong><br />",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "INDX-C1-offset-sensor-holder (1x)<em> found in the Heatbed bag</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "INDX offset sensor (1x)<em> found in the Filament Sensors box</em>",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x8rT screw (1x) <em>found in the Fasteners 2/2 bag</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x10 screw (1x) <em>you removed earlier</em>",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Offset sensor cable (1x)<em> found in the Cables bag</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Zip tie (4x)",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c85fd2d4e86d02c73e6aeba8451e2697.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c85fd2d4e86d02c73e6aeba8451e2697-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c85fd2d4e86d02c73e6aeba8451e2697-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c85fd2d4e86d02c73e6aeba8451e2697-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c85fd2d4e86d02c73e6aeba8451e2697-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c85fd2d4e86d02c73e6aeba8451e2697-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c85fd2d4e86d02c73e6aeba8451e2697-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c85fd2d4e86d02c73e6aeba8451e2697.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/6a3c7a9e53b2503ae02fea8a04f46459.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/6a3c7a9e53b2503ae02fea8a04f46459-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/6a3c7a9e53b2503ae02fea8a04f46459-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/6a3c7a9e53b2503ae02fea8a04f46459-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/6a3c7a9e53b2503ae02fea8a04f46459-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/6a3c7a9e53b2503ae02fea8a04f46459-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/6a3c7a9e53b2503ae02fea8a04f46459-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/6a3c7a9e53b2503ae02fea8a04f46459.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/de708614ca7975e46869e78b6e02760f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/de708614ca7975e46869e78b6e02760f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/de708614ca7975e46869e78b6e02760f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/de708614ca7975e46869e78b6e02760f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/de708614ca7975e46869e78b6e02760f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/de708614ca7975e46869e78b6e02760f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/de708614ca7975e46869e78b6e02760f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/de708614ca7975e46869e78b6e02760f.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099399,
+   "title": "Mounting the INDX offset sensor",
+   "updated": "2026-07-14 14:15:06",
+   "lines": [
+    {
+     "html": "The printed parts shown may differ slightly from the parts included in your package.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    },
+    {
+     "html": "Mount the offset sensor onto the Offset-sensor-holder.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Align the screw holes with each other.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Make sure the <strong>PRUSA logo is facing up</strong>.",
+     "color": null,
+     "icon": "caution",
+     "level": 1
+    },
+    {
+     "html": "Ensure that the offset sensor is correctly positioned.",
+     "color": "blue",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Secure the offset sensor in place with the M3x8rT screw.<br /><br /><strong>Do not overtighten the screw</strong> to avoid damaging the electronics.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Lead the offset sensor cable between the Z-carriage and the right side panel of the printer.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Take the end of the cable <strong>without a label</strong>.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c0daf99b54b0347f900b16931fba35d6.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c0daf99b54b0347f900b16931fba35d6-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c0daf99b54b0347f900b16931fba35d6-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0daf99b54b0347f900b16931fba35d6-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0daf99b54b0347f900b16931fba35d6-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0daf99b54b0347f900b16931fba35d6-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0daf99b54b0347f900b16931fba35d6-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0daf99b54b0347f900b16931fba35d6.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/bd29e63f36772df0d8a0408b471b610a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/bd29e63f36772df0d8a0408b471b610a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/bd29e63f36772df0d8a0408b471b610a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd29e63f36772df0d8a0408b471b610a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd29e63f36772df0d8a0408b471b610a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd29e63f36772df0d8a0408b471b610a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd29e63f36772df0d8a0408b471b610a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/bd29e63f36772df0d8a0408b471b610a.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/663d4f1d6030b37c6e6da18351ed06ea.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/663d4f1d6030b37c6e6da18351ed06ea-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/663d4f1d6030b37c6e6da18351ed06ea-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/663d4f1d6030b37c6e6da18351ed06ea-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/663d4f1d6030b37c6e6da18351ed06ea-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/663d4f1d6030b37c6e6da18351ed06ea-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/663d4f1d6030b37c6e6da18351ed06ea-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/663d4f1d6030b37c6e6da18351ed06ea.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099477,
+   "title": "Connecting the offset sensor cable",
+   "updated": "2026-07-14 14:15:12",
+   "lines": [
+    {
+     "html": "Plug the offset sensor cable into the offset sensor board connector.<br />",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "On the underside of the Offset-sensor-holder, locate the pocket shaped for the Z-carriage.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Place the Offset-sensor-holder onto the Z-carriage so the shapes fit together and the screw holes align.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Check the correct alignment. It must match the photo.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/950b66f6e5e223ced427e8cd4dff3767.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/950b66f6e5e223ced427e8cd4dff3767-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/950b66f6e5e223ced427e8cd4dff3767-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/950b66f6e5e223ced427e8cd4dff3767-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/950b66f6e5e223ced427e8cd4dff3767-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/950b66f6e5e223ced427e8cd4dff3767-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/950b66f6e5e223ced427e8cd4dff3767-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/950b66f6e5e223ced427e8cd4dff3767.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ec9d2bf3a58432ddb60d77ef58f8b95b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ec9d2bf3a58432ddb60d77ef58f8b95b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ec9d2bf3a58432ddb60d77ef58f8b95b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec9d2bf3a58432ddb60d77ef58f8b95b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec9d2bf3a58432ddb60d77ef58f8b95b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec9d2bf3a58432ddb60d77ef58f8b95b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec9d2bf3a58432ddb60d77ef58f8b95b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ec9d2bf3a58432ddb60d77ef58f8b95b.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3414f4f1d8adcedf304954cf7165cd45.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3414f4f1d8adcedf304954cf7165cd45-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3414f4f1d8adcedf304954cf7165cd45-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3414f4f1d8adcedf304954cf7165cd45-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3414f4f1d8adcedf304954cf7165cd45-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3414f4f1d8adcedf304954cf7165cd45-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3414f4f1d8adcedf304954cf7165cd45-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3414f4f1d8adcedf304954cf7165cd45.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099523,
+   "title": "Securing the offset sensor assembly",
+   "updated": "2026-09-01 10:13:16",
+   "lines": [
+    {
+     "html": "Secure the offset sensor assembly to the Z-carriage from the underside using the M3x10 screw. The screw forms its own thread in the plastic. <strong>Do not overtighten.</strong>",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "If you are installing the <strong>GEN 2 upgrade </strong>along with the INDX conversion, insert the M3x10 screw and tighten it with only <strong>a few turns.</strong>",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "We will let you know later on when to properly secure the offset sensor assembly to the printer.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Loop a zip tie around the screw in the LED panel assembly and secure it, <strong>but do not tighten it yet</strong>.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Lead the offset sensor cable through the zip tie. Tighten the zip tie and cut off the excess.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4ba36ad5ac20083ead416fb0f94d9457.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4ba36ad5ac20083ead416fb0f94d9457-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4ba36ad5ac20083ead416fb0f94d9457-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ba36ad5ac20083ead416fb0f94d9457-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ba36ad5ac20083ead416fb0f94d9457-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ba36ad5ac20083ead416fb0f94d9457-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ba36ad5ac20083ead416fb0f94d9457-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4ba36ad5ac20083ead416fb0f94d9457.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b15c08facff947ab7555bf047f5af565.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b15c08facff947ab7555bf047f5af565-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b15c08facff947ab7555bf047f5af565-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b15c08facff947ab7555bf047f5af565-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b15c08facff947ab7555bf047f5af565-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b15c08facff947ab7555bf047f5af565-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b15c08facff947ab7555bf047f5af565-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b15c08facff947ab7555bf047f5af565.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e7c9b92a77a5006c02a582bf473aa344.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e7c9b92a77a5006c02a582bf473aa344-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e7c9b92a77a5006c02a582bf473aa344-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c9b92a77a5006c02a582bf473aa344-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c9b92a77a5006c02a582bf473aa344-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c9b92a77a5006c02a582bf473aa344-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c9b92a77a5006c02a582bf473aa344-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e7c9b92a77a5006c02a582bf473aa344.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099569,
+   "title": "Guiding the offset sensor cable",
+   "updated": "2026-07-30 16:08:22",
+   "lines": [
+    {
+     "html": "On the left side of the Z-carriage, use side cutters to remove the three highlighted zip ties.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Cutting the cable ties will release the RGB LED cable, which is secured by them.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Thread three cable ties through the Z-carriage and connect their heads on the underside. Do not tighten them yet.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Guide the offset sensor cable through the three zip ties.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Guide the RGB LED cable through the three zip ties.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/77c599d1560521fb01cbf170a300ae0a.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/77c599d1560521fb01cbf170a300ae0a-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/77c599d1560521fb01cbf170a300ae0a-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/77c599d1560521fb01cbf170a300ae0a-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/77c599d1560521fb01cbf170a300ae0a-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/77c599d1560521fb01cbf170a300ae0a-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/77c599d1560521fb01cbf170a300ae0a-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/77c599d1560521fb01cbf170a300ae0a.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b9e05cf76aab5c8bf6108319fa083d80.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b9e05cf76aab5c8bf6108319fa083d80-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b9e05cf76aab5c8bf6108319fa083d80-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9e05cf76aab5c8bf6108319fa083d80-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9e05cf76aab5c8bf6108319fa083d80-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9e05cf76aab5c8bf6108319fa083d80-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9e05cf76aab5c8bf6108319fa083d80-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b9e05cf76aab5c8bf6108319fa083d80.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/e427464c0658536ed8ba44df3911a716.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/e427464c0658536ed8ba44df3911a716-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/e427464c0658536ed8ba44df3911a716-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/e427464c0658536ed8ba44df3911a716-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/e427464c0658536ed8ba44df3911a716-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/e427464c0658536ed8ba44df3911a716-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/e427464c0658536ed8ba44df3911a716-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/e427464c0658536ed8ba44df3911a716.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099623,
+   "title": "Securing the offset sensor cable",
+   "updated": "2026-08-18 14:46:34",
+   "lines": [
+    {
+     "html": "Tuck the offset sensor cable in between the Z-carriage and the LED panel.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Tighten all three cable ties and cut off the excess ends.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The cables before the first cable tie <strong>must not be sharply bent</strong>; leave a slight slack.",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Make sure the cables are properly tensioned and <strong>not sagging</strong> along their entire length.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Route the offset sensor and RGB LED cables upward through the rectangular cutout in the Z-carriage.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "If you are installing the GEN 2 upgrade along with the Prusa INDX conversion,<strong> <a href=\"http://help.prusa3d.com/article/assemblling-the-prusa-indx-core-one-with-the-gen-2-upgrade_1147602#removing-old-expansion-joints\">Assemblling the Prusa INDX Core One with the Gen 2 upgrade</a></strong>.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0a46f45ca787c33f2db2018790a6744e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0a46f45ca787c33f2db2018790a6744e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0a46f45ca787c33f2db2018790a6744e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a46f45ca787c33f2db2018790a6744e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a46f45ca787c33f2db2018790a6744e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a46f45ca787c33f2db2018790a6744e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a46f45ca787c33f2db2018790a6744e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0a46f45ca787c33f2db2018790a6744e.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/b88730bf65172b6c2fc0ab9e87dab66d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/b88730bf65172b6c2fc0ab9e87dab66d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/b88730bf65172b6c2fc0ab9e87dab66d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/b88730bf65172b6c2fc0ab9e87dab66d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/b88730bf65172b6c2fc0ab9e87dab66d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/b88730bf65172b6c2fc0ab9e87dab66d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/b88730bf65172b6c2fc0ab9e87dab66d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/b88730bf65172b6c2fc0ab9e87dab66d.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/dff24ee503f25fa777a27d739566e41e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/dff24ee503f25fa777a27d739566e41e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/dff24ee503f25fa777a27d739566e41e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/dff24ee503f25fa777a27d739566e41e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/dff24ee503f25fa777a27d739566e41e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/dff24ee503f25fa777a27d739566e41e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/dff24ee503f25fa777a27d739566e41e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/dff24ee503f25fa777a27d739566e41e.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099677,
+   "title": "Removing the Bed-cable-cover-bottom",
+   "updated": "2026-07-14 14:15:33",
+   "lines": [
+    {
+     "html": "Prepare the heatbed assembly.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using the Torx key, remove the M3x10rT screw that keeps the Bed-cable-cover-bottom attached.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the Bed-cable-cover-bottom.",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/aedba4dbfc90f8485dc968b2817b0494.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/aedba4dbfc90f8485dc968b2817b0494-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/aedba4dbfc90f8485dc968b2817b0494-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/aedba4dbfc90f8485dc968b2817b0494-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/aedba4dbfc90f8485dc968b2817b0494-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/aedba4dbfc90f8485dc968b2817b0494-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/aedba4dbfc90f8485dc968b2817b0494-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/aedba4dbfc90f8485dc968b2817b0494.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4cdc3fd858457eed5f104be9f6f9802d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4cdc3fd858457eed5f104be9f6f9802d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4cdc3fd858457eed5f104be9f6f9802d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4cdc3fd858457eed5f104be9f6f9802d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4cdc3fd858457eed5f104be9f6f9802d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4cdc3fd858457eed5f104be9f6f9802d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4cdc3fd858457eed5f104be9f6f9802d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4cdc3fd858457eed5f104be9f6f9802d.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/fcc8dbb5bb5c32dbe3b496b3751f158c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/fcc8dbb5bb5c32dbe3b496b3751f158c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/fcc8dbb5bb5c32dbe3b496b3751f158c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/fcc8dbb5bb5c32dbe3b496b3751f158c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/fcc8dbb5bb5c32dbe3b496b3751f158c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/fcc8dbb5bb5c32dbe3b496b3751f158c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/fcc8dbb5bb5c32dbe3b496b3751f158c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/fcc8dbb5bb5c32dbe3b496b3751f158c.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099715,
+   "title": "Heatbed cable covers: parts preparation",
+   "updated": "2026-08-03 14:33:07",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "INDX-C1-bed-cable-cover-bottom (1x) <em>found in the Heatbed bag</em>",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "INDX-C1-bed-cable-cover-top (1x) <em>found in the Heatbed bag</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Heatbed spacer 6x3.1x8 mm (1x) <em>removed earlier</em>",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3nN nut (3x) <em>found in the Fasteners 1/2 bag</em>",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x10rT (1x) <em>removed earlier</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x10 screw (2x) <em>removed earlier</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Textile sleeve 520 x 8 mm (1x) <em>removed earlier</em>",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/73d344927efb5fd9371c6df380324b93.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/73d344927efb5fd9371c6df380324b93-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/73d344927efb5fd9371c6df380324b93-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/73d344927efb5fd9371c6df380324b93-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/73d344927efb5fd9371c6df380324b93-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/73d344927efb5fd9371c6df380324b93-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/73d344927efb5fd9371c6df380324b93-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/73d344927efb5fd9371c6df380324b93.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/9fa82e63e5fb4739d296996f4e8fede2.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/9fa82e63e5fb4739d296996f4e8fede2-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/9fa82e63e5fb4739d296996f4e8fede2-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/9fa82e63e5fb4739d296996f4e8fede2-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/9fa82e63e5fb4739d296996f4e8fede2-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/9fa82e63e5fb4739d296996f4e8fede2-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/9fa82e63e5fb4739d296996f4e8fede2-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/9fa82e63e5fb4739d296996f4e8fede2.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099826,
+   "title": "Assembling the Bed-cable-cover-bottom",
+   "updated": "2026-08-03 14:33:59",
+   "lines": [
+    {
+     "html": "Insert the M3nN nut into the bottom hole in the Bed-cable-cover-bottom.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route the heatbed thermistor cable outside the cover.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the Bed-cable-cover-bottom under the heatbed power cables and slide the cover beneath the heatbed.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The M3nN nut may fall out during installation. You can hold it in place from the bottom with your finger.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "Secure the Bed-cable-cover-bottom in place with the previously removed M3x10rT screw.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/1b7264f1192a6084a9f6dfb31fc94aeb.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/1b7264f1192a6084a9f6dfb31fc94aeb-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/1b7264f1192a6084a9f6dfb31fc94aeb-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/1b7264f1192a6084a9f6dfb31fc94aeb-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/1b7264f1192a6084a9f6dfb31fc94aeb-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/1b7264f1192a6084a9f6dfb31fc94aeb-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/1b7264f1192a6084a9f6dfb31fc94aeb-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/1b7264f1192a6084a9f6dfb31fc94aeb.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f7bc34f53a47ea8bdc207ad69b29b14c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f7bc34f53a47ea8bdc207ad69b29b14c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f7bc34f53a47ea8bdc207ad69b29b14c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f7bc34f53a47ea8bdc207ad69b29b14c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f7bc34f53a47ea8bdc207ad69b29b14c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f7bc34f53a47ea8bdc207ad69b29b14c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f7bc34f53a47ea8bdc207ad69b29b14c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f7bc34f53a47ea8bdc207ad69b29b14c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/4c08e8ba7e3e2ab7017fbf2d0194e3bf.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/4c08e8ba7e3e2ab7017fbf2d0194e3bf-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/4c08e8ba7e3e2ab7017fbf2d0194e3bf-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/4c08e8ba7e3e2ab7017fbf2d0194e3bf-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/4c08e8ba7e3e2ab7017fbf2d0194e3bf-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/4c08e8ba7e3e2ab7017fbf2d0194e3bf-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/4c08e8ba7e3e2ab7017fbf2d0194e3bf-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/4c08e8ba7e3e2ab7017fbf2d0194e3bf.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099791,
+   "title": "Securing the heatbed: parts preparation",
+   "updated": "2026-08-31 12:52:15",
+   "lines": [
+    {
+     "html": "M3x12bT screw (1x) <em>removed earlier</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x4bT screw (8x) <em>removed earlier</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Zip tie (1x)",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "If you are installing the<strong> Gen 2 upgrade</strong> during the INDX conversion, <strong>you will need the new M3x14bT screw</strong> (1x)<em> </em>found in the Gen 2 upgrade kit.",
+     "color": null,
+     "icon": "note",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/adfeab6356b731c523b943937c50c99d.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/adfeab6356b731c523b943937c50c99d-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/adfeab6356b731c523b943937c50c99d-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/adfeab6356b731c523b943937c50c99d-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/adfeab6356b731c523b943937c50c99d-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/adfeab6356b731c523b943937c50c99d-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/adfeab6356b731c523b943937c50c99d-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/adfeab6356b731c523b943937c50c99d.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7ff4015ffe788ec18bbceb18a4936e80.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7ff4015ffe788ec18bbceb18a4936e80-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7ff4015ffe788ec18bbceb18a4936e80-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ff4015ffe788ec18bbceb18a4936e80-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ff4015ffe788ec18bbceb18a4936e80-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ff4015ffe788ec18bbceb18a4936e80-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ff4015ffe788ec18bbceb18a4936e80-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ff4015ffe788ec18bbceb18a4936e80.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099880,
+   "title": "Inserting the heatbed",
+   "updated": "2026-09-23 15:19:49",
+   "lines": [
+    {
+     "html": "Place the heatbed spacer directly over the threaded hole in the center of the Z-carriage.",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Carefully insert the heatbed assembly back into the printer.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Ensure that the spacer in the middle stays in place.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Secure the heatbed in place with the M3x12bT screw that you set aside when initially removing the heatbed. <strong>Do not fully tighten the screw yet.</strong>",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>If you are installing the CORE One Gen 2 upgrade</strong>, then use the M3x14bT screw as mentioned in the previous step.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7b95c3566129f13cf7144ee620f85f65.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7b95c3566129f13cf7144ee620f85f65-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7b95c3566129f13cf7144ee620f85f65-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b95c3566129f13cf7144ee620f85f65-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b95c3566129f13cf7144ee620f85f65-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b95c3566129f13cf7144ee620f85f65-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b95c3566129f13cf7144ee620f85f65-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b95c3566129f13cf7144ee620f85f65.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7ddddd88143436ffaf1a46e750eb1b9f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7ddddd88143436ffaf1a46e750eb1b9f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7ddddd88143436ffaf1a46e750eb1b9f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ddddd88143436ffaf1a46e750eb1b9f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ddddd88143436ffaf1a46e750eb1b9f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ddddd88143436ffaf1a46e750eb1b9f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ddddd88143436ffaf1a46e750eb1b9f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7ddddd88143436ffaf1a46e750eb1b9f.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/fe3113f7a03385a96894ae3cda4af4c1.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/fe3113f7a03385a96894ae3cda4af4c1-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/fe3113f7a03385a96894ae3cda4af4c1-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/fe3113f7a03385a96894ae3cda4af4c1-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/fe3113f7a03385a96894ae3cda4af4c1-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/fe3113f7a03385a96894ae3cda4af4c1-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/fe3113f7a03385a96894ae3cda4af4c1-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/fe3113f7a03385a96894ae3cda4af4c1.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099926,
+   "title": "Securing the heatbed",
+   "updated": "2026-08-18 16:14:34",
+   "lines": [
+    {
+     "html": "Insert the eight M3x4bT screws into the remaining holes in the heatbed. <strong>Do not fully tighten the screws yet.</strong>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>If you are installing the Gen 2 update along with the INDX conversion</strong>, tighten the M3x4bT screws by two turns only! We will fully tighten them later. Skip to the next step now.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    },
+    {
+     "html": "<strong>IMPORTANT:</strong> The heatbed must be tightened in a specific order. Repeat the sequence multiple times, ensuring the final tightening after at least two rounds.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "<strong>After all screws are in place, tighten them in the following sequence:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Center screw",
+     "color": "orange",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "First four screws (edges)",
+     "color": "light_blue",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Last four screws (corners)",
+     "color": "green",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Tighten the screws gently, but firmly.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/7b2d84f3e4cf26f8a56cd995cf691fd5.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/7b2d84f3e4cf26f8a56cd995cf691fd5-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/7b2d84f3e4cf26f8a56cd995cf691fd5-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b2d84f3e4cf26f8a56cd995cf691fd5-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b2d84f3e4cf26f8a56cd995cf691fd5-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b2d84f3e4cf26f8a56cd995cf691fd5-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b2d84f3e4cf26f8a56cd995cf691fd5-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/7b2d84f3e4cf26f8a56cd995cf691fd5.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0fdfe292cf337b26.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0fdfe292cf337b26-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0fdfe292cf337b26-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0fdfe292cf337b26-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0fdfe292cf337b26-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0fdfe292cf337b26-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0fdfe292cf337b26-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0fdfe292cf337b26.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1099994,
+   "title": "Wrapping the heatbed cables",
+   "updated": "2026-07-14 14:16:00",
+   "lines": [
+    {
+     "html": "Wrap the textile sleeve around the heatbed, RGB LED, and offset sensor cables.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Route the RGB LED and offset sensor cables into the Heatbed-cable-cover-bottom <strong>through the side channel</strong>.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Slide the textile sleeve at least 1 cm (0.39 in) into the cable channel.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Place the M3nN nut on your finger with the nylon insert (blue plastic ring) facing down.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "<strong>From below</strong>, align it with the screw holes shown in the picture.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Then <strong>press the nut into the Bed-cable-cover-bottom</strong> from underneath until it is fully seated.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/88cfe72cc8539f626b1c488f01c2264f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/88cfe72cc8539f626b1c488f01c2264f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/88cfe72cc8539f626b1c488f01c2264f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/88cfe72cc8539f626b1c488f01c2264f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/88cfe72cc8539f626b1c488f01c2264f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/88cfe72cc8539f626b1c488f01c2264f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/88cfe72cc8539f626b1c488f01c2264f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/88cfe72cc8539f626b1c488f01c2264f.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/11d184cfa53545fa9d65141c746dd129.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/11d184cfa53545fa9d65141c746dd129-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/11d184cfa53545fa9d65141c746dd129-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/11d184cfa53545fa9d65141c746dd129-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/11d184cfa53545fa9d65141c746dd129-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/11d184cfa53545fa9d65141c746dd129-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/11d184cfa53545fa9d65141c746dd129-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/11d184cfa53545fa9d65141c746dd129.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3794fcd3061e349578b5a3567a071111.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3794fcd3061e349578b5a3567a071111-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3794fcd3061e349578b5a3567a071111-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3794fcd3061e349578b5a3567a071111-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3794fcd3061e349578b5a3567a071111-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3794fcd3061e349578b5a3567a071111-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3794fcd3061e349578b5a3567a071111-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3794fcd3061e349578b5a3567a071111.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100056,
+   "title": "Covering the heatbed cables",
+   "updated": "2026-07-14 14:16:05",
+   "lines": [
+    {
+     "html": "Before closing the cover, make sure <strong>no wires are sticking out</strong> to <strong>prevent them from being pinched</strong> by the top cover.",
+     "color": null,
+     "icon": "caution",
+     "level": 0
+    },
+    {
+     "html": "Place the Bed-cable-cover-top over the heatbed cables and align it.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Secure the Bed-cable-cover-top in place with the M3x10 screw.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "While tightening, <strong>hold the M3nN nuts</strong> in the lower part to prevent them from falling out.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d1d0aa5292320f0becceabce95f1a66e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d1d0aa5292320f0becceabce95f1a66e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d1d0aa5292320f0becceabce95f1a66e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d1d0aa5292320f0becceabce95f1a66e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d1d0aa5292320f0becceabce95f1a66e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d1d0aa5292320f0becceabce95f1a66e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d1d0aa5292320f0becceabce95f1a66e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d1d0aa5292320f0becceabce95f1a66e.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/df7e24eb72ebcec27753f529a8a0742b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/df7e24eb72ebcec27753f529a8a0742b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/df7e24eb72ebcec27753f529a8a0742b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/df7e24eb72ebcec27753f529a8a0742b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/df7e24eb72ebcec27753f529a8a0742b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/df7e24eb72ebcec27753f529a8a0742b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/df7e24eb72ebcec27753f529a8a0742b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/df7e24eb72ebcec27753f529a8a0742b.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100100,
+   "title": "Guiding the heatbed cable bundle I.",
+   "updated": "2026-07-14 14:16:09",
+   "lines": [
+    {
+     "html": "Lead the heatbed cables under the heatbed and <strong>behind the Z-axis threaded rod</strong>.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/460b1c80a7516ba456f5b4e5842c9ad8.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/460b1c80a7516ba456f5b4e5842c9ad8-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/460b1c80a7516ba456f5b4e5842c9ad8-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/460b1c80a7516ba456f5b4e5842c9ad8-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/460b1c80a7516ba456f5b4e5842c9ad8-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/460b1c80a7516ba456f5b4e5842c9ad8-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/460b1c80a7516ba456f5b4e5842c9ad8-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/460b1c80a7516ba456f5b4e5842c9ad8.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/57fc51a66106bcd266034714a769d119.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/57fc51a66106bcd266034714a769d119-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/57fc51a66106bcd266034714a769d119-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/57fc51a66106bcd266034714a769d119-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/57fc51a66106bcd266034714a769d119-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/57fc51a66106bcd266034714a769d119-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/57fc51a66106bcd266034714a769d119-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/57fc51a66106bcd266034714a769d119.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100120,
+   "title": "Guiding the heatbed cable bundle II.",
+   "updated": "2026-07-14 14:16:12",
+   "lines": [
+    {
+     "html": "Route the cables through the rear panel one by one in the following order:",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "1. Offset sensor cable",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "2. LED RGB cable",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "3. Heatbed thermistor cable",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Finally, route the heatbed power cables (black and red).",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Push the heatbed cables and the textile sleeve through the grommet hole.<br />",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "No more than 1 cm (0.39 in) of the textile sleeve should protrude from the back side.<br />",
+     "color": null,
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2413ad11dbe50f0824c1a4c4966b3144.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2413ad11dbe50f0824c1a4c4966b3144-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2413ad11dbe50f0824c1a4c4966b3144-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2413ad11dbe50f0824c1a4c4966b3144-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2413ad11dbe50f0824c1a4c4966b3144-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2413ad11dbe50f0824c1a4c4966b3144-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2413ad11dbe50f0824c1a4c4966b3144-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2413ad11dbe50f0824c1a4c4966b3144.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/93bf729bac7976cdc52cad6efa03957e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/93bf729bac7976cdc52cad6efa03957e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/93bf729bac7976cdc52cad6efa03957e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/93bf729bac7976cdc52cad6efa03957e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/93bf729bac7976cdc52cad6efa03957e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/93bf729bac7976cdc52cad6efa03957e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/93bf729bac7976cdc52cad6efa03957e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/93bf729bac7976cdc52cad6efa03957e.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/d0547fc54a518037c22e788845a6be4e.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/d0547fc54a518037c22e788845a6be4e-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/d0547fc54a518037c22e788845a6be4e-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0547fc54a518037c22e788845a6be4e-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0547fc54a518037c22e788845a6be4e-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0547fc54a518037c22e788845a6be4e-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0547fc54a518037c22e788845a6be4e-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/d0547fc54a518037c22e788845a6be4e.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100190,
+   "title": "Securing the textile sleeve",
+   "updated": "2026-07-14 14:16:18",
+   "lines": [
+    {
+     "html": "Guide the zip tie through the two holes under the heatbed cables and make a loop around the heatbed cable bundle (textile sleeve) on the inside.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Tighten the zip tie firmly and cut off the excess.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2590d503fa654a93a20bd321354a391c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2590d503fa654a93a20bd321354a391c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2590d503fa654a93a20bd321354a391c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2590d503fa654a93a20bd321354a391c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2590d503fa654a93a20bd321354a391c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2590d503fa654a93a20bd321354a391c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2590d503fa654a93a20bd321354a391c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2590d503fa654a93a20bd321354a391c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/61aa371f5c258408cf1840f9cab61009.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/61aa371f5c258408cf1840f9cab61009-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/61aa371f5c258408cf1840f9cab61009-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/61aa371f5c258408cf1840f9cab61009-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/61aa371f5c258408cf1840f9cab61009-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/61aa371f5c258408cf1840f9cab61009-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/61aa371f5c258408cf1840f9cab61009-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/61aa371f5c258408cf1840f9cab61009.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100218,
+   "title": "Removing the Bed-stop-rear",
+   "updated": "2026-07-14 14:16:22",
+   "lines": [
+    {
+     "html": "Use a Torx key to remove the M3x8rT screw on the rear side of the printer.<br />",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the three M3x8rT screws.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Remove the Bed-stop-rear.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/8669e5310f709fa310a82280e70eb65c.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/8669e5310f709fa310a82280e70eb65c-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/8669e5310f709fa310a82280e70eb65c-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/8669e5310f709fa310a82280e70eb65c-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/8669e5310f709fa310a82280e70eb65c-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/8669e5310f709fa310a82280e70eb65c-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/8669e5310f709fa310a82280e70eb65c-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/8669e5310f709fa310a82280e70eb65c.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c25c8a992e84e74022f259e84eec18b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c25c8a992e84e74022f259e84eec18b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/0c25c8a992e84e74022f259e84eec18b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c25c8a992e84e74022f259e84eec18b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c25c8a992e84e74022f259e84eec18b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c25c8a992e84e74022f259e84eec18b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c25c8a992e84e74022f259e84eec18b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/0c25c8a992e84e74022f259e84eec18b.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100254,
+   "title": "INDX-C1-Bed-stop-rear: parts preparation",
+   "updated": "2026-07-31 11:22:02",
+   "lines": [
+    {
+     "html": "<strong>For the following steps, prepare:</strong>",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "INDX-C1-bed-stop-rear (1x) <em>found in the Heatbed bag</em>",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3x8rT screw (4x) <em>removed earlier</em>",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "M3nS nut (3x) <em>found in the fasteners 2/2 bag</em>",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c0af8969be8087f99a79ea3262582082.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c0af8969be8087f99a79ea3262582082-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c0af8969be8087f99a79ea3262582082-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0af8969be8087f99a79ea3262582082-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0af8969be8087f99a79ea3262582082-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0af8969be8087f99a79ea3262582082-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0af8969be8087f99a79ea3262582082-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c0af8969be8087f99a79ea3262582082.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100296,
+   "title": "Assembling the Bed-stop-rear",
+   "updated": "2026-07-14 14:16:28",
+   "lines": [
+    {
+     "html": "The new Bed-stop-rear is labeled with an X.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Insert the M3nS nut into the Bed-stop-rear and push it fully down.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Always check through the screw hole that the nut is properly aligned.",
+     "color": null,
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "From the same side, insert the second M3nS nut all the way into the part.",
+     "color": "green",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "From the opposite side, insert the third M3nS nut into the part.",
+     "color": "orange",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/045cfa8da6884b46720be47910f311ab.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/045cfa8da6884b46720be47910f311ab-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/045cfa8da6884b46720be47910f311ab-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/045cfa8da6884b46720be47910f311ab-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/045cfa8da6884b46720be47910f311ab-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/045cfa8da6884b46720be47910f311ab-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/045cfa8da6884b46720be47910f311ab-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/045cfa8da6884b46720be47910f311ab.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/95598d72d7a412909409d864d7c61d2b.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/95598d72d7a412909409d864d7c61d2b-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/95598d72d7a412909409d864d7c61d2b-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/95598d72d7a412909409d864d7c61d2b-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/95598d72d7a412909409d864d7c61d2b-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/95598d72d7a412909409d864d7c61d2b-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/95598d72d7a412909409d864d7c61d2b-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/95598d72d7a412909409d864d7c61d2b.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/103226486cad74f2f5b070195a545849.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/103226486cad74f2f5b070195a545849-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/103226486cad74f2f5b070195a545849-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/103226486cad74f2f5b070195a545849-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/103226486cad74f2f5b070195a545849-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/103226486cad74f2f5b070195a545849-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/103226486cad74f2f5b070195a545849-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/103226486cad74f2f5b070195a545849.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100350,
+   "title": "Installing the new Bed-stop-rear",
+   "updated": "2026-07-14 14:16:33",
+   "lines": [
+    {
+     "html": "Place the Bed-stop-rear onto the rear Z motor threaded rod and rest it against the edge of the rear panel.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Mount the Bed-stop-rear onto the Z-Axis threaded rod and secure it in place with three M3x8rT screws.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The middle screw threads into the plastic, not into a nut. Expect slight resistance while tightening.",
+     "color": null,
+     "icon": "note",
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/2560c95403ae654fe32a16b83af7c002.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/2560c95403ae654fe32a16b83af7c002-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/2560c95403ae654fe32a16b83af7c002-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/2560c95403ae654fe32a16b83af7c002-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/2560c95403ae654fe32a16b83af7c002-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/2560c95403ae654fe32a16b83af7c002-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/2560c95403ae654fe32a16b83af7c002-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/2560c95403ae654fe32a16b83af7c002.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/da75fadc639312dd6a44c0d6d3eebe71.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/da75fadc639312dd6a44c0d6d3eebe71-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/da75fadc639312dd6a44c0d6d3eebe71-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/da75fadc639312dd6a44c0d6d3eebe71-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/da75fadc639312dd6a44c0d6d3eebe71-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/da75fadc639312dd6a44c0d6d3eebe71-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/da75fadc639312dd6a44c0d6d3eebe71-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/da75fadc639312dd6a44c0d6d3eebe71.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100386,
+   "title": "Securing the Bed-stop-rear",
+   "updated": "2026-07-14 14:16:37",
+   "lines": [
+    {
+     "html": "Move to the back of the printer.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Locate the oval screw hole under the cooling fans.<br />",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "The oval hole must be flush with the hole in the Bed-stop part on the opposite side.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "To compensate, slightly raise the rear of the CoreXY assembly - just a few millimeters.",
+     "color": "green",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "After aligning the holes, secure them with the M3x8rT screw.",
+     "color": "blue",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/69ed4b0383ae9854b80e75afdb7343b4.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/69ed4b0383ae9854b80e75afdb7343b4-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/69ed4b0383ae9854b80e75afdb7343b4-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/69ed4b0383ae9854b80e75afdb7343b4-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/69ed4b0383ae9854b80e75afdb7343b4-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/69ed4b0383ae9854b80e75afdb7343b4-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/69ed4b0383ae9854b80e75afdb7343b4-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/69ed4b0383ae9854b80e75afdb7343b4.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/745ef710d8424f881c20c63fc6dca205.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/745ef710d8424f881c20c63fc6dca205-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/745ef710d8424f881c20c63fc6dca205-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/745ef710d8424f881c20c63fc6dca205-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/745ef710d8424f881c20c63fc6dca205-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/745ef710d8424f881c20c63fc6dca205-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/745ef710d8424f881c20c63fc6dca205-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/745ef710d8424f881c20c63fc6dca205.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c57be107c13ae16e603da396b656fd97.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c57be107c13ae16e603da396b656fd97-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c57be107c13ae16e603da396b656fd97-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c57be107c13ae16e603da396b656fd97-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c57be107c13ae16e603da396b656fd97-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c57be107c13ae16e603da396b656fd97-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c57be107c13ae16e603da396b656fd97-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c57be107c13ae16e603da396b656fd97.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100440,
+   "title": "Connecting the RGB LED + offset sensor cables",
+   "updated": "2026-07-14 14:16:42",
+   "lines": [
+    {
+     "html": "Route the RGB LED cable and the offset sensor cable through the upper right opening in the xBuddy box.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Plug the <strong>RGB LED connector</strong> into the <strong>rightmost RGBW LED slot</strong> on the xBuddy Extension board.",
+     "color": "green",
+     "icon": null,
+     "level": 1
+    },
+    {
+     "html": "Plug the <strong>offset sensor cable</strong> into the <strong>upper right PUB CAN slot</strong> on the xBuddy Extension board.",
+     "color": "violet",
+     "icon": null,
+     "level": 1
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/ed23c698045de447d9b3391e0e7fceb6.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/ed23c698045de447d9b3391e0e7fceb6-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/ed23c698045de447d9b3391e0e7fceb6-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed23c698045de447d9b3391e0e7fceb6-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed23c698045de447d9b3391e0e7fceb6-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed23c698045de447d9b3391e0e7fceb6-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed23c698045de447d9b3391e0e7fceb6-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/ed23c698045de447d9b3391e0e7fceb6.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/c480d6670c885db9a068e6c96ce3932f.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/c480d6670c885db9a068e6c96ce3932f-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/c480d6670c885db9a068e6c96ce3932f-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/c480d6670c885db9a068e6c96ce3932f-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/c480d6670c885db9a068e6c96ce3932f-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/c480d6670c885db9a068e6c96ce3932f-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/c480d6670c885db9a068e6c96ce3932f-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/c480d6670c885db9a068e6c96ce3932f.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/91c12f217dff47829bf2da99be08afd5.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/91c12f217dff47829bf2da99be08afd5-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/91c12f217dff47829bf2da99be08afd5-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/91c12f217dff47829bf2da99be08afd5-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/91c12f217dff47829bf2da99be08afd5-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/91c12f217dff47829bf2da99be08afd5-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/91c12f217dff47829bf2da99be08afd5-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/91c12f217dff47829bf2da99be08afd5.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100478,
+   "title": "Connecting the heatbed cables",
+   "updated": "2026-07-14 14:16:47",
+   "lines": [
+    {
+     "html": "Route the heatbed power cables and the heatbed thermistor cable through the <strong>left opening</strong> at the top of the xBuddy box.",
+     "color": "yellow",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using the 6-32 terminal screw connect the <strong>black</strong> power cable to the <strong>left</strong> terminal slot on the xBuddy board. Tighten firmly.",
+     "color": "light_blue",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Using the 6-32 terminal screw to connect the <strong>red</strong> power cable to the <strong>right</strong> terminal slot. Tighten firmly.",
+     "color": "red",
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Plug the heatbed thermistor connector to the slot next to the power terminals.",
+     "color": "violet",
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/3771fc381432ceab4fc579bea8653ab2.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/3771fc381432ceab4fc579bea8653ab2-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/3771fc381432ceab4fc579bea8653ab2-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/3771fc381432ceab4fc579bea8653ab2-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/3771fc381432ceab4fc579bea8653ab2-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/3771fc381432ceab4fc579bea8653ab2-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/3771fc381432ceab4fc579bea8653ab2-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/3771fc381432ceab4fc579bea8653ab2.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/6e98387813a8a70d6a4bf84569e2c0b8.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/6e98387813a8a70d6a4bf84569e2c0b8-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/6e98387813a8a70d6a4bf84569e2c0b8-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/6e98387813a8a70d6a4bf84569e2c0b8-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/6e98387813a8a70d6a4bf84569e2c0b8-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/6e98387813a8a70d6a4bf84569e2c0b8-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/6e98387813a8a70d6a4bf84569e2c0b8-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/6e98387813a8a70d6a4bf84569e2c0b8.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/822e2be5e2344b2f9f7f6575f37d5fff.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/822e2be5e2344b2f9f7f6575f37d5fff-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/822e2be5e2344b2f9f7f6575f37d5fff-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/822e2be5e2344b2f9f7f6575f37d5fff-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/822e2be5e2344b2f9f7f6575f37d5fff-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/822e2be5e2344b2f9f7f6575f37d5fff-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/822e2be5e2344b2f9f7f6575f37d5fff-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/822e2be5e2344b2f9f7f6575f37d5fff.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100524,
+   "title": "Haribo time",
+   "updated": "2026-07-14 14:16:52",
+   "lines": [
+    {
+     "html": "Now is the time for a well-deserved boost.",
+     "color": null,
+     "icon": "reminder",
+     "level": 0
+    },
+    {
+     "html": "Eat six gummy bears.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/f24979fd6b124413a49f10cc14f6bfa9.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/f24979fd6b124413a49f10cc14f6bfa9-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/f24979fd6b124413a49f10cc14f6bfa9-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/f24979fd6b124413a49f10cc14f6bfa9-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/f24979fd6b124413a49f10cc14f6bfa9-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/f24979fd6b124413a49f10cc14f6bfa9-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/f24979fd6b124413a49f10cc14f6bfa9-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/f24979fd6b124413a49f10cc14f6bfa9.jpg 1600w"
+    }
+   ]
+  },
+  {
+   "id": 1100550,
+   "title": "Done",
+   "updated": "2026-07-14 14:16:54",
+   "lines": [
+    {
+     "html": "Congratulations! You have just upgraded the Z-axis.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    },
+    {
+     "html": "Let's go to the next chapter.",
+     "color": null,
+     "icon": null,
+     "level": 0
+    }
+   ],
+   "gallery": [
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/cafe7973b14410a854194e20720f1d93.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/cafe7973b14410a854194e20720f1d93-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/cafe7973b14410a854194e20720f1d93-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/cafe7973b14410a854194e20720f1d93-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/cafe7973b14410a854194e20720f1d93-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/cafe7973b14410a854194e20720f1d93-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/cafe7973b14410a854194e20720f1d93-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/cafe7973b14410a854194e20720f1d93.jpg 1600w"
+    },
+    {
+     "original": "https://help.prusa3d.com/wp-content/uploads/2026/07/dcd0b8382ec7e19e923f19e090b0d502.jpg",
+     "large": "https://help.prusa3d.com/wp-content/uploads/2026/07/dcd0b8382ec7e19e923f19e090b0d502-800x600.jpg",
+     "srcset": "https://help.prusa3d.com/wp-content/uploads/2026/07/dcd0b8382ec7e19e923f19e090b0d502-533x400.jpg 533w, https://help.prusa3d.com/wp-content/uploads/2026/07/dcd0b8382ec7e19e923f19e090b0d502-800x600.jpg 800w, https://help.prusa3d.com/wp-content/uploads/2026/07/dcd0b8382ec7e19e923f19e090b0d502-300x225.jpg 300w, https://help.prusa3d.com/wp-content/uploads/2026/07/dcd0b8382ec7e19e923f19e090b0d502-768x576.jpg 768w, https://help.prusa3d.com/wp-content/uploads/2026/07/dcd0b8382ec7e19e923f19e090b0d502-1536x1152.jpg 1536w, https://help.prusa3d.com/wp-content/uploads/2026/07/dcd0b8382ec7e19e923f19e090b0d502.jpg 1600w"
+    }
+   ]
+  }
+ ]
+}
