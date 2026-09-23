@@ -25,7 +25,8 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 DATA = HERE / "data"
-OUT = HERE / "index.html"
+OUT = HERE / "full.html"  # every step, flattened
+MAP_OUT = HERE / "index.html"  # the switch map: hand-offs and notes only
 BASE = "https://help.prusa3d.com"
 UA = {"User-Agent": "Mozilla/5.0 (unified-indx-guide build script)"}
 
@@ -421,6 +422,167 @@ def cmd_build() -> None:
     page = page.replace("{{ARTICLE_URL}}", f"{BASE}/article/{ARTICLE_SLUG}")
     OUT.write_text(page)
     print(f"wrote {OUT} ({total_steps} steps, {len(page)//1024} KB)")
+
+    page = render_map(chapters, article, fetched_at, fresh, total_steps)
+    MAP_OUT.write_text(page)
+    print(f"wrote {MAP_OUT} ({len(page)//1024} KB)")
+
+
+def render_map(chapters: dict, article: dict, fetched_at: str, fresh: str, total_steps: int) -> str:
+    """The switch map: one row per run of official-guide steps, the companion
+    article's notes at each hand-off, and links into help.prusa3d.com."""
+    rows: list[str] = []
+    n = 0
+    seg_no = 0
+    for seg in ROUTE:
+        if seg[0] == "article":
+            sec = article["sections"][seg[1]]
+            title = sec["title"] or "Before you start"
+            rows.append(
+                f'<details class="art" id="a{seg[1]}" open><summary><span class="badge article">ARTICLE</span> '
+                f'{html.escape(title)}</summary><div class="body">{sec["html"]}</div></details>'
+            )
+            continue
+        src, ch, first, last = seg
+        chap = chapters[(src, ch)]
+        total = len(chap["steps"])
+        s_first, s_last = chap["steps"][first - 1], chap["steps"][last - 1]
+        count = last - first + 1
+        start_n, n = n + 1, n + count
+        seg_no += 1
+        guide = f"{BASE}/guide/{chap['slug']}"
+        flags = []
+        for idx in range(first, last + 1):
+            f = FLAGS.get((src, ch, idx))
+            if f:
+                st = chap["steps"][idx - 1]
+                flags.append(
+                    f'<li class="flag-{f[0]}"><a href="{guide}#{st["id"]}" target="_blank" rel="noopener">'
+                    f'step {idx} · {html.escape(st["title"])}</a>: {html.escape(f[1])}</li>'
+                )
+        flags_html = f'<ul class="flags">{"".join(flags)}</ul>' if flags else ""
+        stop = (
+            "finish the chapter"
+            if last == total
+            else f'stop after step {last} <a href="{guide}#{s_last["id"]}" target="_blank" rel="noopener">{html.escape(s_last["title"])}</a>'
+        )
+        rows.append(
+            f"""<section class="seg {src}" id="g{seg_no}">
+ <label class="chk"><input type="checkbox" data-n="g{seg_no}"></label>
+ <div class="main">
+  <div class="head"><span class="badge {src}">{SOURCES[src][0]}</span>
+   <b>{html.escape(chap["title"])}</b>
+   <span class="meta">steps {first}–{last} of {total} · {count} steps · {html.escape(chap["difficulty"] or "")}</span></div>
+  <div class="go"><a class="btn" href="{guide}#{s_first["id"]}" target="_blank" rel="noopener">▶ Start at step {first}: {html.escape(s_first["title"])}</a>
+   <span class="stop">then {stop}</span></div>
+  {flags_html}
+ </div>
+ <span class="pos">{start_n}–{n}</span>
+</section>"""
+        )
+
+    app = []
+    for src, ch, first, last in APPENDIX:
+        chap = chapters[(src, ch)]
+        guide = f"{BASE}/guide/{chap['slug']}"
+        items = "".join(
+            f'<li><a href="{guide}#{chap["steps"][i-1]["id"]}" target="_blank" rel="noopener">{i}. {html.escape(chap["steps"][i-1]["title"])}</a></li>'
+            for i in range(first, last + 1)
+        )
+        app.append(f'<p class="note">{html.escape(APPENDIX_NOTE)}</p><ul class="applist">{items}</ul>')
+
+    page = MAP_TEMPLATE.replace("{{ROWS}}", "\n".join(rows))
+    page = page.replace("{{APPENDIX}}", "\n".join(app))
+    page = page.replace("{{SEGS}}", str(seg_no))
+    page = page.replace("{{TOTAL}}", str(total_steps))
+    page = page.replace("{{FETCHED}}", fetched_at)
+    page = page.replace("{{FRESH}}", fresh)
+    page = page.replace("{{ARTICLE_URL}}", f"{BASE}/article/{ARTICLE_SLUG}")
+    return page
+
+
+MAP_TEMPLATE = r"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INDX + Gen 2 switch map</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#fafafa;--fg:#1a1a1a;--mut:#666;--line:#e2e2e2;--card:#fff;--indx:#e65100;--gen2:#1565c0;--art:#6a1b9a;--skip:#b71c1c;--done:#f1f8e9;--note:#e3f2fd}
+@media (prefers-color-scheme: dark){:root{--bg:#141414;--fg:#e8e8e8;--mut:#9a9a9a;--line:#2c2c2c;--card:#1e1e1e;--done:#1b2a17;--note:#12263a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit}
+.top{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:8px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.top h1{font-size:16px;margin:0;flex:1 1 auto}
+.top .prog{color:var(--mut);font-variant-numeric:tabular-nums}
+.top button{font:inherit;padding:4px 10px;border:1px solid var(--line);background:var(--bg);color:var(--fg);border-radius:6px;cursor:pointer}
+.wrap{max-width:860px;margin:0 auto;padding:16px}
+p.note{color:var(--mut);font-size:14px}
+.badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.03em;padding:2px 7px;border-radius:4px;color:#fff;background:var(--mut);vertical-align:middle;white-space:nowrap}
+.badge.indx{background:var(--indx)} .badge.gen2{background:var(--gen2)} .badge.article{background:var(--art)}
+section.seg{display:flex;gap:12px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-left-width:5px;border-radius:10px;padding:12px 14px;margin:8px 0}
+section.seg.indx{border-left-color:var(--indx)} section.seg.gen2{border-left-color:var(--gen2)}
+section.seg.done{background:var(--done);opacity:.7}
+section.seg.done .go,section.seg.done .flags{display:none}
+.chk input{width:22px;height:22px;margin:2px 0 0;cursor:pointer}
+.main{flex:1;min-width:0}
+.head b{font-size:16px} .head .meta{color:var(--mut);font-size:13px;margin-left:6px}
+.go{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center}
+.btn{display:inline-block;padding:6px 12px;border-radius:6px;background:var(--fg);color:var(--bg);text-decoration:none;font-weight:600}
+.stop{color:var(--mut)} .stop a{color:var(--fg)}
+.pos{color:var(--mut);font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}
+ul.flags{margin:8px 0 0;padding:0 0 0 18px;font-size:14px}
+ul.flags li{margin:4px 0} ul.flags li.flag-skip{color:var(--skip)} ul.flags li.flag-skip a{font-weight:600}
+details.art{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--art);border-radius:10px;margin:14px 0;padding:0}
+details.art summary{padding:10px 14px;cursor:pointer;font-weight:600;list-style:none}
+details.art summary::before{content:"▸ ";color:var(--mut)} details.art[open] summary::before{content:"▾ "}
+details.art .body{padding:0 14px 12px;font-size:14px}
+details.art .body img{max-width:100%;height:auto;border-radius:6px}
+details.art table{width:100%;border-collapse:collapse} details.art td{padding:4px;vertical-align:top}
+h2{font-size:18px;margin:32px 0 8px}
+ul.applist{padding-left:20px;font-size:14px}
+footer{margin:40px 0 20px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);padding-top:12px}
+@media print{.top{display:none}details.art{break-inside:avoid}section.seg{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="top">
+ <h1>INDX + Gen 2 switch map</h1>
+ <span class="prog"><b id="done">0</b> / {{SEGS}} segments</span>
+ <button id="resume">Jump to current</button>
+ <button id="reset">Reset</button>
+</div>
+<div class="wrap">
+<p class="note">Follow the official guides on help.prusa3d.com, with their comments. This page only tells you <b>where to start, where to stop, and what to remember at each hand-off</b>, in the order Prusa's
+<a href="{{ARTICLE_URL}}" target="_blank" rel="noopener">companion article</a> prescribes. Purple boxes are the article's own notes, verbatim. {{TOTAL}} steps in total.
+Tick a segment when you finish it; progress is saved in this browser. <a href="full.html">Fully flattened version</a> (every step and photo, no comments).</p>
+{{ROWS}}
+<h2 id="appendix">Not on Prusa's route</h2>
+{{APPENDIX}}
+<footer>
+Companion article text © Prusa Research a.s., reproduced for personal use. Snapshot {{FETCHED}}. {{FRESH}}.
+Prusa still edits these manuals; run <code>build.py check</code> to see what changed.
+</footer>
+</div>
+<script>
+(function(){
+ const KEY='indx-gen2-map';
+ let state={};
+ try{state=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){state={}}
+ const boxes=[...document.querySelectorAll('input[type=checkbox][data-n]')];
+ function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}}
+ function apply(){let d=0;boxes.forEach(b=>{const on=!!state[b.dataset.n];b.checked=on;b.closest('section').classList.toggle('done',on);if(on)d++});document.getElementById('done').textContent=d}
+ boxes.forEach(b=>b.addEventListener('change',()=>{state[b.dataset.n]=b.checked;save();apply()}));
+ document.getElementById('resume').onclick=()=>{const s=boxes.find(b=>!state[b.dataset.n]);if(s)s.closest('section').scrollIntoView({behavior:'smooth',block:'center'})};
+ document.getElementById('reset').onclick=()=>{if(confirm('Clear progress?')){state={};save();apply()}};
+ apply();
+})();
+</script>
+</body>
+</html>
+"""
 
 
 TEMPLATE = r"""<!doctype html>

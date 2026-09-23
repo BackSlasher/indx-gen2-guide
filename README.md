@@ -14,8 +14,13 @@ ships with the Gen 2 parts in the box.
   the snapshot.
 - `data/` — the snapshot the page was built from (step text, photo URLs, edit
   timestamps).
-- `index.html` — the page. Photos are hot-linked from help.prusa3d.com, not
-  copied. Progress checkboxes persist in the browser's localStorage.
+- `index.html` — the **switch map**: one row per run of official-guide steps
+  (start link, stop point, things to remember), with the companion article's
+  notes at each hand-off. You follow the official guides, with their user
+  comments, and use this page to know where the next hand-off is.
+- `full.html` — every step flattened into one page with Prusa's photos
+  (hot-linked, not copied). No user comments.
+- Progress checkboxes on both pages persist in the browser's localStorage.
 
 ```sh
 python3 build.py        # fetch + build
